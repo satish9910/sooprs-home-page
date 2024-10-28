@@ -21,15 +21,49 @@
 
   </script>
   <style>
-     .fade-enter {
-            opacity: 0;
-            transform: translateY(10px);
-        }
-        .fade-enter-active {
-            transition: opacity 0.3s ease, transform 0.3s ease;
-            opacity: 1;
-            transform: translateY(0);
-        }
+.fade-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Progress fill animation */
+.progress-bar {
+  width: 4px;
+  height: 100%;
+  background-color: #d1d5db; /* Light gray */
+  position: relative;
+  margin-bottom: 10px;
+}
+.progress-fill {
+  width: 100%;
+  background-color: #0068ff;
+  transition: height 0.3s ease;
+}
+
+/* Active circle */
+.progress-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #d1d5db; /* Light gray */
+  border-radius: 50%;
+  margin: 8px 0;
+  transition: background-color 0.3s ease;
+}
+.progress-circle.active {
+  background-color: #0068ff;
+}
+
+/* Active text animation */
+.active-text {
+  color: #0068ff !important;
+  font-size: 1.25rem;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
   </style>
 
 </head>

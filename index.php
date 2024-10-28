@@ -361,41 +361,55 @@
 
 
 
-<div class="w-full min-h-screen bg-[#f2f7ff] flex flex-col px-8 py-8">
-    <!-- Heading -->
-    <h1 class="text-4xl font-semibold text-[#444444] mb-8 font-poppins">AI at Work</h1>
 
-    <div class="container mx-auto px-6 md:flex md:space-x-8">
-        <!-- Left Section: Image Display with Animation -->
-        <div id="imageContainer" class="md:w-2/3 w-full mb-6 md:mb-0 fade-enter fade-enter-active">
-            <img id="displayImage" src="images/ai image1.png" alt="AI at Work Image" class=" w-[650px] h-[733px] rounded-lg shadow-lg">
+
+<section class="py-10 flex justify-center">
+    <div class="w-full max-w-[1350px]">
+      <h2 class="text-4xl font-bold text-[#444444] mb-6">AI at Work</h2>
+      <div class="flex items-center">
+
+        <!-- Image Container -->
+        <div id="imageContainer" class="w-1/2 flex justify-center fade-enter fade-enter-active">
+          <img id="displayImage" src="images/ai image1.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%]" />
         </div>
 
-        <!-- Right Section: Project Content with Clickable Text Options -->
-        <div class="md:w-1/3 w-full">
-            <button onclick="showContent(0)" class="w-full text-left mb-6 focus:outline-none">
-                <h2 class="text-[#0068ff] text-2xl font-medium font-poppins">AI Project Writer</h2>
-                <p class="text-[#0068ff] text-sm">
-                    Generate tailored project proposals effortlessly with our AI Project Writer. Simply input your project details, and let AI create professional and impactful content in seconds.
-                </p>
-            </button>
+        <!-- Progress Bar and Text Options -->
+        <div class="w-1/2 pl-10">
+          <div class="flex items-start space-x-4">
 
-            <button onclick="showContent(1)" class="w-full text-left mb-6 focus:outline-none">
-                <h2 class="text-[#111111] text-2xl font-medium font-poppins">Personalized Project Suggestions</h2>
-                <p class="text-[#111111] text-sm">
-                    Receive job recommendations customized to your skills and interests, making it easier to find projects that align with your expertise and preferences.
-                </p>
-            </button>
+            <!-- Progress Bar with Circles -->
+            <div class="relative flex flex-col items-center mr-4">
+              <div class="progress-bar">
+                <div id="progressFill" class="progress-fill" style="height: 0%;"></div>
+              </div>
+              <div class="progress-circle circle-1"></div>
+              <div class="progress-circle circle-2"></div>
+              <div class="progress-circle circle-3"></div>
+            </div>
 
-            <button onclick="showContent(2)" class="w-full text-left focus:outline-none">
-                <h2 class="text-[#111111] text-2xl font-medium font-poppins">Bid Sorting by AI</h2>
-                <p class="text-[#111111] text-sm">
-                    Our intelligent bid sorting feature ranks bids to highlight the most relevant opportunities, helping you save time and find the best fits faster.
-                </p>
-            </button>
+            <!-- Text Options -->
+            <div>
+              <button id="textOption0" onclick="showContent(0)" class="feature-item w-full text-left mb-6 focus:outline-none">
+                <h3 class="text-xl font-semibold text-blue-600">AI Project Writer</h3>
+                <p class="text-gray-600">Generate tailored project proposals effortlessly with our AI Project Writer. Simply input your project details, and let AI create professional and impactful content in seconds.</p>
+              </button>
+
+              <button id="textOption1" onclick="showContent(1)" class="feature-item w-full text-left mb-6 focus:outline-none">
+                <h3 class="text-xl font-semibold text-gray-800">Personalized Project Suggestions</h3>
+                <p class="text-gray-600">Receive job recommendations customized to your skills and interests, making it easier to find projects that align with your expertise and preferences.</p>
+              </button>
+
+              <button id="textOption2" onclick="showContent(2)" class="feature-item w-full text-left focus:outline-none">
+                <h3 class="text-xl font-semibold text-gray-800">Bid Sorting by AI</h3>
+                <p class="text-gray-600">Our intelligent bid sorting feature ranks bids to highlight the most relevant opportunities, helping you save time and find the best fits faster.</p>
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </section>
+
 
 
 
@@ -503,34 +517,68 @@
 
 
 
+  const images = [
+  "images/ai image1.png",
+  "images/laptop img.png",
+  "images/ai image1.png"
+];
+const progressSteps = ["33%", "66%", "100%"]; // Progress fill percentages for each step
 
+let currentIndex = 0;
+let interval;
 
-// AI section
+// Function to show content with animation
+function showContent(index) {
+  const imageContainer = document.getElementById("imageContainer");
+  const displayImage = document.getElementById("displayImage");
+  const progressFill = document.getElementById("progressFill");
+  const circles = document.querySelectorAll(".progress-circle");
 
+  // Fade-out image
+  imageContainer.classList.remove("fade-enter-active");
 
-// Image sources array
-const images = [
-        "images/ai image1.png", // Default
-        "images/laptop img.png",
-        "images/ai image1.png"
-    ];
+  setTimeout(() => {
+    // Change image source
+    displayImage.src = images[index];
 
-    // Function to update the displayed image with fade animation
-    function showContent(index) {
-        const imageContainer = document.getElementById("imageContainer");
-        const displayImage = document.getElementById("displayImage");
+    // Start fade-in
+    imageContainer.classList.add("fade-enter-active");
+  }, 300); // Match CSS transition duration
 
-        // Fade out
-        imageContainer.classList.remove("fade-enter-active");
-        setTimeout(() => {
-            // Change image source
-            displayImage.src = images[index];
+  // Update progress bar and circles
+  progressFill.style.height = progressSteps[index];
+  circles.forEach((circle, idx) => {
+    circle.classList.toggle("active", idx <= index);
+  });
 
-            // Fade in
-            imageContainer.classList.add("fade-enter-active");
-        }, 1000); // Wait for the fade-out to complete
-    }
+  // Reset all text options to default
+  document.querySelectorAll(".feature-item h3").forEach(el => {
+    el.classList.remove("active-text");
+  });
 
+  // Set active style to the selected text option
+  document.getElementById(`textOption${index}`).querySelector("h3").classList.add("active-text");
+
+  currentIndex = index; // Update current index
+}
+
+// Automatic cycling through sections every 2 seconds
+function startAutoCycle() {
+  interval = setInterval(() => {
+    currentIndex = (currentIndex + 1) % images.length;
+    showContent(currentIndex);
+  }, 2000);
+}
+
+// Start automatic cycling on page load
+window.onload = startAutoCycle;
+
+// Stop automatic cycling when user clicks any option
+document.querySelectorAll(".feature-item").forEach(button => {
+  button.addEventListener("click", () => {
+    clearInterval(interval);
+  });
+});
 
 
 

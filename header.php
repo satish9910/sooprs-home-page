@@ -6,6 +6,8 @@
   <title>Hero Section with Navbar</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
   <script>
     tailwind.config = {
       theme: {
@@ -16,11 +18,15 @@
         }
       }
     }
+
+
+    
+    
   </script>
   
 </head>
 <body class="bg-gray-50">
-<nav class="bg-white p-2 px-10 fixed   w-full z-10">
+<nav class="bg-white p-2 px-[60px] fixed   w-full z-10">
   <div class="container mx-auto flex items-center justify-between lg:justify-between">
     <!-- Hamburger Menu for Mobile -->
     <button id="menu-toggle" class="lg:hidden text-gray-800 focus:outline-none mr-4">

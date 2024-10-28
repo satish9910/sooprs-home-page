@@ -19,11 +19,19 @@
       }
     }
 
-
-    
-    
   </script>
-  
+  <style>
+     .fade-enter {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        .fade-enter-active {
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            opacity: 1;
+            transform: translateY(0);
+        }
+  </style>
+
 </head>
 <body class="bg-gray-50">
 <nav class="bg-white p-2 px-[60px] fixed   w-full z-10">

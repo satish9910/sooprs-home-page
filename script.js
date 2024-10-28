@@ -30,8 +30,11 @@ function toggleDropdownDesktop(event) {
     const menu = document.getElementById('mobile-menu');
     menu.classList.remove('-translate-x-full'); // Slide in
   }
+
+
+
   $(document).ready(function () {
-    $('.slider').slick({
+    $('.slider ').slick({
       infinite: false,
       slidesToShow: 3,
       slidesToScroll: 1,
@@ -87,4 +90,10 @@ function toggleDropdownDesktop(event) {
   
 
   
+
+
+
+
+
+
 

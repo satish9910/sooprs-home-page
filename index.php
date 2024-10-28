@@ -50,7 +50,6 @@
       </div>
     </div>
 
-    <!-- Right Marquee -->
     <div class="flex-1 ">
       <div class="animate-marquee-down flex flex-col items-center">
         <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 1">
@@ -119,9 +118,7 @@
   <div class="w-full max-w-[1350px]">
     <h2 class="text-4xl font-bold text-[#444444] mb-8">Why Choose Us?</h2>
 
-    <!-- Main Container -->
     <div class="relative flex justify-between items-center">
-      <!-- Left Column -->
       <div class="space-y-6 mt-8">
         <img src="images/left.png" alt="" class="absolute h-[530px] left-[445px] top-[85px]">
         <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md relative">
@@ -142,7 +139,6 @@
         </div>
       </div>
 
-      <!-- Right Column -->
       <div class="space-y-6 mt-8">
         <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[85px]">
         <div class="bg-white rounded-lg shadow p-6  max-w-md relative">
@@ -174,45 +170,40 @@
     <div class="flex items-center">
 
 
-      <!-- Left Column: Image -->
       <div class="w-1/2 flex justify-center">
         <img src="images/aibanner.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%]" />
       </div>
 
-      <!-- Right Column: Features List -->
       <div class="w-1/2 pl-10">
-        <div class="space-y-[100px]">
-          <!-- Feature 1 -->
-          <div class="feature-item flex items-start space-x-4">
+        <div>
+          <div class="flex items-start space-x-4">
             <div class="flex flex-col items-center">
               <div class="w-4 h-4 rounded-full bg-blue-500"></div>
-              <div class="w-px h-full bg-gray-300"></div>
+              <div class="w-[4px] h-[180px] z-20 bg-gray-300"></div> 
             </div>
-            <div>
-              <h3 class="text-xl font-semibold text-blue-600">AI Project Writer</h3>
+            <div class="-mt-2">
+              <h3 class="text-xl font-semibold text-blue-600 feature-item">AI Project Writer</h3>
               <p class="text-gray-600">Generate tailored project proposals effortlessly with our AI Project Writer. Simply input your project details, and let AI create professional and impactful content in seconds.</p>
             </div>
           </div>
 
-          <!-- Feature 2 -->
-          <div class="feature-item flex items-start space-x-4">
+          <div class="flex items-start space-x-4">
             <div class="flex flex-col items-center">
               <div class="w-4 h-4 rounded-full bg-gray-300"></div>
-              <div class="w-px h-full bg-gray-300"></div>
+              <div class="w-[4px] h-[180px] z-20 bg-gray-300"></div>
             </div>
-            <div>
-              <h3 class="text-xl font-semibold text-gray-800">Personalized Project Suggestions</h3>
+            <div class="-mt-2">
+              <h3 class="text-xl font-semibold text-gray-800 feature-item">Personalized Project Suggestions</h3>
               <p class="text-gray-600">Receive job recommendations customized to your skills and interests, making it easier to find projects that align with your expertise and preferences.</p>
             </div>
           </div>
 
-          <!-- Feature 3 -->
-          <div class="feature-item flex items-start space-x-4">
+          <div class="flex items-start space-x-4">
             <div class="flex flex-col items-center">
               <div class="w-4 h-4 rounded-full bg-gray-300"></div>
             </div>
-            <div>
-              <h3 class="text-xl font-semibold text-gray-800">Bid Sorting by AI</h3>
+            <div class="-mt-2">
+              <h3 class="text-xl font-semibold text-gray-800 feature-item">Bid Sorting by AI</h3>
               <p class="text-gray-600">Our intelligent bid sorting feature ranks bids to highlight the most relevant opportunities, helping you save time and find the best fits faster.</p>
             </div>
           </div>
@@ -225,6 +216,21 @@
 
 
 <script src="script.js"></script>
+
+<script>
+  window.onload = function() {
+    const features = document.querySelectorAll('.feature-item');
+    let currentIndex = 0;
+
+    function highlightFeature() {
+      features.forEach((feature) => feature.classList.remove('highlight'));
+      features[currentIndex].classList.add('highlight');
+      currentIndex = (currentIndex + 1) % features.length;
+    }
+
+    setInterval(highlightFeature, 2000);
+  };
+</script>
 </body>
 
 </html>

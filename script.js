@@ -30,22 +30,3 @@ function toggleDropdownDesktop(event) {
     const menu = document.getElementById('mobile-menu');
     menu.classList.remove('-translate-x-full'); // Slide in
   }
-
-  //highlight every 2 seconds
-
-  const features = document.querySelectorAll('.feature-item');
-  let currentIndex = 0;
-
-  function highlightFeature() {
-    // Remove highlight from all features
-    features.forEach((feature) => feature.classList.remove('highlight'));
-
-    // Add highlight to the current feature
-    features[currentIndex].classList.add('highlight');
-
-    // Move to the next feature, looping back to the start
-    currentIndex = (currentIndex + 1) % features.length;
-  }
-
-  // Run highlightFeature every 2 seconds
-  setInterval(highlightFeature, 2000);

@@ -33,6 +33,7 @@
   animation: marquee-down 20s linear infinite;
   position: absolute;
   width: 50%;
+  top: 400px;
   animation-delay: 0s;
   animation-fill-mode: both;
 }
@@ -41,6 +42,7 @@
   animation: marquee-up 20s linear infinite;
   position: absolute;
   width: 50%;
+  top: 0;
   animation-delay: 0s;
   animation-fill-mode: both;
 }
@@ -69,6 +71,6 @@
   background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);
 }
 
-.highlight h3 {
-  color: #0068FF; /* Blue color for highlighted text */
+.highlight {
+  color: #0068FF;
 }

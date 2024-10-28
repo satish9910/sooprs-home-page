@@ -3,7 +3,15 @@
   padding:0;
   box-sizing: border-box;
 }
-@keyframes marquee {
+
+.marquee-container {
+  position: relative;
+  height: 100px; /* Set the height you want for the visible area */
+  width: 100%;
+  overflow-y: hidden;
+}
+
+@keyframes marquee-up {
   0% {
     transform: translateY(100%);
   }
@@ -12,25 +20,48 @@
   }
 }
 
-/* Apply the marquee animation */
-.animate-marquee {
-  animation: marquee 20s linear infinite;
+.animate-marquee-down {
+  animation: marquee-down 20s linear infinite;
+  position: absolute;
+  width: 50%;
+  top: 400px;
+  animation-delay: 0s;
+  animation-fill-mode: both;
 }
 
-/* Adjust overflow for smooth scrolling */
-.overflow-hidden {
-  overflow-y: hidden;
-}"
+.animate-marquee-up {
+  animation: marquee-up 20s linear infinite;
+  position: absolute;
+  width: 50%;
+  top: 0;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
 
+.gradient-text {
+  font-size: 3.75rem; /* Equivalent to text-6xl in Tailwind */
+  font-weight: bold;
+  background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
 
+.styled-div {
+  width: 300px;
+  height: 300px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
 
+.gradient-bg{
+  background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);
+}
 
-
-
-
-
-
-
-
-
-
+.highlight {
+  color: #0068FF;
+}

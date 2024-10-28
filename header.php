@@ -8,6 +8,13 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
   <script>
     tailwind.config = {
       theme: {
@@ -20,6 +27,38 @@
     }
 
   </script>
+  <style>
+       .line-container {
+            position: relative;
+            height: 180px; /* Height of the line container */
+            width: 4px; /* Width of the line */
+            background-color: #e5e7eb; /* Gray background for the line */
+            margin: 0 16px; /* Space around the line */
+        }
+     .progress-container {
+            height: 180px; /* Fixed height */
+            background-color: #e5e7eb; /* Light gray background */
+            position: relative; /* Positioning for the filling effect */
+            overflow: hidden; /* Hide overflow */
+        }
+    .progress-bar {
+            position: absolute;
+            bottom: 0; /* Start from the bottom */
+            background-color: #3b82f6; /* Blue color for the progress */
+            height: 0; /* Start with height 0 */
+            width: 100%; /* Full width */
+            transition: height 1s ease; /* Smooth transition for height change */
+        }
+
+        .circle {
+            transition: background-color 0.5s ease; /* Smooth transition for color change */
+        }
+
+        /* Animation for text size increase */
+        .text-increase {
+            transition: font-size 0.5s, color 0.5s;
+        }
+  </style>
   
 
 </head>

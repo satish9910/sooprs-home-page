@@ -349,14 +349,14 @@
     </div>
   </div>
   <!-- Custom Next Button -->
-  <div class="bg-white">
-    <button id="nextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white  border   w-10 h-[100px] rounded flex items-center justify-center">
-      <span class="bg-blue-500 p-2 rounded-[46.73px]">
-        >
-      </span>
-
-    </button>
-  </div>
+   <div class="bg-white">
+<button id="nextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white  border   w-10 h-[100px] rounded flex items-center justify-center">
+  <span class=" p-1 rounded-[46.73px]">
+    <img src="images/Frame 87.png" alt="" width="100%">
+  </span>
+    
+</button>
+</div>
 </div>
 
 <section class="bg-blue-50 flex justify-center py-10  ">
@@ -468,66 +468,152 @@
   </div>
 
   <!-- Next Button -->
-  <button id="projectNextButton" class="absolute right-2 sm:right-6 top-1/2 transform -translate-y-1/2 bg-white border w-8 h-[80px] sm:w-10 sm:h-[100px] rounded flex items-center justify-center z-10">
-    <span class="bg-blue-500 p-1 sm:p-2 rounded-full">&gt;</span>
+  <button id="projectNextButton" class="absolute right-0 top-1/2 right-6 transform -translate-y-1/2 bg-white border w-10 h-[100px] rounded flex items-center justify-center z-10">
+  <span class=" p-1 rounded-[46.73px]">
+    <img src="images/Frame 87.png" alt="" width="100%">
+  </span>
   </button>
 </div>
 
 
 
 
-<section class="bg-blue-50 py-10 flex justify-center mt-10">
-  <div class="w-full max-w-[1350px] px-4 md:px-0">
-    <h2 class="text-3xl md:text-4xl font-bold text-[#444444] mb-6 text-center md:text-left">AI at Work</h2>
 
-    <div class="flex flex-col md:flex-row items-center">
-      
-      <!-- Image Section -->
-      <div class="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
-        <img src="images/aibanner.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%]" />
+
+
+
+<section class="py-10 flex justify-center">
+    <div class="w-full max-w-[1350px]">
+        <h2 class="text-4xl font-bold text-[#444444] mb-6">AI at Work</h2>
+        <div class="flex items-center">
+            <div class="w-1/2 flex justify-center">
+                <img id="aiImage" src="images/aibanner.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%]" />
+            </div>
+            <div class="w-1/2 pl-10">
+                <div class="flex items-start space-x-4">
+                    <div class="flex flex-col items-center">
+                        <div class="w-4 h-4 rounded-full bg-blue-500 circle" id="circle1"></div>
+                        <div class="line-container">
+                            <div class="progress-bar" id="progress1"></div>
+                        </div>
+                    </div>
+                    <div class="-mt-2">
+                        <h3 class="text-xl font-semibold text-blue-600 feature-item text-increase" id="title1">AI Project Writer</h3>
+                        <p class="text-gray-600 text-increase" id="desc1">Generate tailored project proposals effortlessly with our AI Project Writer. Simply input your project details, and let AI create professional and impactful content in seconds.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="flex flex-col items-center">
+                        <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle2"></div>
+                        <div class="line-container">
+                            <div class="progress-bar" id="progress2"></div>
+                        </div>
+                    </div>
+                    <div class="-mt-2">
+                        <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title2">Personalized Project Suggestions</h3>
+                        <p class="text-gray-600 text-increase" id="desc2">Receive job recommendations customized to your skills and interests, making it easier to find projects that align with your expertise and preferences.</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-4">
+                    <div class="flex flex-col items-center">
+                        <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle3"></div>
+                        <div class="line-container">
+                            <div class="progress-bar" id="progress3"></div>
+                        </div>
+                    </div>
+                    <div class="-mt-2">
+                        <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title3">Bid Sorting by AI</h3>
+                        <p class="text-gray-600 text-increase" id="desc3">Our intelligent bid sorting feature ranks bids to highlight the most relevant opportunities, helping you save time and find the best fits faster.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="faq-section py-10 w-full max-w-[1350px] mx-auto">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap items-center">
+
+      <!-- Left Column: FAQ Title and Description -->
+      <div class="w-full lg:w-1/3 mb-8 lg:mb-0 px-4 text-">
+        <h2 class="text-[#111111] text-3xl md:text-4xl font-semibold font-['Poppins'] leading-snug">
+          Frequently Asked Questions
+        </h2>
+        <p class="text-[#111111] text-base md:text-lg mt-4 leading-loose">
+          If you’re new or looking for answers to your questions, find solutions to common inquiries.
+        </p>
       </div>
 
-      <!-- Text Section -->
-      <div class="w-full md:w-1/2 md:pl-10 flex flex-col">
+      <!-- Right Column: FAQ Accordion -->
+      <div class="w-full lg:w-2/3 space-y-4 lg:space-y-6 bg-[#f8f8f8] p-4 lg:p-6 rounded-2xl">
         
-        <!-- AI Project Writer -->
-        <div class="flex items-start space-x-4">
-          <div class="flex flex-col items-center">
-            <div class="w-4 h-4 rounded-full bg-blue-500"></div>
-            <div class="w-[4px] h-10 sm:h-[180px] z-20 bg-gray-300"></div>
-          </div>
-          <div class="-mt-2 feature-item" id="textOption0">
-            <h3 class="text-lg md:text-xl font-semibold text-blue-600">AI Project Writer</h3>
-            <p class="text-gray-600 hidden md:block">Generate tailored project proposals effortlessly with our AI Project Writer. Simply input your project details, and let AI create professional and impactful content in seconds.</p>
-          </div>
-        </div>
-
-        <!-- Personalized Project Suggestions -->
-        <div class="flex items-start space-x-4">
-          <div class="flex flex-col items-center">
-            <div class="w-4 h-4 rounded-full bg-gray-300"></div>
-            <div class="w-[4px] h-10 sm:h-[180px] z-20 bg-gray-300"></div>
-          </div>
-          <div class="-mt-2 feature-item" id="textOption1">
-            <h3 class="text-lg md:text-xl font-semibold text-gray-800">Personalized Project Suggestions</h3>
-            <p class="text-gray-600 hidden md:block">Receive job recommendations customized to your skills and interests, making it easier to find projects that align with your expertise and preferences.</p>
+        <!-- FAQ Item 1 -->
+        <div class="p-4 bg-white rounded-lg shadow-md flex flex-col">
+          <button onclick="toggleAccordion(event)" class="accordion-header flex justify-between items-center w-full text-left">
+            <h3 class="text-[#111111] text-lg font-medium">How do I get started on freelance work on Sooprs?</h3>
+            <i class="fas fa-plus icon transition duration-300 ease-in-out"></i>
+          </button>
+          <div class="accordion-body overflow-hidden max-h-0 transition-all duration-300 ease-in-out">
+            <p class="text-[#111111] text-base leading-relaxed">
+              To start freelancing on Sooprs.com, recognized as the best online marketplace for freelance services, begin by setting up a profile.
+            </p>
           </div>
         </div>
 
-        <!-- Bid Sorting by AI -->
-        <div class="flex items-start space-x-4">
-          <div class="flex flex-col items-center">
-            <div class="w-4 h-4 rounded-full bg-gray-300"></div>
-          </div>
-          <div class="-mt-2 feature-item" id="textOption2">
-            <h3 class="text-lg md:text-xl font-semibold text-gray-800">Bid Sorting by AI</h3>
-            <p class="text-gray-600 hidden md:block">Our intelligent bid sorting feature ranks bids to highlight the most relevant opportunities, helping you save time and find the best fits faster.</p>
+        <!-- FAQ Item 2 -->
+        <div class="p-4 bg-[#f2f7f7] rounded-lg shadow-md flex flex-col">
+          <button onclick="toggleAccordion(event)" class="accordion-header flex justify-between items-center w-full text-left">
+            <h3 class="text-[#111111] text-lg font-medium">How do I get started on freelance work on Sooprs?</h3>
+            <i class="fas fa-plus icon transition duration-300 ease-in-out"></i>
+          </button>
+          <div class="accordion-body overflow-hidden max-h-0 transition-all duration-300 ease-in-out">
+            <p class="text-[#111111] text-base leading-relaxed">
+              To start freelancing on Sooprs.com, recognized as the best online marketplace for freelance services, begin by setting up a profile.
+            </p>
           </div>
         </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="p-4 bg-white rounded-lg shadow-md flex flex-col">
+          <button onclick="toggleAccordion(event)" class="accordion-header flex justify-between items-center w-full text-left">
+            <h3 class="text-[#111111] text-lg font-medium">How do I get started on freelance work on Sooprs?</h3>
+            <i class="fas fa-plus icon transition duration-300 ease-in-out"></i>
+          </button>
+          <div class="accordion-body overflow-hidden max-h-0 transition-all duration-300 ease-in-out">
+            <p class="text-[#111111] text-base leading-relaxed">
+              To start freelancing on Sooprs.com, recognized as the best online marketplace for freelance services, begin by setting up a profile.
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
 </section>
+
+
+<div class="relative w-[90vw] mx-auto h-full bg-cover bg-no-repeat rounded-lg overflow-hidden flex flex-col items-center justify-start p-10 mb-5" style="background-image: url('images/cta\ banner.svg');">
+    <!-- Title with Background Image -->
+    <div class="relative text-white text-[48px] font-poppins font-medium  bg-center w-full text-center p-3 rounded-lg">
+        Manage with Ease
+    </div>
+    
+    <!-- Subtitle -->
+    <div class="text-center text-white text-[16px]  font-poppins font-normal mb-8">Utilize our Project Management tool for seamless timelines </br> and hassle-free payment processing.</div>
+
+    <!-- Button with Background Image -->
+    <div class="flex items-center justify-center bg-white bg-center rounded-lg px-[48px] py-[16px] w-[320px] h-[64px]" style="background-image: url('path/to/your/button-background-image.jpg'); background-size: cover;">
+        <div class="text-[#0068FF] text-[24px] font-poppins font-normal leading-[26.40px]">Hire Freelancer</div>
+    </div>
+</div>
+
+
+
 
 
 
@@ -650,69 +736,112 @@
 
 
 
-  const images = [
-    "images/ai image1.png",
-    "images/laptop img.png",
-    "images/ai image1.png"
-  ];
-  const progressSteps = ["33%", "66%", "100%"]; // Progress fill percentages for each step
+  document.addEventListener("DOMContentLoaded", () => {
+    const progressBars = [
+        document.getElementById('progress1'),
+        document.getElementById('progress2'),
+        document.getElementById('progress3')
+    ];
 
-  let currentIndex = 0;
-  let interval;
+    const aiImage = document.getElementById('aiImage');
 
-  // Function to show content with animation
-  function showContent(index) {
-    const imageContainer = document.getElementById("imageContainer");
-    const displayImage = document.getElementById("displayImage");
-    const progressFill = document.getElementById("progressFill");
-    const circles = document.querySelectorAll(".progress-circle");
+    const titles = [
+        document.getElementById('title1'),
+        document.getElementById('title2'),
+        document.getElementById('title3')
+    ];
 
-    // Fade-out image
-    imageContainer.classList.remove("fade-enter-active");
+    const descriptions = [
+        document.getElementById('desc1'),
+        document.getElementById('desc2'),
+        document.getElementById('desc3')
+    ];
 
-    setTimeout(() => {
-      // Change image source
-      displayImage.src = images[index];
+    const circles = [
+        document.getElementById('circle1'),
+        document.getElementById('circle2'),
+        document.getElementById('circle3')
+    ];
 
-      // Start fade-in
-      imageContainer.classList.add("fade-enter-active");
-    }, 300); // Match CSS transition duration
+    // Image paths for different states
+    const images = [
+        "images/aibanner.png",  // Image for progress 1
+        "images/laptop img.png",  // Image for progress 2
+        "images/aibanner.png"   // Image for progress 3
+    ];
 
-    // Update progress bar and circles
-    progressFill.style.height = progressSteps[index];
-    circles.forEach((circle, idx) => {
-      circle.classList.toggle("active", idx <= index);
-    });
+    let currentIndex = 0;
 
-    // Reset all text options to default
-    document.querySelectorAll(".feature-item h3").forEach(el => {
-      el.classList.remove("active-text");
-    });
+    // Function to fill a single progress bar and update the image
+    const fillProgressBar = () => {
+        // Reset previous progress bars
+        for (let i = 0; i < progressBars.length; i++) {
+            progressBars[i].style.height = '0'; // Reset height to 0
+            circles[i].classList.remove('bg-blue-500');
+            circles[i].classList.add('bg-gray-300');
+            titles[i].style.fontSize = '1rem'; // Reset font size
+            titles[i].classList.remove('text-blue-600');
+            titles[i].classList.add('text-gray-800');
+            descriptions[i].style.fontSize = '0.875rem'; // Reset font size
+            descriptions[i].classList.remove('text-blue-600');
+            descriptions[i].classList.add('text-gray-600');
+        }
 
-    // Set active style to the selected text option
-    document.getElementById(`textOption${index}`).querySelector("h3").classList.add("active-text");
+        // Fill the current progress bar
+        const progressBar = progressBars[currentIndex];
+        const title = titles[currentIndex];
+        const description = descriptions[currentIndex];
+        const circle = circles[currentIndex];
 
-    currentIndex = index; // Update current index
+        // Fill the progress bar with blue color
+        progressBar.style.height = '100%'; // Fill height to 100%
+
+        // Change the image after filling the progress bar
+        aiImage.src = images[currentIndex];
+
+        // Change circle color to indicate fill
+        circle.classList.remove('bg-gray-300');
+        circle.classList.add('bg-blue-500');
+
+        // Animate the font size increase
+        title.classList.add('text-increase');
+        title.style.fontSize = '1.25rem'; // Increase font size
+        title.classList.replace('text-gray-800', 'text-blue-600');
+        
+        description.classList.add('text-increase');
+        description.style.fontSize = '0.9375rem'; // Increase font size for description
+        description.classList.replace('text-gray-600', 'text-blue-600');
+
+        // Move to the next index
+        currentIndex = (currentIndex + 1) % progressBars.length; // Loop back to first
+    };
+
+    // Start filling progress bars every 4 seconds
+    setInterval(fillProgressBar, 1000); // 4 seconds for each cycle
+});
+
+function toggleAccordion(event) {
+    const button = event.currentTarget;
+    const accordionBody = button.nextElementSibling;
+    const icon = button.querySelector(".icon");
+
+    if (accordionBody.style.maxHeight) {
+      accordionBody.style.maxHeight = null;
+      icon.classList.replace("fa-minus", "fa-plus");
+    } else {
+      document.querySelectorAll(".accordion-body").forEach((body) => (body.style.maxHeight = null));
+      document.querySelectorAll(".icon").forEach((icon) => icon.classList.replace("fa-minus", "fa-plus"));
+
+      accordionBody.style.maxHeight = accordionBody.scrollHeight + "px";
+      icon.classList.replace("fa-plus", "fa-minus");
+    }
   }
 
-  // Automatic cycling through sections every 2 seconds
-  function startAutoCycle() {
-    interval = setInterval(() => {
-      currentIndex = (currentIndex + 1) % images.length;
-      showContent(currentIndex);
-    }, 2000);
-  }
-
-  // Start automatic cycling on page load
-  window.onload = startAutoCycle;
-
-  // Stop automatic cycling when user clicks any option
-  document.querySelectorAll(".feature-item").forEach(button => {
-    button.addEventListener("click", () => {
-      clearInterval(interval);
-    });
-  });
 </script>
+
+
+
+
 
 
 

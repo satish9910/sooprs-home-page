@@ -224,6 +224,50 @@
 
 </section>
 
+<section class="bg-blue-50 flex justify-center items-center min-h-screen">
+  <div class="max-w-[1350px] mx-auto grid md:grid-cols-2 gap-8 p-6">
+    <!-- Steps Section -->
+    <div>
+      <h2 class="text-4xl font-bold text-[#444444] mb-8">How it Works</h2>
+      <div class="space-y-14">
+        <div class="flex items-start space-x-4 py-5 px-10 bg-white rounded-lg shadow-md relative w-[95%]">
+          <span class="bg-blue-500 text-white text-sm font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 1</span>
+          <div>
+            <h3 class="text-xl font-semibold ">Post Your Project</h3>
+            <p class="mt-1">Easily create your project description with AI in seconds by simply entering your requirements!</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-4 py-5 px-10 bg-white rounded-lg shadow-md relative w-[95%] ml-12">
+          <span class="bg-blue-500 text-white text-sm font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 2</span>
+          <div>
+            <h3 class="text-xl font-semibold ">Set Your Budget & Go Live</h3>
+            <p class="mt-1">Choose a budget, post, and watch freelancers bid on your project instantly!</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-4 py-5 px-10 bg-white rounded-lg shadow-md relative w-[95%] ml-6">
+          <span class="bg-blue-500 text-white text-sm font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 3</span>
+          <div>
+            <h3 class="text-xl font-semibold ">Choose Your Freelancer</h3>
+            <p class="mt-1">Select the perfect freelancer from a pool of talented professionals for your project!</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-4 py-5 px-10 bg-white rounded-lg shadow-md relative w-[95%] ml-20">
+          <span class="bg-blue-500 text-white text-sm font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 4</span>
+          <div>
+            <h3 class="text-xl font-semibold ">Manage with Ease</h3>
+            <p class="mt-1">Utilize our Project Management tool for seamless timelines and hassle-free payment processing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-center items-center">
+      <div class="relative w-full  h-[90vh] bg-cover bg-center rounded-lg ml-14 shadow-md" style="background-image: url('images/blog-banner-04-1.png')">
+      </div>
+    </div>
+  </div>
+</section>
+
 
  <!-- Freelancers Slider Section  -->
 
@@ -312,6 +356,56 @@
 </div>
 </div>
 
+<section class="bg-blue-50 flex justify-center py-10">
+  <div class="w-full max-w-[1350px]">
+    <h2 class="text-4xl font-bold text-[#444444] mb-8">Why Choose Us?</h2>
+
+    <div class="relative flex justify-between items-center">
+      <div class="space-y-6 mt-8">
+        <img src="images/left.png" alt="" class="absolute h-[530px] left-[445px] top-[85px]">
+        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md relative">
+          <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Clients</span>
+          Connect with skilled freelancers worldwide to find the perfect expertise.
+        </div>
+        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
+          Connect with skilled freelancers worldwide to find the perfect expertise.
+        </div>
+        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
+          Connect with skilled freelancers worldwide to find the perfect expertise.
+        </div>
+        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
+          Connect with skilled freelancers worldwide to find the perfect expertise.
+        </div>
+        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
+          Connect with skilled freelancers worldwide to find the perfect expertise.
+        </div>
+      </div>
+
+      <div class="space-y-6 mt-8">
+        <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[85px]">
+        <div class="bg-white rounded-lg shadow p-6  max-w-md relative">
+          <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
+
+          Track progress and communicate easily with our user-friendly project tools.
+        </div>
+        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
+          Track progress and communicate easily with our user-friendly project tools.
+        </div>
+        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
+          Track progress and communicate easily with our user-friendly project tools.
+        </div>
+        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
+          Track progress and communicate easily with our user-friendly project tools.
+        </div>
+        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
+          Track progress and communicate easily with our user-friendly project tools.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 <div class="projects-section text-center py-8 w-[95vw] mx-auto relative">
   <h2 class="text-3xl font-[600] text-[#444] mb-6 text-start pl-10 ">Projects we made on <span class="text-blue-600">SOOPRS</span></h2>
@@ -376,55 +470,62 @@
 
 
 
+<section class="bg-blue-50 py-10 flex justify-center">
+
+  <div class="w-full max-w-[1350px]">
+    <h2 class="text-4xl font-bold text-[#444444] mb-6">AI at Work</h2>
+    <div class="flex items-center">
 
 
+      <div class="w-1/2 flex justify-center">
+        <img src="images/aibanner.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%]" />
+      </div>
 
-<section class="py-10 flex justify-center">
-    <div class="w-full max-w-[1350px]">
-      <h2 class="text-4xl font-bold text-[#444444] mb-6">AI at Work</h2>
-      <div class="flex items-center">
-
-        <!-- Image Container -->
-        <div id="imageContainer" class="w-1/2 flex justify-center fade-enter fade-enter-active">
-          <img id="displayImage" src="images/ai image1.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%]" />
-        </div>
-
-        <!-- Progress Bar and Text Options -->
-        <div class="w-1/2 pl-10">
+      <div class="w-1/2 pl-10">
+        <div>
           <div class="flex items-start space-x-4">
-
-            <!-- Progress Bar with Circles -->
-            <div class="relative flex flex-col items-center mr-4">
-              <div class="progress-bar">
-                <div id="progressFill" class="progress-fill" style="height: 0%;"></div>
-              </div>
-              <div class="progress-circle circle-1"></div>
-              <div class="progress-circle circle-2"></div>
-              <div class="progress-circle circle-3"></div>
+            <div class="flex flex-col items-center">
+              <div class="w-4 h-4 rounded-full bg-blue-500"></div>
+              <div class="w-[4px] h-[180px] z-20 bg-gray-300"></div> 
             </div>
+            <div class="-mt-2">
+              <h3 class="text-xl font-semibold text-blue-600 feature-item">AI Project Writer</h3>
+              <p class="text-gray-600">Generate tailored project proposals effortlessly with our AI Project Writer. Simply input your project details, and let AI create professional and impactful content in seconds.</p>
+            </div>
+          </div>
 
-            <!-- Text Options -->
-            <div>
-              <button id="textOption0" onclick="showContent(0)" class="feature-item w-full text-left mb-6 focus:outline-none">
-                <h3 class="text-xl font-semibold text-blue-600">AI Project Writer</h3>
-                <p class="text-gray-600">Generate tailored project proposals effortlessly with our AI Project Writer. Simply input your project details, and let AI create professional and impactful content in seconds.</p>
-              </button>
+          <div class="flex items-start space-x-4">
+            <div class="flex flex-col items-center">
+              <div class="w-4 h-4 rounded-full bg-gray-300"></div>
+              <div class="w-[4px] h-[180px] z-20 bg-gray-300"></div>
+            </div>
+            <div class="-mt-2">
+              <h3 class="text-xl font-semibold text-gray-800 feature-item">Personalized Project Suggestions</h3>
+              <p class="text-gray-600">Receive job recommendations customized to your skills and interests, making it easier to find projects that align with your expertise and preferences.</p>
+            </div>
+          </div>
 
-              <button id="textOption1" onclick="showContent(1)" class="feature-item w-full text-left mb-6 focus:outline-none">
-                <h3 class="text-xl font-semibold text-gray-800">Personalized Project Suggestions</h3>
-                <p class="text-gray-600">Receive job recommendations customized to your skills and interests, making it easier to find projects that align with your expertise and preferences.</p>
-              </button>
-
-              <button id="textOption2" onclick="showContent(2)" class="feature-item w-full text-left focus:outline-none">
-                <h3 class="text-xl font-semibold text-gray-800">Bid Sorting by AI</h3>
-                <p class="text-gray-600">Our intelligent bid sorting feature ranks bids to highlight the most relevant opportunities, helping you save time and find the best fits faster.</p>
-              </button>
+          <div class="flex items-start space-x-4">
+            <div class="flex flex-col items-center">
+              <div class="w-4 h-4 rounded-full bg-gray-300"></div>
+            </div>
+            <div class="-mt-2">
+              <h3 class="text-xl font-semibold text-gray-800 feature-item">Bid Sorting by AI</h3>
+              <p class="text-gray-600">Our intelligent bid sorting feature ranks bids to highlight the most relevant opportunities, helping you save time and find the best fits faster.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+
+
+
+
+
+
 
 
 
@@ -603,148 +704,8 @@ document.querySelectorAll(".feature-item").forEach(button => {
 
 
 
-<section class="bg-blue-50 flex justify-center items-center min-h-screen">
-  <div class="max-w-[1350px] mx-auto grid md:grid-cols-2 gap-8 p-6">
-    <!-- Steps Section -->
-    <div>
-      <h2 class="text-4xl font-bold text-[#444444] mb-8">How it Works</h2>
-      <div class="space-y-14">
-        <div class="flex items-start space-x-4 py-5 px-10 bg-white rounded-lg shadow-md relative w-[95%]">
-          <span class="bg-blue-500 text-white text-sm font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 1</span>
-          <div>
-            <h3 class="text-xl font-semibold ">Post Your Project</h3>
-            <p class="mt-1">Easily create your project description with AI in seconds by simply entering your requirements!</p>
-          </div>
-        </div>
-        <div class="flex items-start space-x-4 py-5 px-10 bg-white rounded-lg shadow-md relative w-[95%] ml-12">
-          <span class="bg-blue-500 text-white text-sm font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 2</span>
-          <div>
-            <h3 class="text-xl font-semibold ">Set Your Budget & Go Live</h3>
-            <p class="mt-1">Choose a budget, post, and watch freelancers bid on your project instantly!</p>
-          </div>
-        </div>
-        <div class="flex items-start space-x-4 py-5 px-10 bg-white rounded-lg shadow-md relative w-[95%] ml-6">
-          <span class="bg-blue-500 text-white text-sm font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 3</span>
-          <div>
-            <h3 class="text-xl font-semibold ">Choose Your Freelancer</h3>
-            <p class="mt-1">Select the perfect freelancer from a pool of talented professionals for your project!</p>
-          </div>
-        </div>
-        <div class="flex items-start space-x-4 py-5 px-10 bg-white rounded-lg shadow-md relative w-[95%] ml-20">
-          <span class="bg-blue-500 text-white text-sm font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 4</span>
-          <div>
-            <h3 class="text-xl font-semibold ">Manage with Ease</h3>
-            <p class="mt-1">Utilize our Project Management tool for seamless timelines and hassle-free payment processing.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="flex justify-center items-center">
-      <div class="relative w-full  h-[90vh] bg-cover bg-center rounded-lg ml-14 shadow-md" style="background-image: url('images/blog-banner-04-1.png')">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="bg-blue-50 flex justify-center py-10">
-  <div class="w-full max-w-[1350px]">
-    <h2 class="text-4xl font-bold text-[#444444] mb-8">Why Choose Us?</h2>
-
-    <div class="relative flex justify-between items-center">
-      <div class="space-y-6 mt-8">
-        <img src="images/left.png" alt="" class="absolute h-[530px] left-[445px] top-[85px]">
-        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md relative">
-          <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Clients</span>
-          Connect with skilled freelancers worldwide to find the perfect expertise.
-        </div>
-        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
-          Connect with skilled freelancers worldwide to find the perfect expertise.
-        </div>
-        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
-          Connect with skilled freelancers worldwide to find the perfect expertise.
-        </div>
-        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
-          Connect with skilled freelancers worldwide to find the perfect expertise.
-        </div>
-        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
-          Connect with skilled freelancers worldwide to find the perfect expertise.
-        </div>
-      </div>
-
-      <div class="space-y-6 mt-8">
-        <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[85px]">
-        <div class="bg-white rounded-lg shadow p-6  max-w-md relative">
-          <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
-
-          Track progress and communicate easily with our user-friendly project tools.
-        </div>
-        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
-          Track progress and communicate easily with our user-friendly project tools.
-        </div>
-        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
-          Track progress and communicate easily with our user-friendly project tools.
-        </div>
-        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
-          Track progress and communicate easily with our user-friendly project tools.
-        </div>
-        <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
-          Track progress and communicate easily with our user-friendly project tools.
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="bg-blue-50 py-10 flex justify-center">
-
-  <div class="w-full max-w-[1350px]">
-    <h2 class="text-4xl font-bold text-[#444444] mb-6">AI at Work</h2>
-    <div class="flex items-center">
 
 
-      <div class="w-1/2 flex justify-center">
-        <img src="images/aibanner.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%]" />
-      </div>
-
-      <div class="w-1/2 pl-10">
-        <div>
-          <div class="flex items-start space-x-4">
-            <div class="flex flex-col items-center">
-              <div class="w-4 h-4 rounded-full bg-blue-500"></div>
-              <div class="w-[4px] h-[180px] z-20 bg-gray-300"></div> 
-            </div>
-            <div class="-mt-2">
-              <h3 class="text-xl font-semibold text-blue-600 feature-item">AI Project Writer</h3>
-              <p class="text-gray-600">Generate tailored project proposals effortlessly with our AI Project Writer. Simply input your project details, and let AI create professional and impactful content in seconds.</p>
-            </div>
-          </div>
-
-          <div class="flex items-start space-x-4">
-            <div class="flex flex-col items-center">
-              <div class="w-4 h-4 rounded-full bg-gray-300"></div>
-              <div class="w-[4px] h-[180px] z-20 bg-gray-300"></div>
-            </div>
-            <div class="-mt-2">
-              <h3 class="text-xl font-semibold text-gray-800 feature-item">Personalized Project Suggestions</h3>
-              <p class="text-gray-600">Receive job recommendations customized to your skills and interests, making it easier to find projects that align with your expertise and preferences.</p>
-            </div>
-          </div>
-
-          <div class="flex items-start space-x-4">
-            <div class="flex flex-col items-center">
-              <div class="w-4 h-4 rounded-full bg-gray-300"></div>
-            </div>
-            <div class="-mt-2">
-              <h3 class="text-xl font-semibold text-gray-800 feature-item">Bid Sorting by AI</h3>
-              <p class="text-gray-600">Our intelligent bid sorting feature ranks bids to highlight the most relevant opportunities, helping you save time and find the best fits faster.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 

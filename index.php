@@ -272,20 +272,30 @@
  <!-- Freelancers Slider Section  -->
 
  <div class="wrapper w-[90vw] mx-auto relative">
+  
+  <h2 class="text-4xl font-bold text-[#444444] mb-8 mt-8">Top Freelancers</h2>
     <!-- Custom Previous Button -->
     <button id="prevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white border  w-10 h-[100px] rounded flex items-center justify-center z-10">
     <span class="bg-blue-500 p-2 rounded-[46.73px]">
       <
   </span>
   </button>
-  <div class="my-slider flex ">
+  <div class="my-slider flex mb-5 mt-5 ">
     <!-- Card 1 -->
-    <div class="p-4 bg-white rounded-lg shadow-md mx-2 ">
+    <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
       <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg">
       <div class="p-4">
+        <div class="flex justify-between items-center mb-5">
+          <div>
         <h3 class="font-semibold text-lg">Marcus Lilly</h3>
+        <p>UX Designer</p>
+        </div>
+        <div>
         <p class="text-gray-600">From $50/hr</p>
         <p class="text-yellow-500">⭐ 5.0</p>
+        </div>
+        </div>
+
         <p class="text-gray-500 text-sm">AI Algorithms</p>
       </div>
     </div>
@@ -512,9 +522,9 @@
                 <div class="flex items-start space-x-4">
                     <div class="flex flex-col items-center">
                         <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle3"></div>
-                        <div class="line-container">
+                         <!-- <div class="line-container">
                             <div class="progress-bar" id="progress3"></div>
-                        </div>
+                        </div>  -->
                     </div>
                     <div class="-mt-2">
                         <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title3">Bid Sorting by AI</h3>
@@ -729,7 +739,7 @@
     const progressBars = [
         document.getElementById('progress1'),
         document.getElementById('progress2'),
-        document.getElementById('progress3')
+        // document.getElementById('progress3')
     ];
 
     const aiImage = document.getElementById('aiImage');
@@ -806,8 +816,12 @@
     };
 
     // Start filling progress bars every 4 seconds
-    setInterval(fillProgressBar, 1000); // 4 seconds for each cycle
+    setInterval(fillProgressBar, 2000); // 4 seconds for each cycle
 });
+
+
+
+
 
 function toggleAccordion(event) {
     const button = event.currentTarget;

@@ -33,7 +33,7 @@
             height: 180px; /* Height of the line container */
             width: 4px; /* Width of the line */
             background-color: #e5e7eb; /* Gray background for the line */
-            margin: 0 16px; /* Space around the line */
+           
         }
      .progress-container {
             height: 180px; /* Fixed height */
@@ -43,7 +43,7 @@
         }
     .progress-bar {
             position: absolute;
-            bottom: 0; /* Start from the bottom */
+            top: 0; /* Start from the top */
             background-color: #3b82f6; /* Blue color for the progress */
             height: 0; /* Start with height 0 */
             width: 100%; /* Full width */

@@ -155,7 +155,7 @@
   <button class="ml-0 sm:ml-6 mt-2 sm:mt-0 bg-blue-500 text-white text-md px-4 py-2 font-semibold rounded-lg " style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Top Projects</button>
   <div id="projects-slider" class="slider-container relative mx-auto py-5 px-1 w-full mt-20">
     
-    <button id="sliderPrevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2  bg-white rounded-[8px]  h-[150px] w-10 flex items-center justify-center text-white  z-10">
+    <button id="sliderPrevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2  sm:bg-white rounded-[8px]  h-[150px] w-10 flex items-center justify-center text-white  z-10">
       <span class=" p-1 rounded-[46.73px]">
         <img src="images/leftArrow.png" alt="" width="100%" >
       </span>
@@ -174,7 +174,7 @@
     <div class="slider flex overflow-x-auto space-x-4 sm:px-8 lg:space-x-6 flex">
       <!-- Card 1 -->
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10  min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
-        <div class="sm:flex justify-between ">
+        <div class="sm:flex justify-between px-6 px-6">
           <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Machine Learning Development</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
         </div>
@@ -187,7 +187,7 @@
 
       <!-- Card 2 -->
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 h-[128px] sm:h-full min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
-        <div class="sm:flex justify-between">
+        <div class="sm:flex justify-between px-6">
           <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Data Analysis Project</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$75</strong></p>
         </div>
@@ -200,7 +200,7 @@
 
       <!-- Card 3 -->
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 h-[128px] sm:h-full min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
-        <div class="sm:flex justify-between">
+        <div class="sm:flex justify-between px-6">
           <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">AI Consultation</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$100</strong></p>
         </div>
@@ -212,7 +212,7 @@
       </div>
 
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 h-[128px] sm:h-full min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
-        <div class="sm:flex justify-between">
+        <div class="sm:flex justify-between px-6">
           <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Natural Language Processing</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$120</strong></p>
         </div>
@@ -224,7 +224,7 @@
       </div>
 
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 h-[128px] sm:h-full min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
-        <div class="sm:flex justify-between">
+        <div class="sm:flex justify-between px-6">
           <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Computer Vision Development</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$150</strong></p>
         </div>
@@ -236,7 +236,7 @@
       </div>
 
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 h-[128px] sm:h-full min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
-        <div class="sm:flex justify-between">
+        <div class="sm:flex justify-between px-6">
           <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Recommender System</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$130</strong></p>
         </div>
@@ -249,7 +249,7 @@
     </div>
     <!-- Next Button -->
     <div class="bg-white">
-      <button id="sliderNextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2  bg-white rounded-[8px]  w-10 h-[150px]  flex items-center justify-center text-white z-10">
+      <button id="sliderNextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2  sm:bg-white rounded-[8px]  w-10 h-[150px]  flex items-center justify-center text-white z-10">
         <span class=" p-1 rounded-[46.73px]">
           <img src="images/Frame 87.png" alt="" width="100%" >
         </span>
@@ -324,6 +324,23 @@
   </button>
   <div class="my-slider flex mb-5 mt-5 ">
     <!-- Card 1 -->
+    <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
+      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
+      <div class="p-4">
+        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5">
+          <div>
+            <h3 class="font-semibold text-md sm:text-lg">Marcus Lilly</h3>
+            <p>UX Designer</p>
+          </div>
+          <div>
+            <p class="text-gray-600 hidden sm:block">From $50/hr</p>
+            <p class="text-yellow-500">⭐ 5.0</p>
+          </div>
+        </div>
+
+        <p class="text-gray-500 text-sm hidden sm:block">AI Algorithms</p>
+      </div>
+    </div>
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
       <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
       <div class="p-4">

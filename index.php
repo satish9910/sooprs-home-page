@@ -154,21 +154,21 @@
   </div>
 
   <div id="projects-slider" class="slider-container relative mx-auto py-5 px-1 lg:w-full mt-20">
-    
 
-  <button id="sliderPrevButton"  class="absolute left-1 top-1/2 transform -translate-y-1/2  h-[100px] w-10 flex items-center justify-center text-white  z-10">
-       <span class=" p-1 rounded-[46.73px]">
-      <img src="images/leftArrow.png" alt="" width="100%">
-       </span>
-        </button>
+
+    <button id="sliderPrevButton" class="absolute left-1 top-1/2 transform -translate-y-1/2  h-[100px] w-10 flex items-center justify-center text-white  z-10">
+      <span class=" p-1 rounded-[46.73px]">
+        <img src="images/leftArrow.png" alt="" width="100%">
+      </span>
+    </button>
 
 
     <div class="slider">
       <!-- Card 1 -->
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 h-[130px]">
         <div class="flex justify-between ">
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">Machine Learning Development</h3>
-        <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Machine Learning Development</h3>
+          <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
         </div>
         <div class="tags flex space-x-2">
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">AI Algorithms</span>
@@ -180,8 +180,8 @@
       <!-- Card 2 -->
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 h-[130px]">
         <div class="flex justify-between">
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">Data Analysis Project</h3>
-        <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$75</strong></p>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Data Analysis Project</h3>
+          <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$75</strong></p>
         </div>
         <div class="tags flex space-x-2">
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Data Science</span>
@@ -192,9 +192,9 @@
 
       <!-- Card 3 -->
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 h-[130px] ">
-      <div class="flex justify-between">
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">AI Consultation</h3>
-        <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$100</strong></p>
+        <div class="flex justify-between">
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">AI Consultation</h3>
+          <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$100</strong></p>
         </div>
         <div class="tags flex space-x-2">
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Consultation</span>
@@ -206,8 +206,8 @@
       <!-- Card 4 -->
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2  h-[130px] ">
         <div class="flex justify-between">
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">Natural Language Processing</h3>
-        <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$120</strong></p>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Natural Language Processing</h3>
+          <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$120</strong></p>
         </div>
         <div class="tags flex space-x-2">
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">NLP</span>
@@ -219,8 +219,8 @@
       <!-- Card 5 -->
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 h-[130px] ">
         <div class="flex justify-between">
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">Computer Vision Development</h3>
-        <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$150</strong></p>
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Computer Vision Development</h3>
+          <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$150</strong></p>
         </div>
         <div class="tags flex space-x-2">
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Image Processing</span>
@@ -231,9 +231,9 @@
 
       <!-- Card 6 -->
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 h-[130px] ">
-      <div class="flex justify-between">
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">Recommender System</h3>
-        <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$130</strong></p>
+        <div class="flex justify-between">
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Recommender System</h3>
+          <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$130</strong></p>
         </div>
         <div class="tags flex space-x-2">
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Recommendation</span>
@@ -242,14 +242,14 @@
         </div>
       </div>
     </div>
-   <!-- Next Button -->
+    <!-- Next Button -->
     <div class="bg-white">
-   <button id="sliderNextButton"   class="absolute right-1 top-1/2 transform -translate-y-1/2   w-10 h-[100px]  flex items-center justify-center text-white z-10">
-                <span class=" p-1 rounded-[46.73px]">
-        <img src="images/Frame 87.png" alt="" width="100%">
-      </span>
-        </button>
-        </div>
+      <button id="sliderNextButton" class="absolute right-1 top-1/2 transform -translate-y-1/2   w-10 h-[100px]  flex items-center justify-center text-white z-10">
+        <span class=" p-1 rounded-[46.73px]">
+          <img src="images/Frame 87.png" alt="" width="100%">
+        </span>
+      </button>
+    </div>
   </div>
 
 
@@ -331,10 +331,7 @@
           </div>
         </div>
 
-        <div class="flex justify-between">
-          <p class="text-gray-500 text-sm">AI Algorithms</p>
-          <p class="text-gray-500 text-sm">AI Algorithms</p>
-        </div>
+        <p class="text-gray-500 text-sm">AI Algorithms</p>
       </div>
     </div>
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
@@ -438,55 +435,57 @@
 
 <section class="bg-blue-50 flex justify-center items-center py-10 ">
   <div class="w-full max-w-[1350px]">
-    <h2 class="text-4xl font-bold text-[#444444] mb-8">Why Choose Us?</h2>
+    <h2 class="text-4xl font-bold text-[#444444] mb-8 ml-[25px] md:ml-0">Why Choose Us?</h2>
     <!-- Main Container -->
-    <div class="relative flex justify-between items-center">
+    <div class="relative flex flex-col md:flex-row justify-between items-center">
       <!-- Left Column -->
       <div class="space-y-6 mt-8">
-        <img src="images/left.png" alt="" class="absolute h-[530px] left-[445px] top-[85px]">
-        <div class="  border-gray-300   p-6  max-w-md relative">
-          <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Clients</span>
+        <img src="images/left.png" alt="" class="absolute h-[530px] left-[445px] top-[85px] hidden md:block">
+        <div class="  border-gray-300 p-0 px-3  md:p-6  max-w-md relative">
+          <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-14 md:-top-5 left-4 md:left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Clients</span>
           Connect with skilled freelancers worldwide to find the perfect expertise.
         </div>
-        <div class=" border-gray-300   p-6  max-w-md">
+        <div class=" border-gray-300  p-0 px-3  md:p-6  max-w-md">
           Connect with skilled freelancers worldwide to find the perfect expertise.
         </div>
-        <div class=" border-gray-300  p-6  max-w-md">
+        <div class=" border-gray-300 p-0 px-3  md:p-6  max-w-md">
           Connect with skilled freelancers worldwide to find the perfect expertise.
         </div>
-        <div class="border-gray-300  p-6  max-w-md">
+        <div class="border-gray-300 p-0 px-3  md:p-6  max-w-md">
           Connect with skilled freelancers worldwide to find the perfect expertise.
         </div>
-        <div class="border-gray-300  p-6  max-w-md">
+        <div class="border-gray-300 p-0 px-3  md:p-6  max-w-md">
           Connect with skilled freelancers worldwide to find the perfect expertise.
         </div>
       </div>
+      <img src="images/top.png" alt="" class="w-3/4 left-[445px] top-[95px] mt-6 md:hidden">
       <div>
-      <div class="circle-background"></div>
-     <div class="circle pulse blue center">
-  <div class="pluse-container place-content-center items-center">
-    <img src="images/logo.png" alt="logo" width="80px">
-  </div>
-   </div>
+        <div class="circle-background"></div>
+        <div class="circle pulse blue center">
+          <div class="pluse-container place-content-center items-center">
+            <img src="images/logo.png" alt="logo" width="80px">
+          </div>
+        </div>
 
       </div>
       <!-- Right Column -->
       <div class="space-y-6 mt-8">
-        <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[85px]">
-        <div class=" p-6  max-w-md relative">
-          <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
+      <img src="images/bottom.png" alt="" class="w-3/4 left-[445px] top-[95px] mt-6 md:hidden">
+        <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[85px] hidden md:block">
+        <div class=" p-0  md:p-6   max-w-md relative">
+          <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-14 md:-top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
           Track progress and communicate easily with our user-friendly project tools.
         </div>
-        <div class="border-gray-300  p-6  max-w-md">
+        <div class="border-gray-300  p-0  md:p-6   max-w-md">
           Track progress and communicate easily with our user-friendly project tools.
         </div>
-        <div class="border-gray-300  p-6  max-w-md">
+        <div class="border-gray-300  p-0  md:p-6   max-w-md">
           Track progress and communicate easily with our user-friendly project tools.
         </div>
-        <div class="border-gray-300  p-6  max-w-md">
+        <div class="border-gray-300  p-0  md:p-6   max-w-md">
           Track progress and communicate easily with our user-friendly project tools.
         </div>
-        <div class="border-gray-300  p-6  max-w-md">
+        <div class="border-gray-300  p-0  md:p-6   max-w-md">
           Track progress and communicate easily with our user-friendly project tools.
         </div>
       </div>
@@ -503,7 +502,7 @@
 
   <!-- Previous Button -->
   <button id="projectPrevButton" class="absolute left-2 sm:left-6 top-1/2 transform -translate-y-1/2 bg-white border w-8 h-[80px] sm:w-10 sm:h-[100px] rounded flex items-center justify-center z-10">
-  <span class=" p-1 rounded-[46.73px]">
+    <span class=" p-1 rounded-[46.73px]">
       <img src="images/leftArrow.png" alt="" width="100%">
     </span>
   </button>
@@ -512,7 +511,7 @@
   <div class="project-slider overflow-x-auto space-x-4 px-4 sm:px-8">
 
     <!-- Project Card 2 -->
-    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]" style="display: flex;">
+    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[400px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]" style="display: flex;">
       <img src="images/laptop img.png" alt="Project Image 2" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
       <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
         <h3 class="text-lg sm:text-xl font-semibold mb-2">Create Responsive Web Design in Adobe XD</h3>
@@ -523,7 +522,7 @@
     </div>
 
     <!-- Project Card 3 -->
-    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]" style="display: flex;">
+    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[400px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]" style="display: flex;">
       <img src="images/laptop img.png" alt="Project Image 3" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
       <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
         <h3 class="text-lg sm:text-xl font-semibold mb-2">Develop Mobile App Interface in Sketch</h3>
@@ -534,7 +533,7 @@
     </div>
 
     <!-- Project Card 4 -->
-    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]" style="display: flex;">
+    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[400px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]" style="display: flex;">
       <img src="images/laptop img.png" alt="Project Image 4" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
       <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
         <h3 class="text-lg sm:text-xl font-semibold mb-2">Redesign E-commerce UI in Figma</h3>
@@ -546,7 +545,7 @@
   </div>
 
   <!-- Next Button -->
-  <button id="projectNextButton" class="absolute right-0 top-1/2 right-6 transform -translate-y-1/2 bg-white border w-10 h-[100px] rounded flex items-center justify-center z-10">
+  <button id="projectNextButton" class="absolute right-0 top-1/2 right-2 transform -translate-y-1/2 bg-white border w-10 h-[100px] rounded flex items-center justify-center z-10">
     <span class=" p-1 rounded-[46.73px]">
       <img src="images/Frame 87.png" alt="" width="100%">
     </span>
@@ -693,7 +692,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 <script>
- $(document).ready(function() {
+  $(document).ready(function() {
     // Initialize the first slider
     $('.my-slider').slick({
       slidesToShow: 5,
@@ -704,8 +703,7 @@
       infinite: false,
       autoplaySpeed: 5000,
       autoplay: true,
-      responsive: [
-        {
+      responsive: [{
           breakpoint: 991,
           settings: {
             slidesToShow: 3
@@ -730,8 +728,7 @@
       infinite: false,
       autoplaySpeed: 1000,
       autoplay: false,
-      responsive: [
-        {
+      responsive: [{
           breakpoint: 991,
           settings: {
             slidesToShow: 3
@@ -753,8 +750,7 @@
       slidesToScroll: 1,
       arrows: false,
       centerMode: true,
-      responsive: [
-        {
+      responsive: [{
           breakpoint: 1024,
           settings: {
             slidesToShow: 2
@@ -800,6 +796,7 @@
       $(prevBtn).toggleClass('hidden cursor-not-allowed', currentSlide === 0);
       $(nextBtn).toggleClass('hidden cursor-not-allowed', currentSlide >= lastSlide);
     }
+
     function updateButtonStateCard(slick, prevBtn, nextBtn) {
       const currentSlide = slick.slickCurrentSlide();
       const lastSlide = slick.slideCount - slick.options.slidesToShow;
@@ -820,7 +817,7 @@
 
     // Trigger initial update for button states
     $('.my-slider, .project-slider, .slider').slick('slickGoTo', 0);
-});
+  });
 
 document.addEventListener("DOMContentLoaded", () => {
   const progressBars = [

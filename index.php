@@ -2,28 +2,28 @@
 
 <section class="grid lg:grid-cols-3 bg-[#FDFDFD] p-0 sm:p-10 w-full h-[70vh] lg:h-[90vh]">
   <div class="flex-1 space-y-6 flex flex-col justify-center px-2 lg:col-span-2 relative overflow-hidden lg:pl-[120px] text-center sm:text-left">
-    <div class="mb-2 z-10">
-      <h1 class="text-2xl lg:text-5xl font-semibold sm:font-semibold">Connect, Collaborate</h1>
-      <h1 class="text-3xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">Deliver with Sooprs</h1>
+    <div class="mb-2 z-10 mt-[150px] sm:mt-0">
+      <h1 class="text-2xl lg:text-5xl font-semibold">Connect, Collaborate</h1>
+      <h1 class="text-4xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r to-[#0068FF] from-[#9747FF]">Deliver with Sooprs</h1>
     </div>
     <div>
       <div class="animate-marquee-left flex items-center gap-4 sm:hidden">
-        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 1">
-        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 2">
-        <img src="images/Rectangle-3697-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 3">
-        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 4">
-        <img src="images/Rectangle-3697-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 5">
-        <img src="images/Rectangle-3584-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 6">
-        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 7">
-        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 8">
-        <img src="images/Rectangle-3697-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 9">
-        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 10">
-        <img src="images/Rectangle-3697-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 11">
-        <img src="images/Rectangle-3584-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 12">
+        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 1">
+        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 2">
+        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 3">
+        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 4">
+        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 5">
+        <img src="images/Rectangle-3584-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 6">
+        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 7">
+        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 8">
+        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 9">
+        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 10">
+        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 11">
+        <img src="images/Rectangle-3584-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 12">
       </div>
     </div>
 
-    <p class="text-gray-600 font-semibold mb-2 z-10 text-sm sm:text-lg">“Hire Expert Professionals from the leading Freelance marketplace”</p>
+    <p class="text-gray-600 font-semibold mb-2 z-10 text-sm sm:text-lg pt-[70px] sm:pt-0">“Hire Expert Professionals from the leading Freelance marketplace”</p>
     <div class="flex flex-col items-center lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0 lg:items-start lg:justify-start z-10">
       <button class="bg-[#0068FF] border-[1.5px] border-[#0068FF] text-white px-6 py-2 rounded w-fit">Hire Freelancer</button>
       <button class="bg-white border-[1.5px] border-[#0068FF] text-[#0068FF] px-6 py-2 rounded w-fit">Earn as Freelancing</button>
@@ -306,89 +306,124 @@
 
 <!-- Freelancers Slider Section  -->
 
- <div class="wrapper w-[90vw] mx-auto relative">
-  
+<div class="wrapper w-[90vw] mx-auto relative">
+
   <h2 class="text-4xl font-bold text-[#444444] mb-8 mt-8">Top Freelancers</h2>
-    <!-- Custom Previous Button -->
-    <button id="prevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white border  w-10 h-[100px] rounded flex items-center justify-center z-10">
-    <span class=" p-1 rounded-[46.73px]">
-      <img src="images/leftArrow.png" alt="" width="100%">
-    </span>
+  <!-- Custom Previous Button -->
+  <button id="prevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white border  w-10 h-[100px] rounded flex items-center justify-center z-10">
+    <span class="bg-blue-500 p-2 rounded-[46.73px]">
+      <
+        </span>
   </button>
   <div class="my-slider flex mb-5 mt-5 ">
     <!-- Card 1 -->
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
-      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg">
+      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
       <div class="p-4">
         <div class="flex justify-between items-center mb-5">
           <div>
-        <h3 class="font-semibold text-lg">Marcus Lilly</h3>
-        <p>UX Designer</p>
+            <h3 class="font-semibold text-lg">Marcus Lilly</h3>
+            <p>UX Designer</p>
+          </div>
+          <div>
+            <p class="text-gray-600">From $50/hr</p>
+            <p class="text-yellow-500">⭐ 5.0</p>
+          </div>
         </div>
-        <div>
-        <p class="text-gray-600">From $50/hr</p>
-        <p class="text-yellow-500">⭐ 5.0</p>
+
+        <div class="flex justify-between">
+          <p class="text-gray-500 text-sm">AI Algorithms</p>
+          <p class="text-gray-500 text-sm">AI Algorithms</p>
         </div>
+      </div>
+    </div>
+    <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
+      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
+      <div class="p-4">
+        <div class="flex justify-between items-center mb-5">
+          <div>
+            <h3 class="font-semibold text-lg">Marcus Lilly</h3>
+            <p>UX Designer</p>
+          </div>
+          <div>
+            <p class="text-gray-600">From $50/hr</p>
+            <p class="text-yellow-500">⭐ 5.0</p>
+          </div>
+        </div>
+
+        <p class="text-gray-500 text-sm">AI Algorithms</p>
+      </div>
+    </div>
+    <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
+      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
+      <div class="p-4">
+        <div class="flex justify-between items-center mb-5">
+          <div>
+            <h3 class="font-semibold text-lg">Marcus Lilly</h3>
+            <p>UX Designer</p>
+          </div>
+          <div>
+            <p class="text-gray-600">From $50/hr</p>
+            <p class="text-yellow-500">⭐ 5.0</p>
+          </div>
+        </div>
+
+        <p class="text-gray-500 text-sm">AI Algorithms</p>
+      </div>
+    </div>
+    <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
+      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
+      <div class="p-4">
+        <div class="flex justify-between items-center mb-5">
+          <div>
+            <h3 class="font-semibold text-lg">Marcus Lilly</h3>
+            <p>UX Designer</p>
+          </div>
+          <div>
+            <p class="text-gray-600">From $50/hr</p>
+            <p class="text-yellow-500">⭐ 5.0</p>
+          </div>
+        </div>
+
+        <p class="text-gray-500 text-sm">AI Algorithms</p>
+      </div>
+    </div>
+    <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
+      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
+      <div class="p-4">
+        <div class="flex justify-between items-center mb-5">
+          <div>
+            <h3 class="font-semibold text-lg">Marcus Lilly</h3>
+            <p>UX Designer</p>
+          </div>
+          <div>
+            <p class="text-gray-600">From $50/hr</p>
+            <p class="text-yellow-500">⭐ 5.0</p>
+          </div>
+        </div>
+
+        <p class="text-gray-500 text-sm">AI Algorithms</p>
+      </div>
+    </div>
+    <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
+      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
+      <div class="p-4">
+        <div class="flex justify-between items-center mb-5">
+          <div>
+            <h3 class="font-semibold text-lg">Marcus Lilly</h3>
+            <p>UX Designer</p>
+          </div>
+          <div>
+            <p class="text-gray-600">From $50/hr</p>
+            <p class="text-yellow-500">⭐ 5.0</p>
+          </div>
         </div>
 
         <p class="text-gray-500 text-sm">AI Algorithms</p>
       </div>
     </div>
 
-    <!-- Card 2 -->
-    <div class="p-4 bg-white rounded-lg shadow-md mx-2 ">
-      <img src="images/Frame 101.png" alt="Freelancer 2" class="w-full h-100 object-cover rounded-t-lg">
-      <div class="p-4">
-        <h3 class="font-semibold text-lg">Alexa Johnson</h3>
-        <p class="text-gray-600">From $60/hr</p>
-        <p class="text-yellow-500">⭐ 4.8</p>
-        <p class="text-gray-500 text-sm">Web Development</p>
-      </div>
-    </div>
 
-    <!-- Card 3 -->
-    <div class="p-4 bg-white rounded-lg shadow-md mx-2 ">
-      <img src="images/Frame 104.png" alt="Freelancer 3" class="w-full h-100 object-cover rounded-t-lg">
-      <div class="p-4">
-        <h3 class="font-semibold text-lg">Chris Evans</h3>
-        <p class="text-gray-600">From $55/hr</p>
-        <p class="text-yellow-500">⭐ 4.9</p>
-        <p class="text-gray-500 text-sm">Graphic Design</p>
-      </div>
-    </div>
-
-    <!-- Card 4 -->
-    <div class="p-4 bg-white rounded-lg shadow-md mx-2 ">
-      <img src="images/Frame 107.png" alt="Freelancer 4" class="w-full h-100 object-cover rounded-t-lg">
-      <div class="p-4">
-        <h3 class="font-semibold text-lg">Sara Lin</h3>
-        <p class="text-gray-600">From $45/hr</p>
-        <p class="text-yellow-500">⭐ 4.7</p>
-        <p class="text-gray-500 text-sm">Content Writing</p>
-      </div>
-    </div>
-
-    <!-- Card 5 -->
-    <div class="p-4 bg-white rounded-lg shadow-md mx-2 ">
-      <img src="images/Frame 101.png" alt="Freelancer 5" class="w-full h-100 object-cover rounded-t-lg">
-      <div class="p-4">
-        <h3 class="font-semibold text-lg">Michael Brown</h3>
-        <p class="text-gray-600">From $70/hr</p>
-        <p class="text-yellow-500">⭐ 5.0</p>
-        <p class="text-gray-500 text-sm">Digital Marketing</p>
-      </div>
-    </div>
-
-    <!-- Card 6 -->
-    <div class="p-4 bg-white rounded-lg shadow-md mx-2 ">
-      <img src="images/freelnce-3.png" alt="Freelancer 6" class="w-full h-100 object-cover rounded-t-lg">
-      <div class="p-4">
-        <h3 class="font-semibold text-lg">Emily Clark</h3>
-        <p class="text-gray-600">From $65/hr</p>
-        <p class="text-yellow-500">⭐ 4.9</p>
-        <p class="text-gray-500 text-sm">UI/UX Design</p>
-      </div>
-    </div>
   </div>
   <!-- Custom Next Button -->
   <div class="bg-white">
@@ -462,7 +497,7 @@
 
 
 <div class="projects-section text-center py-8 w-[95vw] mx-auto relative">
-  <h2 class="text-2xl sm:text-3xl font-semibold text-[#444] mb-6 text-start pl-4 sm:pl-10">
+  <h2 class="text-2xl sm:text-3xl font-bold text-[#444] mb-6 text-start pl-4 sm:pl-10">
     Projects we made on <span class="text-blue-600">SOOPRS</span>
   </h2>
 
@@ -474,20 +509,10 @@
   </button>
 
   <!-- Slider Container -->
-  <div class="project-slider flex overflow-x-auto space-x-4 px-4 sm:px-8">
-    <!-- Project Card 1 -->
-    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]">
-      <img src="images/laptop img.png" alt="Project Image 1" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
-      <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
-        <h3 class="text-lg sm:text-xl font-semibold mb-2 ">Make 10 Page app design mockup in Figma</h3>
-        <span class="text-gray-500">UI Design</span>
-        <div class="text-md sm:text-lg font-bold text-gray-800 mt-2 mb-4">$50 - 100</div>
-        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Bid now</button>
-      </div>
-    </div>
+  <div class="project-slider overflow-x-auto space-x-4 px-4 sm:px-8">
 
     <!-- Project Card 2 -->
-    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]">
+    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]" style="display: flex;">
       <img src="images/laptop img.png" alt="Project Image 2" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
       <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
         <h3 class="text-lg sm:text-xl font-semibold mb-2">Create Responsive Web Design in Adobe XD</h3>
@@ -498,7 +523,7 @@
     </div>
 
     <!-- Project Card 3 -->
-    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]">
+    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]" style="display: flex;">
       <img src="images/laptop img.png" alt="Project Image 3" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
       <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
         <h3 class="text-lg sm:text-xl font-semibold mb-2">Develop Mobile App Interface in Sketch</h3>
@@ -509,7 +534,7 @@
     </div>
 
     <!-- Project Card 4 -->
-    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]">
+    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]" style="display: flex;">
       <img src="images/laptop img.png" alt="Project Image 4" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
       <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
         <h3 class="text-lg sm:text-xl font-semibold mb-2">Redesign E-commerce UI in Figma</h3>
@@ -570,9 +595,6 @@
         <div class="flex items-start space-x-4 ">
           <div class="flex flex-col items-center">
             <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle3"></div>
-            <div class="line-container">
-              <div class="progress-bar" id="progress3"></div>
-            </div>
           </div>
           <div class="-mt-2">
             <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title3">Bid Sorting by AI</h3>
@@ -583,11 +605,6 @@
     </div>
   </div>
 </section>
-
-
-
-
-
 
 <section class="faq-section py-10 w-full max-w-[1350px] mx-auto">
   <div class="container mx-auto px-4">
@@ -803,9 +820,9 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     const progressBars = [
-        document.getElementById('progress1'),
-        document.getElementById('progress2'),
-        // document.getElementById('progress3')
+      document.getElementById('progress1'),
+      document.getElementById('progress2'),
+      // document.getElementById('progress3')
     ];
 
     const aiImage = document.getElementById('aiImage');

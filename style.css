@@ -1,0 +1,98 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.marquee-container {
+  position: relative;
+  height: 100px; /* Set the height you want for the visible area */
+  width: 100%;
+  overflow-y: hidden;
+}
+
+@keyframes marquee-up {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+@keyframes marquee-down {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+@keyframes marquee-left{
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.animate-marquee-down {
+  animation: marquee-down 10s linear infinite;
+  position: absolute;
+  width: 50%;
+  top: 140vh;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.animate-marquee-up {
+  animation: marquee-up 10s linear infinite;
+  position: absolute;
+  width: 50%;
+  top: 0;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.animate-marquee-left {
+  animation: marquee-left 5s linear infinite;
+  position: absolute;
+  /* width: 50%; */
+  bottom: 10;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.gradient-text {
+  font-size: 3.75rem; /* Equivalent to text-6xl in Tailwind */
+  font-weight: bold;
+  background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.styled-div {
+  width: 300px;
+  height: 300px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.gradient-bg{
+  background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);
+}
+
+.highlight {
+  color: #0068FF;
+}
+
+.active-text {
+  color: #1D4ED8; /* Tailwind blue-600 */
+  font-weight: bold;
+}
+
+

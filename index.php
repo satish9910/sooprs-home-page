@@ -153,58 +153,64 @@
     </div>
   </div>
 
-  <div id="projects-slider" class="slider-container relative mx-auto py-5 px-1 lg:w-full mt-20">
-
-
+  <div id="projects-slider" class="slider-container relative mx-auto py-5 px-1 w-full mt-20">
     <button id="sliderPrevButton" class="absolute left-1 top-1/2 transform -translate-y-1/2  h-[100px] w-10 flex items-center justify-center text-white  z-10">
       <span class=" p-1 rounded-[46.73px]">
-        <img src="images/leftArrow.png" alt="" width="100%">
+        <img src="images/leftArrow.png" alt="" width="100%" class="hidden sm:block">
       </span>
     </button>
-
-
-    <div class="slider">
-      <!-- Card 1 -->
-      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 h-[130px]">
+    <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0 sm:hidden">
         <div class="flex justify-between ">
-          <h3 class="text-lg font-semibold text-gray-900 mb-2">Machine Learning Development</h3>
+          <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Machine Learning Development</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
         </div>
         <div class="tags flex space-x-2">
-          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">AI Algorithms</span>
-          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Machine Learning</span>
-          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+2</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">AI Algorithms</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">Machine Learning</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">+2</span>
+        </div>
+      </div>
+    <div class="slider flex overflow-x-auto space-x-4 px-4 sm:px-8 lg:space-x-6 hidden sm:block">
+      <!-- Card 1 -->
+      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
+        <div class="flex justify-between ">
+          <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Machine Learning Development</h3>
+          <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
+        </div>
+        <div class="tags flex space-x-2">
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">AI Algorithms</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">Machine Learning</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">+2</span>
         </div>
       </div>
 
       <!-- Card 2 -->
-      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 h-[130px]">
+      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
         <div class="flex justify-between">
           <h3 class="text-lg font-semibold text-gray-900 mb-2">Data Analysis Project</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$75</strong></p>
         </div>
         <div class="tags flex space-x-2">
-          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Data Science</span>
-          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Statistics</span>
-          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+1</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">Data Science</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">Statistics</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">+1</span>
         </div>
       </div>
 
       <!-- Card 3 -->
-      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 h-[130px] ">
+      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
         <div class="flex justify-between">
           <h3 class="text-lg font-semibold text-gray-900 mb-2">AI Consultation</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$100</strong></p>
         </div>
         <div class="tags flex space-x-2">
-          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Consultation</span>
-          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">AI Insights</span>
-          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+3</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">Consultation</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">AI Insights</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">+3</span>
         </div>
       </div>
 
-      <!-- Card 4 -->
-      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2  h-[130px] ">
+      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
         <div class="flex justify-between">
           <h3 class="text-lg font-semibold text-gray-900 mb-2">Natural Language Processing</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$120</strong></p>
@@ -216,8 +222,7 @@
         </div>
       </div>
 
-      <!-- Card 5 -->
-      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 h-[130px] ">
+      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
         <div class="flex justify-between">
           <h3 class="text-lg font-semibold text-gray-900 mb-2">Computer Vision Development</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$150</strong></p>
@@ -229,8 +234,7 @@
         </div>
       </div>
 
-      <!-- Card 6 -->
-      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 h-[130px] ">
+      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
         <div class="flex justify-between">
           <h3 class="text-lg font-semibold text-gray-900 mb-2">Recommender System</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$130</strong></p>
@@ -246,7 +250,7 @@
     <div class="bg-white">
       <button id="sliderNextButton" class="absolute right-1 top-1/2 transform -translate-y-1/2   w-10 h-[100px]  flex items-center justify-center text-white z-10">
         <span class=" p-1 rounded-[46.73px]">
-          <img src="images/Frame 87.png" alt="" width="100%">
+          <img src="images/Frame 87.png" alt="" width="100%" class="hidden sm:block">
         </span>
       </button>
     </div>
@@ -822,7 +826,7 @@
     $('.my-slider, .project-slider, .slider').slick('slickGoTo', 0);
   });
 
-document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", () => {
   const progressBars = [
     document.getElementById('progress1'),
     document.getElementById('progress2'),
@@ -853,51 +857,51 @@ document.addEventListener("DOMContentLoaded", () => {
     "images/aibanner.png" // Image for progress 3
   ];
 
-  let currentIndex = 0;
+  const aiImage = document.getElementById('aiImage'); // Assuming this is the image element
 
-  const fillProgressBar = () => {
-    // Reset all progress bars and circles
-    progressBars.forEach((progressBar, index) => {
-      progressBar.style.height = '0'; // Reset height to 0
-      circles[index].classList.remove('bg-blue-500');
-      circles[index].classList.add('bg-gray-300');
-      titles[index].style.fontSize = '1rem'; // Reset font size
-      titles[index].classList.replace('text-blue-600', 'text-gray-800');
-      descriptions[index].style.fontSize = '0.875rem'; // Reset font size
-      descriptions[index].classList.replace('text-blue-600', 'text-gray-600');
-    });
+  const runProgressCycle = () => {
+    let currentIndex = 0;
 
-    // Fill progress bars sequentially to create a loading effect
-    for (let i = 0; i <= currentIndex; i++) {
-      progressBars[i].style.height = '100%'; // Fill each progress bar to 100%
-      circles[i].classList.remove('bg-gray-300');
-      circles[i].classList.add('bg-blue-500');
-    }
+    // Fill progress bars sequentially
+    const fillProgressBar = () => {
+      if (currentIndex >= progressBars.length) {
+        clearInterval(progressInterval); // Stop interval after last bar is filled
+        return;
+      }
 
-    // Change the image after filling the progress bar
-    aiImage.src = images[currentIndex];
+      // Reset all elements before starting a new cycle
+      progressBars.forEach((progressBar, index) => {
+        progressBar.style.height = '0';
+        circles[index].classList.remove('bg-blue-500');
+        circles[index].classList.add('bg-gray-300');
+        titles[index].style.fontSize = '1rem';
+        titles[index].classList.replace('text-blue-600', 'text-gray-800');
+        descriptions[index].style.fontSize = '0.875rem';
+        descriptions[index].classList.replace('text-blue-600', 'text-gray-600');
+      });
 
-    // Animate the font size increase for the current index
-    const title = titles[currentIndex];
-    const description = descriptions[currentIndex];
+      // Fill the current progress bar
+      progressBars[currentIndex].style.height = '100%';
+      circles[currentIndex].classList.remove('bg-gray-300');
+      circles[currentIndex].classList.add('bg-blue-500');
+      
+      // Change image and animate font size increase
+      aiImage.src = images[currentIndex];
+      titles[currentIndex].style.fontSize = '1.25rem';
+      titles[currentIndex].classList.replace('text-gray-800', 'text-blue-600');
+      descriptions[currentIndex].style.fontSize = '0.9375rem';
+      descriptions[currentIndex].classList.replace('text-gray-600', 'text-blue-600');
 
-    title.classList.add('text-increase');
-    title.style.fontSize = '1.25rem';
-    title.classList.replace('text-gray-800', 'text-blue-600');
+      // Move to the next index
+      currentIndex++;
+    };
 
-    description.classList.add('text-increase');
-    description.style.fontSize = '0.9375rem';
-    description.classList.replace('text-gray-600', 'text-blue-600');
-
-    // Increment index for the next cycle
-    currentIndex++;
-    if (currentIndex >= circles.length) {
-      currentIndex = 0; // Reset to 0 when reaching the last circle
-    }
+    // Run `fillProgressBar` every 1 second for the current cycle
+    const progressInterval = setInterval(fillProgressBar, 1000);
   };
 
-  // Start filling progress bars every 3 seconds
-  setInterval(fillProgressBar, 1000); // 1 second for each cycle
+  // Start a new cycle every 3 seconds
+  setInterval(runProgressCycle, 3000);
 });
 
 
@@ -944,7 +948,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Ensure the features NodeList is valid
       if (features.length === 0) {
-        console.warn('No features found.');
         return; // Exit if no features are found
       }
 

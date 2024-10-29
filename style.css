@@ -96,3 +96,107 @@
 }
 
 
+
+
+
+.line-container {
+  position: relative;
+  height: 180px;
+  /* Height of the line container */
+  width: 4px;
+  /* Width of the line */
+  background-color: #e5e7eb;
+  /* Gray background for the line */
+
+}
+
+.progress-container {
+  height: 180px;
+  /* Fixed height */
+  background-color: #e5e7eb;
+  /* Light gray background */
+  position: relative;
+  /* Positioning for the filling effect */
+  overflow: hidden;
+  /* Hide overflow */
+}
+
+.progress-bar {
+  position: absolute;
+  top: 0;
+  /* Start from the top */
+  background-color: #3b82f6;
+  /* Blue color for the progress */
+  height: 0;
+  /* Start with height 0 */
+  width: 100%;
+  /* Full width */
+  transition: height 1s ease;
+  /* Smooth transition for height change */
+}
+
+.circle {
+  transition: background-color 0.5s ease;
+  /* Smooth transition for color change */
+}
+
+/* Animation for text size increase */
+.text-increase {
+  transition: font-size 0.5s, color 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.blue {
+  background: #0068FF;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transform: translateY(15%);
+  position: relative;
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px #0000001a;
+  z-index: 2;
+  
+}
+.pulse {
+  animation: pulse-animation 1.5s infinite;
+}
+ @keyframes pulse-animation {
+  100% {
+    box-shadow: 0 0 0 40px #DCEBFF;
+    
+  }
+}  
+.pluse-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.master {
+  color: black;
+  float: right;
+}
+@media (max-width: 900px) {
+  .master {
+    display: none;
+  }
+}
+

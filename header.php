@@ -26,53 +26,6 @@
       }
     }
   </script>
-  <style>
-    .line-container {
-      position: relative;
-      height: 180px;
-      /* Height of the line container */
-      width: 4px;
-      /* Width of the line */
-      background-color: #e5e7eb;
-      /* Gray background for the line */
-
-    }
-
-    .progress-container {
-      height: 180px;
-      /* Fixed height */
-      background-color: #e5e7eb;
-      /* Light gray background */
-      position: relative;
-      /* Positioning for the filling effect */
-      overflow: hidden;
-      /* Hide overflow */
-    }
-
-    .progress-bar {
-      position: absolute;
-      top: 0;
-      /* Start from the top */
-      background-color: #3b82f6;
-      /* Blue color for the progress */
-      height: 0;
-      /* Start with height 0 */
-      width: 100%;
-      /* Full width */
-      transition: height 1s ease;
-      /* Smooth transition for height change */
-    }
-
-    .circle {
-      transition: background-color 0.5s ease;
-      /* Smooth transition for color change */
-    }
-
-    /* Animation for text size increase */
-    .text-increase {
-      transition: font-size 0.5s, color 0.5s;
-    }
-  </style>
 
 
 </head>

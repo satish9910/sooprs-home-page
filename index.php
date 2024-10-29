@@ -463,11 +463,11 @@
       </div>
       <div>
       <div class="circle-background"></div>
-<div class="circle pulse blue center">
+     <div class="circle pulse blue center">
   <div class="pluse-container place-content-center items-center">
     <img src="images/logo.png" alt="logo" width="80px">
   </div>
-</div>
+   </div>
 
       </div>
       <!-- Right Column -->

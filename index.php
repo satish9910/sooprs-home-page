@@ -139,11 +139,10 @@
     </div>
   </div>
 </section>
-
-<section class="container w-[90vw] h-auto lg:h-[547px] rounded-lg mx-auto p-8 bg-gray-900 text-white bg-cover bg-center mb-10 mt-10"
-  style="background-image: url('images/bg-top-compressed-_2_.png');">
+<section class="container w-[90vw] h-auto lg:h-[547px] rounded-lg mx-auto p-2 sm:p-8 bg-gray-900 text-white bg-cover bg-center mb-10 mt-10 "
+  style="background-image: url('images/bg-top-dark.png');">
   <!-- Header Section -->
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-opacity-75 p-6 rounded-md">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-opacity-75 p-1 sm:p-6 rounded-md">
     <div>
       <h2 class="text-4xl font-bold leading-tight">
         Explore the Latest <br />Innovations
@@ -152,17 +151,16 @@
     </div>
     
   </div>
-
-
-
+  
+  <button class="ml-0 sm:ml-6 mt-2 sm:mt-0 bg-blue-500 text-white text-md px-4 py-2 font-semibold rounded-lg " style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Top Projects</button>
   <div id="projects-slider" class="slider-container relative mx-auto py-5 px-1 w-full mt-20">
     
     <button id="sliderPrevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2  bg-white rounded-[8px]  h-[150px] w-10 flex items-center justify-center text-white  z-10">
       <span class=" p-1 rounded-[46.73px]">
-        <img src="images/leftArrow.png" alt="" width="100%" class="hidden sm:block">
+        <img src="images/leftArrow.png" alt="" width="100%" >
       </span>
     </button>
-    <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0 sm:hidden">
+    <!-- <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0 sm:hidden">
         <div class="flex justify-between ">
           <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Machine Learning Development</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
@@ -172,15 +170,15 @@
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">Machine Learning</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">+2</span>
         </div>
-      </div>
-    <div class="slider flex overflow-x-auto space-x-4 px-4 sm:px-8 lg:space-x-6 hidden sm:block">
+      </div> -->
+    <div class="slider flex overflow-x-auto space-x-4 sm:px-8 lg:space-x-6 flex">
       <!-- Card 1 -->
-      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
-        <div class="flex justify-between ">
+      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10  min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
+        <div class="sm:flex justify-between ">
           <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Machine Learning Development</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
         </div>
-        <div class="tags flex space-x-2">
+        <div class="tags flex space-x-2 hidden sm:block">
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">AI Algorithms</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">Machine Learning</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">+2</span>
@@ -188,12 +186,12 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
-        <div class="flex justify-between">
-          <h3 class="text-lg font-semibold text-gray-900 mb-2">Data Analysis Project</h3>
+      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 h-[128px] sm:h-full min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
+        <div class="sm:flex justify-between">
+          <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Data Analysis Project</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$75</strong></p>
         </div>
-        <div class="tags flex space-x-2">
+        <div class="tags flex space-x-2 hidden sm:block">
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">Data Science</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">Statistics</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">+1</span>
@@ -201,48 +199,48 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
-        <div class="flex justify-between">
-          <h3 class="text-lg font-semibold text-gray-900 mb-2">AI Consultation</h3>
+      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 h-[128px] sm:h-full min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
+        <div class="sm:flex justify-between">
+          <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">AI Consultation</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$100</strong></p>
         </div>
-        <div class="tags flex space-x-2">
+        <div class="tags flex space-x-2 hidden sm:block">
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">Consultation</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">AI Insights</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-xs sm:text-sm">+3</span>
         </div>
       </div>
 
-      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
-        <div class="flex justify-between">
-          <h3 class="text-lg font-semibold text-gray-900 mb-2">Natural Language Processing</h3>
+      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 h-[128px] sm:h-full min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
+        <div class="sm:flex justify-between">
+          <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Natural Language Processing</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$120</strong></p>
         </div>
-        <div class="tags flex space-x-2">
+        <div class="tags flex space-x-2 hidden sm:block">
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">NLP</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Text Analysis</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+2</span>
         </div>
       </div>
 
-      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
-        <div class="flex justify-between">
-          <h3 class="text-lg font-semibold text-gray-900 mb-2">Computer Vision Development</h3>
+      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 h-[128px] sm:h-full min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
+        <div class="sm:flex justify-between">
+          <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Computer Vision Development</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$150</strong></p>
         </div>
-        <div class="tags flex space-x-2">
+        <div class="tags flex space-x-2 hidden sm:block">
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Image Processing</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Computer Vision</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+1</span>
         </div>
       </div>
 
-      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
-        <div class="flex justify-between">
-          <h3 class="text-lg font-semibold text-gray-900 mb-2">Recommender System</h3>
+      <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 h-[128px] sm:h-full min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
+        <div class="sm:flex justify-between">
+          <h3 class="text-md sm:text-lg font-semibold text-gray-900 mb-2">Recommender System</h3>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$130</strong></p>
         </div>
-        <div class="tags flex space-x-2">
+        <div class="tags flex space-x-2 hidden sm:block">
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Recommendation</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Machine Learning</span>
           <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+2</span>
@@ -253,7 +251,7 @@
     <div class="bg-white">
       <button id="sliderNextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2  bg-white rounded-[8px]  w-10 h-[150px]  flex items-center justify-center text-white z-10">
         <span class=" p-1 rounded-[46.73px]">
-          <img src="images/Frame 87.png" alt="" width="100%" class="hidden sm:block">
+          <img src="images/Frame 87.png" alt="" width="100%" >
         </span>
       </button>
     </div>
@@ -329,107 +327,88 @@
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
       <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
       <div class="p-4">
-        <div class="flex justify-between items-center mb-5">
+        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5">
           <div>
-            <h3 class="font-semibold text-lg">Marcus Lilly</h3>
+            <h3 class="font-semibold text-md sm:text-lg">Marcus Lilly</h3>
             <p>UX Designer</p>
           </div>
           <div>
-            <p class="text-gray-600">From $50/hr</p>
+            <p class="text-gray-600 hidden sm:block">From $50/hr</p>
             <p class="text-yellow-500">⭐ 5.0</p>
           </div>
         </div>
 
-        <p class="text-gray-500 text-sm">AI Algorithms</p>
+        <p class="text-gray-500 text-sm hidden sm:block">AI Algorithms</p>
       </div>
     </div>
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
       <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
       <div class="p-4">
-        <div class="flex justify-between items-center mb-5">
+        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5">
           <div>
-            <h3 class="font-semibold text-lg">Marcus Lilly</h3>
+            <h3 class="font-semibold text-md sm:text-lg">Marcus Lilly</h3>
             <p>UX Designer</p>
           </div>
           <div>
-            <p class="text-gray-600">From $50/hr</p>
+            <p class="text-gray-600 hidden sm:block">From $50/hr</p>
             <p class="text-yellow-500">⭐ 5.0</p>
           </div>
         </div>
 
-        <p class="text-gray-500 text-sm">AI Algorithms</p>
+        <p class="text-gray-500 text-sm hidden sm:block">AI Algorithms</p>
       </div>
     </div>
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
       <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
       <div class="p-4">
-        <div class="flex justify-between items-center mb-5">
+        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5">
           <div>
-            <h3 class="font-semibold text-lg">Marcus Lilly</h3>
+            <h3 class="font-semibold text-md sm:text-lg">Marcus Lilly</h3>
             <p>UX Designer</p>
           </div>
           <div>
-            <p class="text-gray-600">From $50/hr</p>
+            <p class="text-gray-600 hidden sm:block">From $50/hr</p>
             <p class="text-yellow-500">⭐ 5.0</p>
           </div>
         </div>
 
-        <p class="text-gray-500 text-sm">AI Algorithms</p>
+        <p class="text-gray-500 text-sm hidden sm:block">AI Algorithms</p>
       </div>
     </div>
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
       <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
       <div class="p-4">
-        <div class="flex justify-between items-center mb-5">
+        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5">
           <div>
-            <h3 class="font-semibold text-lg">Marcus Lilly</h3>
+            <h3 class="font-semibold text-md sm:text-lg">Marcus Lilly</h3>
             <p>UX Designer</p>
           </div>
           <div>
-            <p class="text-gray-600">From $50/hr</p>
+            <p class="text-gray-600 hidden sm:block">From $50/hr</p>
             <p class="text-yellow-500">⭐ 5.0</p>
           </div>
         </div>
 
-        <p class="text-gray-500 text-sm">AI Algorithms</p>
+        <p class="text-gray-500 text-sm hidden sm:block">AI Algorithms</p>
       </div>
     </div>
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
       <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
       <div class="p-4">
-        <div class="flex justify-between items-center mb-5">
+        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5">
           <div>
-            <h3 class="font-semibold text-lg">Marcus Lilly</h3>
+            <h3 class="font-semibold text-md sm:text-lg">Marcus Lilly</h3>
             <p>UX Designer</p>
           </div>
           <div>
-            <p class="text-gray-600">From $50/hr</p>
+            <p class="text-gray-600 hidden sm:block">From $50/hr</p>
             <p class="text-yellow-500">⭐ 5.0</p>
           </div>
         </div>
 
-        <p class="text-gray-500 text-sm">AI Algorithms</p>
+        <p class="text-gray-500 text-sm hidden sm:block">AI Algorithms</p>
       </div>
     </div>
-    <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
-      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
-      <div class="p-4">
-        <div class="flex justify-between items-center mb-5">
-          <div>
-            <h3 class="font-semibold text-lg">Marcus Lilly</h3>
-            <p>UX Designer</p>
-          </div>
-          <div>
-            <p class="text-gray-600">From $50/hr</p>
-            <p class="text-yellow-500">⭐ 5.0</p>
-          </div>
-        </div>
-
-        <p class="text-gray-500 text-sm">AI Algorithms</p>
-      </div>
-    </div>
-
-
   </div>
   <!-- Custom Next Button -->
   <div class="bg-white">
@@ -448,7 +427,7 @@
     <!-- Main Container -->
     <div class="relative flex flex-col md:flex-row justify-between items-center">
       <!-- Left Column -->
-      <div class="space-y-6 mt-8">
+      <div class="space-y-6 mt-8 ml-4 sm:ml-0">
         <img src="images/left.png" alt="" class="absolute h-[530px] left-[445px] top-[85px] hidden md:block">
         <div class="  border-gray-300 p-0 px-3  md:p-6  max-w-md relative">
           <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-14 md:-top-5 left-4 md:left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Clients</span>
@@ -493,10 +472,10 @@
 
       </div>
       <!-- Right Column -->
-      <div class="space-y-6 mt-8">
+      <div class="space-y-6 mt-8 ml-4 sm:ml-0">
       <img src="images/bottom.png" alt="" class="  left-[445px] top-[95px] mt-6 md:hidden">
         <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[60px] hidden md:block">
-        <span class="bg-blue-500 text-white  text-md font-semibold px-2 mx-2 py-2 rounded-lg absolute md:hidden block  md:-top-14 md:-top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
+        <span class="bg-blue-500 text-white  text-md font-semibold px-2 mx-2 py-2 rounded-lg absolute md:hidden block  md:-top-14 md:-top-5 left-6" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
         <div class=" px-2 pt-12 md:p-0  md:p-6  max-w-md relative">
           <span class="bg-blue-500  text-white text-md font-semibold px-3 py-2 rounded-lg absolute hidden md:block  md:-top-14 md:-top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
           <div class="flex items-center gap-3">

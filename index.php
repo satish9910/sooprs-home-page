@@ -307,8 +307,10 @@
 <!-- Freelancers Slider Section  -->
 
 <div class="wrapper w-[90vw] mx-auto relative">
-
+  <div class="flex justify-between items-center">
   <h2 class="text-4xl font-bold text-[#444444] mb-8 mt-8">Top Freelancers</h2>
+  <p>View all</p>
+  </div>
   <!-- Custom Previous Button -->
   <button id="prevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white border  w-10 h-[100px] rounded flex items-center justify-center z-10">
   <span class=" p-1 rounded-[46.73px]">
@@ -458,7 +460,7 @@
           Connect with skilled freelancers worldwide to find the perfect expertise.
         </div>
       </div>
-      <img src="images/top.png" alt="" class="w-3/4 left-[445px] top-[95px] mt-6 md:hidden">
+      <img src="images/top.png" alt="" class=" left-[445px] top-[95px] mt-6 md:hidden">
       <div>
         <div class="circle-background"></div>
         <div class="circle pulse blue center">
@@ -470,22 +472,23 @@
       </div>
       <!-- Right Column -->
       <div class="space-y-6 mt-8">
-      <img src="images/bottom.png" alt="" class="w-3/4 left-[445px] top-[95px] mt-6 md:hidden">
-        <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[85px] hidden md:block">
-        <div class=" p-0  md:p-6   max-w-md relative">
-          <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-14 md:-top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
+      <img src="images/bottom.png" alt="" class="  left-[445px] top-[95px] mt-6 md:hidden">
+        <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[60px] hidden md:block">
+        <span class="bg-blue-500 text-white  text-md font-semibold px-2 mx-2 py-2 rounded-lg absolute md:hidden block  md:-top-14 md:-top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
+        <div class=" px-2 pt-12 md:p-0  md:p-6  max-w-md relative">
+          <span class="bg-blue-500  text-white text-md font-semibold px-3 py-2 rounded-lg absolute hidden md:block  md:-top-14 md:-top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
           Track progress and communicate easily with our user-friendly project tools.
         </div>
-        <div class="border-gray-300  p-0  md:p-6   max-w-md">
+        <div class="border-gray-300 px-2  p-0  md:p-6  max-w-md">
           Track progress and communicate easily with our user-friendly project tools.
         </div>
-        <div class="border-gray-300  p-0  md:p-6   max-w-md">
+        <div class="border-gray-300 px-2  p-0  md:p-6   max-w-md">
           Track progress and communicate easily with our user-friendly project tools.
         </div>
-        <div class="border-gray-300  p-0  md:p-6   max-w-md">
+        <div class="border-gray-300 px-2 p-0  md:p-6   max-w-md">
           Track progress and communicate easily with our user-friendly project tools.
         </div>
-        <div class="border-gray-300  p-0  md:p-6   max-w-md">
+        <div class="border-gray-300 px-2  p-0  md:p-6   max-w-md">
           Track progress and communicate easily with our user-friendly project tools.
         </div>
       </div>

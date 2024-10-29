@@ -32,7 +32,7 @@
 
 <body class="bg-gray-50">
   <nav class="bg-white p-2 px-[60px] fixed   w-full z-20">
-    <div class="container mx-auto flex items-center justify-center">
+    <div class="container mx-auto flex items-center justify-center sm:justify-between">
       <!-- Hamburger Menu for Mobile -->
       <button id="menu-toggle" class="lg:hidden text-gray-800 focus:outline-none mr-4 absolute left-10">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -41,7 +41,7 @@
       </button>
 
       <!-- Logo - Centered in Mobile -->
-      <div class="grid place-content-center gap-8">
+      <div class="grid place-content-center sm:flex sm:items-center gap-8">
           <img src="images/sooprs_logo.png" alt="Sooprs Logo" class="h-8 lg:h-12 mx-auto lg:mx-0">
 
         <!-- Desktop Links -->
@@ -62,8 +62,8 @@
 
       <!-- Right Side - Desktop Buttons -->
       <div class="hidden lg:flex items-center space-x-4">
-        <a href="#" class="text-lg font-[400] text-gray-800 hover:text-blue-500 link" onclick="setActive(this)">Post a Project</a>
-        <button class="border-2 border-blue-500 px-4 py-1 rounded-full text-blue-500 hover:bg-blue-500 hover:text-white transition">Join Now</button>
+        <a href="#" class="text-lg font-[400] text-gray-800 hover:text-[#0068FF] link" onclick="setActive(this)">Post a Project</a>
+        <button class="border-2 border-[#0068FF] px-4 py-1 rounded-md text-[#0068FF] hover:bg-[#0068FF] hover:text-white transition">Join Now</button>
       </div>
     </div>
   </nav>

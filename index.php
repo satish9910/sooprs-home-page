@@ -85,55 +85,55 @@
 <section>
   <div class="sm:flex sm:flex-wrap justify-center gap-1 sm:gap-5 grid grid-cols-3">
     <!-- Card for Artificial Intelligence -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] ">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:cursor">
       <img src="images/ai.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
       <h3 class="text-[14px] font-[500] text-[#444444] text-start hover:text-[#0068ff]">Artificial Intelligence</h3>
     </div>
 
     <!-- Card for Graphics & Design -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff] hover:cursor">
       <img src="images/Graphic Design.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
       <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Graphics & Design</h3>
     </div>
 
     <!-- Card for Digital Marketing -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff] hover:cursor">
       <img src="images/Graphic Design.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
       <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Digital Marketing</h3>
     </div>
 
     <!-- Card for Writing & Translation -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff] hover:cursor">
       <img src="images/Writing.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
       <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Writing & Translation</h3>
     </div>
 
     <!-- Card for Video & Animation -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff] hover:cursor">
       <img src="images/animation.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
       <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Video & Animation</h3>
     </div>
 
     <!-- Card for Music & Audio -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff] hover:cursor">
       <img src="images/Music and Audio.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
       <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Music & Audio</h3>
     </div>
 
     <!-- Card for Programming & Tech -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff] hover:cursor">
       <img src="images/coding.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
       <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Programming & Tech</h3>
     </div>
 
     <!-- Card for Business -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff] hover:cursor">
       <img src="images/Business.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
       <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Business</h3>
     </div>
 
     <!-- Card for Lifestyle -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff] hover:cursor">
       <img src="images/lifestyle.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
       <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Lifestyle</h3>
     </div>

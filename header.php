@@ -58,6 +58,161 @@
         .text-increase {
             transition: font-size 0.5s, color 0.5s;
         }
+
+        *{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.marquee-container {
+  position: relative;
+  height: 100px; /* Set the height you want for the visible area */
+  width: 100%;
+  overflow-y: hidden;
+}
+
+@keyframes marquee-up {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+@keyframes marquee-down {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+@keyframes marquee-left{
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.animate-marquee-down {
+  animation: marquee-down 10s linear infinite;
+  position: absolute;
+  width: 50%;
+  top: 140vh;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.animate-marquee-up {
+  animation: marquee-up 10s linear infinite;
+  position: absolute;
+  width: 50%;
+  top: 0;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.animate-marquee-left {
+  animation: marquee-left 5s linear infinite;
+  position: absolute;
+  /* width: 50%; */
+  bottom: 10;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.gradient-text {
+  font-size: 3.75rem; /* Equivalent to text-6xl in Tailwind */
+  font-weight: bold;
+  background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.styled-div {
+  width: 300px;
+  height: 300px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.gradient-bg{
+  background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);
+}
+
+.highlight {
+  color: #0068FF;
+}
+
+.active-text {
+  color: #1D4ED8; /* Tailwind blue-600 */
+  font-weight: bold;
+}
+
+
+
+
+.blue {
+  background: #0068FF;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transform: translateY(15%);
+  position: relative;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px #0000001a;
+  z-index: 2;
+  
+}
+
+.pulse {
+  animation: pulse-animation 1.5s infinite;
+}
+
+ @keyframes pulse-animation {
+  100% {
+    box-shadow: 0 0 0 40px #DCEBFF;
+    
+  }
+}  
+
+
+
+.pluse-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.master {
+  color: black;
+  float: right;
+}
+
+@media (max-width: 900px) {
+  .master {
+    display: none;
+  }
+}
+
+
   </style>
   
 

@@ -1,29 +1,43 @@
 <?php include "header.php"; ?>
 
-<!-- Hero Section Container -->
-<section class="grid grid-cols-3 bg-[#FDFDFD] p-10 w-100 h-[90vh]">
-  <!-- Left Side - Text and Buttons -->
-  <div class="flex-1 space-y-6 flex flex-col justify-center px-4 col-span-2 relative overflow-hidden pl-[120px]">
+<section class="grid lg:grid-cols-3 bg-[#FDFDFD] p-0 sm:p-10 w-full h-[70vh] lg:h-[90vh]">
+  <div class="flex-1 space-y-6 flex flex-col justify-center px-2 lg:col-span-2 relative overflow-hidden lg:pl-[120px] text-center sm:text-left">
     <div class="mb-2 z-10">
-      <h1 class="text-5xl font-bold">Connect, Collaborate</h1>
-      <h1 class="text-6xl font-bold gradient-text">Deliver with Sooprs</h1>
+      <h1 class="text-2xl lg:text-5xl font-semibold sm:font-semibold">Connect, Collaborate</h1>
+      <h1 class="text-3xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">Deliver with Sooprs</h1>
     </div>
-    <p class="text-gray-600 font-semibold mb-2 z-10">“Hire Expert Professionals from the leading Freelance marketplace”</p>
-    <div class="space-x-4 z-10">
-      <button class="bg-[#0068FF] border-[1.5px] border-[#0068FF] text-white px-6 py-2 rounded">Hire Freelancer</button>
-      <button class="bg-white border-[1.5px] border-[#0068FF] text-[#0068FF] px-6 py-2 rounded">Earn as Freelancing</button>
+    <div>
+      <div class="animate-marquee-left flex items-center gap-4 sm:hidden">
+        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 1">
+        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 2">
+        <img src="images/Rectangle-3697-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 3">
+        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 4">
+        <img src="images/Rectangle-3697-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 5">
+        <img src="images/Rectangle-3584-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 6">
+        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 7">
+        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 8">
+        <img src="images/Rectangle-3697-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 9">
+        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 10">
+        <img src="images/Rectangle-3697-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 11">
+        <img src="images/Rectangle-3584-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 12">
+      </div>
     </div>
-    <!-- Background graphic divs with styled-div class -->
-    <div class="-z-3 absolute left-[-240px] w-full h-full top-[100px] flex items-center justify-center">
-      <img src="images/Graphic.png" alt="">
+
+    <p class="text-gray-600 font-semibold mb-2 z-10 text-sm sm:text-lg">“Hire Expert Professionals from the leading Freelance marketplace”</p>
+    <div class="flex flex-col items-center lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0 lg:items-start lg:justify-start z-10">
+      <button class="bg-[#0068FF] border-[1.5px] border-[#0068FF] text-white px-6 py-2 rounded w-fit">Hire Freelancer</button>
+      <button class="bg-white border-[1.5px] border-[#0068FF] text-[#0068FF] px-6 py-2 rounded w-fit">Earn as Freelancing</button>
+    </div>
+
+    <div class="hidden lg:flex -z-3 absolute left-[-240px] w-full h-full top-[100px] items-center justify-center">
+      <img src="images/Graphic.png" alt="Background Graphic">
     </div>
     <div class="z-10 relative top-[90px]">
-      <p class="text-gray-400 font-bold text-xl">Trusted By</p>
-      <div class="flex gap-8 mt-5">
-        <img src="images/e.png" alt="">
-        <img src="images/tech.png" alt="">
-        <!-- <img src="images/Graphic.png" alt=""> -->
-        <!-- <img src="images/lorrigo.png" alt="" width="80px"> -->
+      <p class="text-gray-400 font-bold text-lg sm:text-xl">Trusted By</p>
+      <div class="flex gap-8 mt-5 justify-center sm:justify-start">
+        <img src="images/e.png" alt="Ezi">
+        <img src="images/tech.png" alt="Techninza">
+        <img src="images/certigo.png" alt="Certigo Gas">
       </div>
     </div>
   </div>
@@ -31,7 +45,7 @@
 
 
   <!-- Right Side - Profile Marquee Animation -->
-  <div class="relative flex space-x-4 overflow-hidden px-4 col-span-1">
+  <div class="relative flex space-x-4 overflow-hidden px-4 col-span-1 hidden sm:flex">
     <!-- Left Marquee -->
     <div class="flex-1 ">
       <div class="animate-marquee-up flex flex-col items-center">
@@ -56,7 +70,7 @@
         <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 2">
         <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 3">
         <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 4">
-        <img src="images/3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 5">
+        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 5">
         <img src="images/Rectangle-3584-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 6">
         <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 7">
         <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 8">
@@ -70,65 +84,65 @@
 </section>
 
 <section>
-<div class="flex flex-wrap justify-center gap-5">
+  <div class="sm:flex sm:flex-wrap justify-center gap-1 sm:gap-5 grid grid-cols-3">
     <!-- Card for Artificial Intelligence -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2">
-        <img src="images/ai.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-        <h3 class=" text-[14px] font-[500] text-[#444444] text-start">Artificial Intelligence</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
+      <img src="images/ai.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
+      <h3 class=" text-[14px] font-[500] text-[#444444] text-start">Artificial Intelligence</h3>
     </div>
-    
+
     <!-- Card for Graphics & Design -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2 ">
-        <img src="images/Graphic Design.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-        <h3 class="text-sm font-semibold text-[#444444] text-start">Graphics & Design</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 ">
+      <img src="images/Graphic Design.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
+      <h3 class="text-sm font-semibold text-[#444444] text-start">Graphics & Design</h3>
     </div>
 
     <!-- Card for Digital Marketing -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2">
-        <img src="images/Graphic Design.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-        <h3 class="text-sm font-semibold text-[#444444] text-start">Digital Marketing</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
+      <img src="images/Graphic Design.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
+      <h3 class="text-sm font-semibold text-[#444444] text-start">Digital Marketing</h3>
     </div>
 
     <!-- Card for Writing & Translation -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2">
-        <img src="images/Writing.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-        <h3 class="text-sm font-semibold text-[#444444] text-start">Writing & Translation</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
+      <img src="images/Writing.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
+      <h3 class="text-sm font-semibold text-[#444444] text-start">Writing & Translation</h3>
     </div>
 
     <!-- Card for Video & Animation -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2">
-        <img src="images/animation.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-        <h3 class="text-sm font-semibold text-[#444444] text-start">Video & Animation</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
+      <img src="images/animation.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
+      <h3 class="text-sm font-semibold text-[#444444] text-start">Video & Animation</h3>
     </div>
 
     <!-- Card for Music & Audio -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2">
-        <img src="images/Music and Audio.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-        <h3 class="text-sm font-semibold text-[#444444] text-start">Music & Audio</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
+      <img src="images/Music and Audio.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
+      <h3 class="text-sm font-semibold text-[#444444] text-start">Music & Audio</h3>
     </div>
 
     <!-- Card for Programming & Tech -->
-    <div class="flex flex-col iitems-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2">
-        <img src="images/coding.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-        <h3 class="text-sm font-semibold text-[#444444] text-start">Programming & Tech</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5 p-4 sm:p-2">
+      <img src="images/coding.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
+      <h3 class="text-sm font-semibold text-[#444444] text-start">Programming & Tech</h3>
     </div>
 
     <!-- Card for Business -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5  p-2">
-        <img src="images/BUsiness.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-        <h3 class="text-sm font-semibold text-[#444444] text-start">Business</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5  p-4 sm:p-2">
+      <img src="images/BUsiness.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
+      <h3 class="text-sm font-semibold text-[#444444] text-start">Business</h3>
     </div>
 
     <!-- Card for Lifestyle -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md  gap-5 p-2">
-        <img src="images/lifestyle.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-        <h3 class="text-sm font-semibold text-[#444444] text-start">Lifestyle</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex  gap-3 sm:gap-5 p-4 sm:p-2">
+      <img src="images/lifestyle.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
+      <h3 class="text-sm font-semibold text-[#444444] text-start">Lifestyle</h3>
     </div>
-</div>
+  </div>
 
 </section>
-<section class="container w-[90vw] h-[547px] rounded-lg mx-auto p-8 bg-gray-900 text-white bg-cover bg-center mb-10 mt-10" 
-         style="background-image: url('images/bg-top-compressed-_2_.png');">
+<section class="container w-[90vw] h-auto lg:h-[547px] rounded-lg mx-auto p-8 bg-gray-900 text-white bg-cover bg-center mb-10 mt-10"
+  style="background-image: url('images/bg-top-compressed-_2_.png');">
   <!-- Header Section -->
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-opacity-75 p-6 rounded-md">
     <div>
@@ -139,137 +153,128 @@
     </div>
   </div>
 
-  <!-- Subtitle -->
-  <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 bg-opacity-75 x p-6 rounded-md">
-    <div>
-      <p class="text-lg">
-        Work with the largest network of independent professionals and get things done—from quick turnarounds to big transformations.
-      </p>
-    </div>
-  </div> -->
-
-  <!-- Cards Section -->
- 
-
   <div id="projects-slider" class="slider-container mx-auto py-5 px-1 lg:w-100 mt-20">
-  <div class="slider">
-    <!-- Card 1 -->
-    <div class="card bg-white rounded-lg shadow-lg p-6 text-left mx-2">
-      <h3 class="text-lg font-semibold text-gray-900 mb-2">Machine Learning Development</h3>
-      <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
-      <div class="tags flex space-x-2">
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">AI Algorithms</span>
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Machine Learning</span>
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+2</span>
+    <div class="slider">
+      <!-- Card 1 -->
+      <div class="card bg-white rounded-lg shadow-lg p-6 text-left mx-2">
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Machine Learning Development</h3>
+        <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
+        <div class="tags flex space-x-2">
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">AI Algorithms</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Machine Learning</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+2</span>
+        </div>
       </div>
-    </div>
-    
-    <!-- Card 2 -->
-    <div class="card bg-white rounded-lg shadow-lg p-6 text-left mx-2">
-      <h3 class="text-lg font-semibold text-gray-900 mb-2">Data Analysis Project</h3>
-      <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$75</strong></p>
-      <div class="tags flex space-x-2">
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Data Science</span>
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Statistics</span>
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+1</span>
-      </div>
-    </div>
-    
-    <!-- Card 3 -->
-    <div class="card bg-white rounded-lg shadow-lg p-6 text-left mx-2">
-      <h3 class="text-lg font-semibold text-gray-900 mb-2">AI Consultation</h3>
-      <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$100</strong></p>
-      <div class="tags flex space-x-2">
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Consultation</span>
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">AI Insights</span>
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+3</span>
-      </div>
-    </div>
-    
-    <!-- Card 4 -->
-    <div class="card bg-white rounded-lg shadow-lg p-6 text-left mx-2">
-      <h3 class="text-lg font-semibold text-gray-900 mb-2">Natural Language Processing</h3>
-      <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$120</strong></p>
-      <div class="tags flex space-x-2">
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">NLP</span>
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Text Analysis</span>
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+2</span>
-      </div>
-    </div>
 
-    <!-- Card 5 -->
-    <div class="card bg-white rounded-lg shadow-lg p-6 text-left mx-2">
-      <h3 class="text-lg font-semibold text-gray-900 mb-2">Computer Vision Development</h3>
-      <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$150</strong></p>
-      <div class="tags flex space-x-2">
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Image Processing</span>
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Computer Vision</span>
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+1</span>
+      <!-- Card 2 -->
+      <div class="card bg-white rounded-lg shadow-lg p-6 text-left mx-2">
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Data Analysis Project</h3>
+        <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$75</strong></p>
+        <div class="tags flex space-x-2">
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Data Science</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Statistics</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+1</span>
+        </div>
       </div>
-    </div>
 
-    <!-- Card 6 -->
-    <div class="card bg-white rounded-lg shadow-lg p-6 text-left mx-2">
-      <h3 class="text-lg font-semibold text-gray-900 mb-2">Recommender System</h3>
-      <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$130</strong></p>
-      <div class="tags flex space-x-2">
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Recommendation</span>
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Machine Learning</span>
-        <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+2</span>
+      <!-- Card 3 -->
+      <div class="card bg-white rounded-lg shadow-lg p-6 text-left mx-2">
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">AI Consultation</h3>
+        <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$100</strong></p>
+        <div class="tags flex space-x-2">
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Consultation</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">AI Insights</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+3</span>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card bg-white rounded-lg shadow-lg p-6 text-left mx-2">
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Natural Language Processing</h3>
+        <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$120</strong></p>
+        <div class="tags flex space-x-2">
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">NLP</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Text Analysis</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+2</span>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card bg-white rounded-lg shadow-lg p-6 text-left mx-2">
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Computer Vision Development</h3>
+        <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$150</strong></p>
+        <div class="tags flex space-x-2">
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Image Processing</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Computer Vision</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+1</span>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card bg-white rounded-lg shadow-lg p-6 text-left mx-2">
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">Recommender System</h3>
+        <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$130</strong></p>
+        <div class="tags flex space-x-2">
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Recommendation</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">Machine Learning</span>
+          <span class="bg-gray-200 text-gray-600 rounded-full px-3 py-1 text-sm">+2</span>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 
 </section>
 
-<section class="bg-blue-50 flex justify-center items-center min-h-screen">
-  <div class="max-w-[1350px] mx-auto grid md:grid-cols-2 gap-8 p-6">
-    <!-- Steps Section -->
-    <div>
-      <h2 class="text-4xl font-bold text-[#444444] mb-8">How it Works</h2>
-      <div class="space-y-14">
-        <div class="flex items-start space-x-4 py-5 px-10 bg-white rounded-lg shadow-md relative w-[95%]">
-          <span class="bg-blue-500 text-white text-sm font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 1</span>
+<section class="bg-blue-50 flex justify-center items-center min-h-screen mb-10">
+  <div class="max-w-[1350px] mx-auto grid gap-8 p-4 md:p-6 md:grid-cols-2">
+
+    <div class="order-2 md:order-1">
+      <h2 class="text-3xl md:text-4xl font-bold text-[#444444] mb-6 md:mb-8">How it Works</h2>
+      <div class="space-y-8 md:space-y-14">
+        <div class="flex items-start space-x-4 py-5 px-6 md:px-10 bg-white rounded-lg shadow-md relative w-full md:w-[95%]">
+          <span class="bg-blue-500 text-white text-xs md:text-sm font-semibold px-2 md:px-3 py-1 md:py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 1</span>
           <div>
-            <h3 class="text-xl font-semibold ">Post Your Project</h3>
-            <p class="mt-1">Easily create your project description with AI in seconds by simply entering your requirements!</p>
+            <h3 class="text-lg md:text-xl font-semibold">Post Your Project</h3>
+            <p class="mt-1 text-sm md:text-base">Easily create your project description with AI in seconds by simply entering your requirements!</p>
           </div>
         </div>
-        <div class="flex items-start space-x-4 py-5 px-10 bg-white rounded-lg shadow-md relative w-[95%] ml-12">
-          <span class="bg-blue-500 text-white text-sm font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 2</span>
+        <div class="flex items-start space-x-4 py-5 px-6 md:px-10 bg-white rounded-lg shadow-md relative w-full md:w-[95%] md:ml-12">
+          <span class="bg-blue-500 text-white text-xs md:text-sm font-semibold px-2 md:px-3 py-1 md:py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 2</span>
           <div>
-            <h3 class="text-xl font-semibold ">Set Your Budget & Go Live</h3>
-            <p class="mt-1">Choose a budget, post, and watch freelancers bid on your project instantly!</p>
+            <h3 class="text-lg md:text-xl font-semibold">Set Your Budget & Go Live</h3>
+            <p class="mt-1 text-sm md:text-base">Choose a budget, post, and watch freelancers bid on your project instantly!</p>
           </div>
         </div>
-        <div class="flex items-start space-x-4 py-5 px-10 bg-white rounded-lg shadow-md relative w-[95%] ml-6">
-          <span class="bg-blue-500 text-white text-sm font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 3</span>
+        <div class="flex items-start space-x-4 py-5 px-6 md:px-10 bg-white rounded-lg shadow-md relative w-full md:w-[95%] md:ml-6">
+          <span class="bg-blue-500 text-white text-xs md:text-sm font-semibold px-2 md:px-3 py-1 md:py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 3</span>
           <div>
-            <h3 class="text-xl font-semibold ">Choose Your Freelancer</h3>
-            <p class="mt-1">Select the perfect freelancer from a pool of talented professionals for your project!</p>
+            <h3 class="text-lg md:text-xl font-semibold">Choose Your Freelancer</h3>
+            <p class="mt-1 text-sm md:text-base">Select the perfect freelancer from a pool of talented professionals for your project!</p>
           </div>
         </div>
-        <div class="flex items-start space-x-4 py-5 px-10 bg-white rounded-lg shadow-md relative w-[95%] ml-20">
-          <span class="bg-blue-500 text-white text-sm font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 4</span>
+        <div class="flex items-start space-x-4 py-5 px-6 md:px-10 bg-white rounded-lg shadow-md relative w-full md:w-[95%] md:ml-20">
+          <span class="bg-blue-500 text-white text-xs md:text-sm font-semibold px-2 md:px-3 py-1 md:py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 4</span>
           <div>
-            <h3 class="text-xl font-semibold ">Manage with Ease</h3>
-            <p class="mt-1">Utilize our Project Management tool for seamless timelines and hassle-free payment processing.</p>
+            <h3 class="text-lg md:text-xl font-semibold">Manage with Ease</h3>
+            <p class="mt-1 text-sm md:text-base">Utilize our Project Management tool for seamless timelines and hassle-free payment processing.</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="flex justify-center items-center">
-      <div class="relative w-full  h-[90vh] bg-cover bg-center rounded-lg ml-14 shadow-md" style="background-image: url('images/blog-banner-04-1.png')">
+    <div class="flex justify-center items-center order-1 md:order-2 ml-0 sm:ml-14">
+      <div class="relative w-full h-[40vh] md:h-[90vh] bg-cover bg-center rounded-lg shadow-md" style="background-image: url('images/blog-banner-04-1.png')">
       </div>
     </div>
+
   </div>
 </section>
 
 
- <!-- Freelancers Slider Section  -->
+
+
+<!-- Freelancers Slider Section  -->
 
  <div class="wrapper w-[90vw] mx-auto relative">
   
@@ -278,7 +283,7 @@
     <button id="prevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white border  w-10 h-[100px] rounded flex items-center justify-center z-10">
     <span class="bg-blue-500 p-2 rounded-[46.73px]">
       <
-  </span>
+        </span>
   </button>
   <div class="my-slider flex mb-5 mt-5 ">
     <!-- Card 1 -->
@@ -299,7 +304,7 @@
         <p class="text-gray-500 text-sm">AI Algorithms</p>
       </div>
     </div>
-    
+
     <!-- Card 2 -->
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 ">
       <img src="images/Frame 101.png" alt="Freelancer 2" class="w-full h-100 object-cover rounded-t-lg">
@@ -310,7 +315,7 @@
         <p class="text-gray-500 text-sm">Web Development</p>
       </div>
     </div>
-    
+
     <!-- Card 3 -->
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 ">
       <img src="images/Frame 104.png" alt="Freelancer 3" class="w-full h-100 object-cover rounded-t-lg">
@@ -321,7 +326,7 @@
         <p class="text-gray-500 text-sm">Graphic Design</p>
       </div>
     </div>
-    
+
     <!-- Card 4 -->
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 ">
       <img src="images/Frame 107.png" alt="Freelancer 4" class="w-full h-100 object-cover rounded-t-lg">
@@ -356,21 +361,22 @@
     </div>
   </div>
   <!-- Custom Next Button -->
-   <div class="bg-white">
-<button id="nextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white  border   w-10 h-[100px] rounded flex items-center justify-center">
-  <span class=" p-1 rounded-[46.73px]">
-    <img src="images/Frame 87.png" alt="" width="100%">
-  </span>
-    
-</button>
-</div>
+  <div class="bg-white">
+    <button id="nextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white  border   w-10 h-[100px] rounded flex items-center justify-center">
+      <span class=" p-1 rounded-[46.73px]">
+        <img src="images/Frame 87.png" alt="" width="100%">
+      </span>
+
+    </button>
+  </div>
 </div>
 
-<section class="bg-blue-50 flex justify-center py-10">
+<section class="bg-blue-50 flex justify-center py-10 hidden ">
   <div class="w-full max-w-[1350px]">
     <h2 class="text-4xl font-bold text-[#444444] mb-8">Why Choose Us?</h2>
-
+    <!-- Main Container -->
     <div class="relative flex justify-between items-center">
+      <!-- Left Column -->
       <div class="space-y-6 mt-8">
         <img src="images/left.png" alt="" class="absolute h-[530px] left-[445px] top-[85px]">
         <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md relative">
@@ -390,12 +396,11 @@
           Connect with skilled freelancers worldwide to find the perfect expertise.
         </div>
       </div>
-
+      <!-- Right Column -->
       <div class="space-y-6 mt-8">
         <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[85px]">
         <div class="bg-white rounded-lg shadow p-6  max-w-md relative">
           <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
-
           Track progress and communicate easily with our user-friendly project tools.
         </div>
         <div class="bg-white border-2 border-gray-300 rounded-lg  p-6  max-w-md">
@@ -418,65 +423,67 @@
 
 
 <div class="projects-section text-center py-8 w-[95vw] mx-auto relative">
-  <h2 class="text-3xl font-[600] text-[#444] mb-6 text-start pl-10 ">Projects we made on <span class="text-blue-600">SOOPRS</span></h2>
+  <h2 class="text-2xl sm:text-3xl font-semibold text-[#444] mb-6 text-start pl-4 sm:pl-10">
+    Projects we made on <span class="text-blue-600">SOOPRS</span>
+  </h2>
 
   <!-- Previous Button -->
-  <button id="projectPrevButton" class="absolute left-6 top-1/2 transform -translate-y-1/2 bg-white border w-10 h-[100px] rounded flex items-center justify-center z-10">
-    <span class="bg-blue-500 p-2 rounded-full">&lt;</span>
+  <button id="projectPrevButton" class="absolute left-2 sm:left-6 top-1/2 transform -translate-y-1/2 bg-white border w-8 h-[80px] sm:w-10 sm:h-[100px] rounded flex items-center justify-center z-10">
+    <span class="bg-blue-500 p-1 sm:p-2 rounded-full">&lt;</span>
   </button>
 
   <!-- Slider Container -->
-  <div class="project-slider flex overflow-x-auto space-x-4 px-8">
+  <div class="project-slider flex overflow-x-auto space-x-4 px-4 sm:px-8">
     <!-- Project Card 1 -->
-    <div class="project-card flex bg-white border border-gray-200 rounded-lg mx-2 h-[300px] w-[400px] min-w-[400px]" style="display:flex">
-      <img src="images/laptop img.png" alt="Project Image 1" class="w-1/2 h-full object-cover rounded-l-lg" />
-      <div class="p-4 w-1/2 text-left flex flex-col justify-between">
-        <h3 class="text-xl font-semibold mb-2">Make 10 Page app design mockup in Figma</h3>
+    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]">
+      <img src="images/laptop img.png" alt="Project Image 1" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
+      <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
+        <h3 class="text-lg sm:text-xl font-semibold mb-2">Make 10 Page app design mockup in Figma</h3>
         <span class="text-gray-500">UI Design</span>
-        <div class="text-lg font-bold text-gray-800 mt-2 mb-4">$50 - 100</div>
-        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-[8px] hover:bg-blue-600 hover:text-white transition">Bid now</button>
+        <div class="text-md sm:text-lg font-bold text-gray-800 mt-2 mb-4">$50 - 100</div>
+        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Bid now</button>
       </div>
     </div>
 
     <!-- Project Card 2 -->
-    <div class="project-card flex bg-white border border-gray-200 rounded-lg mx-2 w-[400px] h-[300px] min-w-[400px]"style="display:flex">
-      <img src="images/laptop img.png" alt="Project Image 2" class="w-1/2 h-full object-cover rounded-l-lg" />
-      <div class="p-4 w-1/2 text-left flex flex-col justify-between">
-        <h3 class="text-xl font-semibold mb-2">Create Responsive Web Design in Adobe XD</h3>
+    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]">
+      <img src="images/laptop img.png" alt="Project Image 2" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
+      <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
+        <h3 class="text-lg sm:text-xl font-semibold mb-2">Create Responsive Web Design in Adobe XD</h3>
         <span class="text-gray-500">Web Design</span>
-        <div class="text-lg font-bold text-gray-800 mt-2 mb-4">$70 - 120</div>
-        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-[8px] hover:bg-blue-600 hover:text-white transition">Bid now</button>
+        <div class="text-md sm:text-lg font-bold text-gray-800 mt-2 mb-4">$70 - 120</div>
+        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Bid now</button>
       </div>
     </div>
 
     <!-- Project Card 3 -->
-    <div class="project-card flex bg-white border border-gray-200 rounded-lg mx-2 w-[400px] h-[300px] min-w-[400px]" style="display:flex">
-      <img src="images/laptop img.png" alt="Project Image 3" class="w-1/2 h-full object-cover rounded-l-lg" />
-      <div class="p-4 w-1/2 text-left flex flex-col justify-between">
-        <h3 class="text-xl font-semibold mb-2">Develop Mobile App Interface in Sketch</h3>
+    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]">
+      <img src="images/laptop img.png" alt="Project Image 3" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
+      <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
+        <h3 class="text-lg sm:text-xl font-semibold mb-2">Develop Mobile App Interface in Sketch</h3>
         <span class="text-gray-500">Mobile Design</span>
-        <div class="text-lg font-bold text-gray-800 mt-2 mb-4">$100 - 150</div>
-        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-[8px] hover:bg-blue-600 hover:text-white transition">Bid now</button>
+        <div class="text-md sm:text-lg font-bold text-gray-800 mt-2 mb-4">$100 - 150</div>
+        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Bid now</button>
       </div>
     </div>
 
     <!-- Project Card 4 -->
-    <div class="project-card flex bg-white border border-gray-200 rounded-lg mx-2 w-[400px] h-[300px] min-w-[400px]" style="display:flex">
-      <img src="images/laptop img.png" alt="Project Image 4" class="w-1/2 h-full object-cover rounded-l-lg" />
-      <div class="p-4 w-1/2 text-left flex flex-col justify-between">
-        <h3 class="text-xl font-semibold mb-2">Redesign E-commerce UI in Figma</h3>
+    <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[280px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]">
+      <img src="images/laptop img.png" alt="Project Image 4" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
+      <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
+        <h3 class="text-lg sm:text-xl font-semibold mb-2">Redesign E-commerce UI in Figma</h3>
         <span class="text-gray-500">E-commerce Design</span>
-        <div class="text-lg font-bold text-gray-800 mt-2 mb-4">$80 - 130</div>
-        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-[8px] hover:bg-blue-600 hover:text-white transition">Bid now</button>
+        <div class="text-md sm:text-lg font-bold text-gray-800 mt-2 mb-4">$80 - 130</div>
+        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Bid now</button>
       </div>
     </div>
   </div>
 
   <!-- Next Button -->
   <button id="projectNextButton" class="absolute right-0 top-1/2 right-6 transform -translate-y-1/2 bg-white border w-10 h-[100px] rounded flex items-center justify-center z-10">
-  <span class=" p-1 rounded-[46.73px]">
-    <img src="images/Frame 87.png" alt="" width="100%">
-  </span>
+    <span class=" p-1 rounded-[46.73px]">
+      <img src="images/Frame 87.png" alt="" width="100%">
+    </span>
   </button>
 </div>
 
@@ -487,54 +494,55 @@
 
 
 
-<section class="py-10 flex justify-center">
-    <div class="w-full max-w-[1350px]">
-        <h2 class="text-4xl font-bold text-[#444444] mb-6">AI at Work</h2>
-        <div class="flex items-center">
-            <div class="w-1/2 flex justify-center">
-                <img id="aiImage" src="images/aibanner.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%]" />
+<section class="py-10 flex justify-center px-4">
+  <div class="w-full max-w-[1350px]">
+    <h2 class="text-4xl font-bold text-[#444444] mb-6">AI at Work</h2>
+    <div class="flex flex-col md:flex-row items-center">
+      <div class="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
+        <img id="aiImage" src="images/aibanner.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%]" />
+      </div>
+      <div class="w-full md:w-1/2 pl-0 md:pl-10">
+        <div class="flex items-start space-x-4 ">
+          <div class="flex flex-col items-center">
+            <div class="w-4 h-4 rounded-full bg-blue-500 circle" id="circle1"></div>
+            <div class="line-container">
+              <div class="progress-bar" id="progress1"></div>
             </div>
-            <div class="w-1/2 pl-10">
-                <div class="flex items-start space-x-4">
-                    <div class="flex flex-col items-center">
-                        <div class="w-4 h-4 rounded-full bg-blue-500 circle" id="circle1"></div>
-                        <div class="line-container">
-                            <div class="progress-bar" id="progress1"></div>
-                        </div>
-                    </div>
-                    <div class="-mt-2">
-                        <h3 class="text-xl font-semibold text-blue-600 feature-item text-increase" id="title1">AI Project Writer</h3>
-                        <p class="text-gray-600 text-increase" id="desc1">Generate tailored project proposals effortlessly with our AI Project Writer. Simply input your project details, and let AI create professional and impactful content in seconds.</p>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4">
-                    <div class="flex flex-col items-center">
-                        <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle2"></div>
-                        <div class="line-container">
-                            <div class="progress-bar" id="progress2"></div>
-                        </div>
-                    </div>
-                    <div class="-mt-2">
-                        <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title2">Personalized Project Suggestions</h3>
-                        <p class="text-gray-600 text-increase" id="desc2">Receive job recommendations customized to your skills and interests, making it easier to find projects that align with your expertise and preferences.</p>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4">
-                    <div class="flex flex-col items-center">
-                        <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle3"></div>
-                         <!-- <div class="line-container">
-                            <div class="progress-bar" id="progress3"></div>
-                        </div>  -->
-                    </div>
-                    <div class="-mt-2">
-                        <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title3">Bid Sorting by AI</h3>
-                        <p class="text-gray-600 text-increase" id="desc3">Our intelligent bid sorting feature ranks bids to highlight the most relevant opportunities, helping you save time and find the best fits faster.</p>
-                    </div>
-                </div>
-            </div>
+          </div>
+          <div class="-mt-2">
+            <h3 class="text-xl font-semibold text-blue-600 feature-item text-increase" id="title1">AI Project Writer</h3>
+            <p class="text-gray-600 text-increase" id="desc1">Generate tailored project proposals effortlessly with our AI Project Writer. Simply input your project details, and let AI create professional and impactful content in seconds.</p>
+          </div>
         </div>
+        <div class="flex items-start space-x-4 ">
+          <div class="flex flex-col items-center">
+            <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle2"></div>
+            <div class="line-container">
+              <div class="progress-bar" id="progress2"></div>
+            </div>
+          </div>
+          <div class="-mt-2">
+            <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title2">Personalized Project Suggestions</h3>
+            <p class="text-gray-600 text-increase" id="desc2">Receive job recommendations customized to your skills and interests, making it easier to find projects that align with your expertise and preferences.</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-4 ">
+          <div class="flex flex-col items-center">
+            <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle3"></div>
+            <div class="line-container">
+              <div class="progress-bar" id="progress3"></div>
+            </div>
+          </div>
+          <div class="-mt-2">
+            <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title3">Bid Sorting by AI</h3>
+            <p class="text-gray-600 text-increase" id="desc3">Our intelligent bid sorting feature ranks bids to highlight the most relevant opportunities, helping you save time and find the best fits faster.</p>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
+
 
 
 
@@ -546,17 +554,17 @@
 
       <!-- Left Column: FAQ Title and Description -->
       <div class="w-full lg:w-1/3 mb-8 lg:mb-0 px-4 text-">
-        <h2 class="text-[#111111] text-3xl md:text-4xl font-semibold font-['Poppins'] leading-snug">
+        <h2 class="text-[#111111] text-3xl md:text-4xl font-bold leading-snug">
           Frequently Asked Questions
         </h2>
         <p class="text-[#111111] text-base md:text-lg mt-4 leading-loose">
-          If you’re new or looking for answers to your questions, find solutions to common inquiries.
+          If you're new or looking for answers to your questions, find solutions to common inquiries.
         </p>
       </div>
 
       <!-- Right Column: FAQ Accordion -->
       <div class="w-full lg:w-2/3 space-y-4 lg:space-y-6 bg-[#f8f8f8] p-4 lg:p-6 rounded-2xl">
-        
+
         <!-- FAQ Item 1 -->
         <div class="p-4 bg-white rounded-lg shadow-md flex flex-col">
           <button onclick="toggleAccordion(event)" class="accordion-header flex justify-between items-center w-full text-left">
@@ -603,53 +611,22 @@
 
 
 <div class="relative w-[90vw] mx-auto h-full bg-cover bg-no-repeat rounded-lg overflow-hidden flex flex-col items-center justify-start p-10 mb-5" style="background-image: url('images/cta\ banner.svg');">
-    <!-- Title with Background Image -->
-    <div class="relative text-white text-[48px] font-poppins font-medium  bg-center w-full text-center p-3 rounded-lg">
-        Manage with Ease
-    </div>
-    
-    <!-- Subtitle -->
-    <div class="text-center text-white text-[16px]  font-poppins font-normal mb-8">Utilize our Project Management tool for seamless timelines </br> and hassle-free payment processing.</div>
+  <!-- Title with Background Image -->
+  <div class="relative text-white text-[48px] font-poppins font-medium  bg-center w-full text-center p-3 rounded-lg">
+    Manage with Ease
+  </div>
 
-    <!-- Button with Background Image -->
-    <div class="flex items-center justify-center bg-white bg-center rounded-lg px-[48px] py-[16px] w-[320px] h-[64px]" style="background-image: url('path/to/your/button-background-image.jpg'); background-size: cover;">
-        <div class="text-[#0068FF] text-[24px] font-poppins font-normal leading-[26.40px]">Hire Freelancer</div>
-    </div>
+  <!-- Subtitle -->
+  <div class="text-center text-white text-[16px]  font-poppins font-normal mb-8">Utilize our Project Management tool for seamless timelines </br> and hassle-free payment processing.</div>
+
+  <!-- Button with Background Image -->
+  <div class="flex items-center justify-center bg-white bg-center rounded-lg px-[48px] py-[16px] w-[320px] h-[64px]" style="background-image: url('path/to/your/button-background-image.jpg'); background-size: cover;">
+    <div class="text-[#0068FF] text-[24px] font-poppins font-normal leading-[26.40px]">Hire Freelancer</div>
+  </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
-
-
-
-
-
 
 <script>
   $(document).ready(function() {
@@ -663,14 +640,17 @@
       infinite: false,
       autoplaySpeed: 5000,
       autoplay: true,
-      responsive: [
-        {
+      responsive: [{
           breakpoint: 991,
-          settings: { slidesToShow: 3 }
+          settings: {
+            slidesToShow: 3
+          }
         },
         {
           breakpoint: 767,
-          settings: { slidesToShow: 2 }
+          settings: {
+            slidesToShow: 2
+          }
         }
       ]
     });
@@ -685,14 +665,17 @@
       infinite: false,
       autoplaySpeed: 1000,
       autoplay: false,
-      responsive: [
-        {
+      responsive: [{
           breakpoint: 991,
-          settings: { slidesToShow: 3 }
+          settings: {
+            slidesToShow: 3
+          }
         },
         {
           breakpoint: 767,
-          settings: { slidesToShow: 1 }
+          settings: {
+            slidesToShow: 1
+          }
         }
       ]
     });
@@ -745,85 +728,81 @@
     const aiImage = document.getElementById('aiImage');
 
     const titles = [
-        document.getElementById('title1'),
-        document.getElementById('title2'),
-        document.getElementById('title3')
+      document.getElementById('title1'),
+      document.getElementById('title2'),
+      document.getElementById('title3')
     ];
 
     const descriptions = [
-        document.getElementById('desc1'),
-        document.getElementById('desc2'),
-        document.getElementById('desc3')
+      document.getElementById('desc1'),
+      document.getElementById('desc2'),
+      document.getElementById('desc3')
     ];
 
     const circles = [
-        document.getElementById('circle1'),
-        document.getElementById('circle2'),
-        document.getElementById('circle3')
+      document.getElementById('circle1'),
+      document.getElementById('circle2'),
+      document.getElementById('circle3')
     ];
 
     // Image paths for different states
     const images = [
-        "images/aibanner.png",  // Image for progress 1
-        "images/laptop img.png",  // Image for progress 2
-        "images/aibanner.png"   // Image for progress 3
+      "images/aibanner.png", // Image for progress 1
+      "images/laptop img.png", // Image for progress 2
+      "images/aibanner.png" // Image for progress 3
     ];
 
     let currentIndex = 0;
 
     // Function to fill a single progress bar and update the image
     const fillProgressBar = () => {
-        // Reset previous progress bars
-        for (let i = 0; i < progressBars.length; i++) {
-            progressBars[i].style.height = '0'; // Reset height to 0
-            circles[i].classList.remove('bg-blue-500');
-            circles[i].classList.add('bg-gray-300');
-            titles[i].style.fontSize = '1rem'; // Reset font size
-            titles[i].classList.remove('text-blue-600');
-            titles[i].classList.add('text-gray-800');
-            descriptions[i].style.fontSize = '0.875rem'; // Reset font size
-            descriptions[i].classList.remove('text-blue-600');
-            descriptions[i].classList.add('text-gray-600');
-        }
+      // Reset previous progress bars
+      for (let i = 0; i < progressBars.length; i++) {
+        progressBars[i].style.height = '0'; // Reset height to 0
+        circles[i].classList.remove('bg-blue-500');
+        circles[i].classList.add('bg-gray-300');
+        titles[i].style.fontSize = '1rem'; // Reset font size
+        titles[i].classList.remove('text-blue-600');
+        titles[i].classList.add('text-gray-800');
+        // descriptions[i].style.fontSize = '0.875rem'; // Reset font size
+        descriptions[i].classList.remove('text-blue-600');
+        descriptions[i].classList.add('text-gray-600');
+      }
 
-        // Fill the current progress bar
-        const progressBar = progressBars[currentIndex];
-        const title = titles[currentIndex];
-        const description = descriptions[currentIndex];
-        const circle = circles[currentIndex];
+      // Fill the current progress bar
+      const progressBar = progressBars[currentIndex];
+      const title = titles[currentIndex];
+      const description = descriptions[currentIndex];
+      const circle = circles[currentIndex];
 
-        // Fill the progress bar with blue color
-        progressBar.style.height = '100%'; // Fill height to 100%
+      // Fill the progress bar with blue color
+      progressBar.style.height = '100%'; // Fill height to 100%
 
-        // Change the image after filling the progress bar
-        aiImage.src = images[currentIndex];
+      // Change the image after filling the progress bar
+      aiImage.src = images[currentIndex];
 
-        // Change circle color to indicate fill
-        circle.classList.remove('bg-gray-300');
-        circle.classList.add('bg-blue-500');
+      // Change circle color to indicate fill
+      circle.classList.remove('bg-gray-300');
+      circle.classList.add('bg-blue-500');
 
-        // Animate the font size increase
-        title.classList.add('text-increase');
-        title.style.fontSize = '1.25rem'; // Increase font size
-        title.classList.replace('text-gray-800', 'text-blue-600');
-        
-        description.classList.add('text-increase');
-        description.style.fontSize = '0.9375rem'; // Increase font size for description
-        description.classList.replace('text-gray-600', 'text-blue-600');
+      // Animate the font size increase
+      title.classList.add('text-increase');
+      title.style.fontSize = '1.25rem'; // Increase font size
+      title.classList.replace('text-gray-800', 'text-blue-600');
 
-        // Move to the next index
-        currentIndex = (currentIndex + 1) % progressBars.length; // Loop back to first
+      description.classList.add('text-increase');
+      description.style.fontSize = '0.9375rem'; // Increase font size for description
+      description.classList.replace('text-gray-600', 'text-blue-600');
+
+      // Move to the next index
+      currentIndex = (currentIndex + 1) % progressBars.length; // Loop back to first
     };
 
     // Start filling progress bars every 4 seconds
-    setInterval(fillProgressBar, 2000); // 4 seconds for each cycle
-});
+    setInterval(fillProgressBar, 1500); // 4 seconds for each cycle
+  });
 
-
-
-
-
-function toggleAccordion(event) {
+  function toggleAccordion(event) {
     const button = event.currentTarget;
     const accordionBody = button.nextElementSibling;
     const icon = button.querySelector(".icon");
@@ -839,7 +818,6 @@ function toggleAccordion(event) {
       icon.classList.replace("fa-plus", "fa-minus");
     }
   }
-
 </script>
 
 
@@ -855,21 +833,45 @@ function toggleAccordion(event) {
 
 
 <script src="script.js"></script>
-
 <script>
-  window.onload = function() {
-    const features = document.querySelectorAll('.feature-item');
+  $(document).ready(function() {
+    const features = document.querySelectorAll('.feature-item h3');
     let currentIndex = 0;
 
-    function highlightFeature() {
-      features.forEach((feature) => feature.classList.remove('highlight'));
-      features[currentIndex].classList.add('highlight');
+    // Log the features to ensure they are selected correctly
+
+    function showContent() {
+
+      // Ensure the features NodeList is valid
+      if (features.length === 0) {
+        console.warn('No features found.');
+        return; // Exit if no features are found
+      }
+
+
+      if (currentIndex >= 0 && currentIndex < features.length) {
+        // Remove active-text class from all features
+        features.forEach(feature => feature.classList.remove('active-text'));
+
+        // Add active-text class to the current feature
+        features[currentIndex].classList.add('active-text');
+      } else {
+        console.error('Current index is out of bounds:', currentIndex);
+      }
+
+      // Move to the next feature, looping back to the first
       currentIndex = (currentIndex + 1) % features.length;
+
     }
 
-    setInterval(highlightFeature, 2000);
-  };
+    // Call highlightFeature every 2 seconds
+    setInterval(showContent, 2000);
+  });
 </script>
+
+
+
+
 </body>
 
 </html>

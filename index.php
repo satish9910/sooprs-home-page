@@ -82,65 +82,64 @@
     </div>
   </div>
 </section>
-
 <section>
   <div class="sm:flex sm:flex-wrap justify-center gap-1 sm:gap-5 grid grid-cols-3">
     <!-- Card for Artificial Intelligence -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
-      <img src="images/ai.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-      <h3 class=" text-[14px] font-[500] text-[#444444] text-start">Artificial Intelligence</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] ">
+      <img src="images/ai.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
+      <h3 class="text-[14px] font-[500] text-[#444444] text-start hover:text-[#0068ff]">Artificial Intelligence</h3>
     </div>
 
     <!-- Card for Graphics & Design -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 ">
-      <img src="images/Graphic Design.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-      <h3 class="text-sm font-semibold text-[#444444] text-start">Graphics & Design</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+      <img src="images/Graphic Design.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
+      <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Graphics & Design</h3>
     </div>
 
     <!-- Card for Digital Marketing -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
-      <img src="images/Graphic Design.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-      <h3 class="text-sm font-semibold text-[#444444] text-start">Digital Marketing</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+      <img src="images/Graphic Design.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
+      <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Digital Marketing</h3>
     </div>
 
     <!-- Card for Writing & Translation -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
-      <img src="images/Writing.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-      <h3 class="text-sm font-semibold text-[#444444] text-start">Writing & Translation</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+      <img src="images/Writing.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
+      <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Writing & Translation</h3>
     </div>
 
     <!-- Card for Video & Animation -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
-      <img src="images/animation.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-      <h3 class="text-sm font-semibold text-[#444444] text-start">Video & Animation</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+      <img src="images/animation.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
+      <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Video & Animation</h3>
     </div>
 
     <!-- Card for Music & Audio -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
-      <img src="images/Music and Audio.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-      <h3 class="text-sm font-semibold text-[#444444] text-start">Music & Audio</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+      <img src="images/Music and Audio.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
+      <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Music & Audio</h3>
     </div>
 
     <!-- Card for Programming & Tech -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5 p-4 sm:p-2">
-      <img src="images/coding.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-      <h3 class="text-sm font-semibold text-[#444444] text-start">Programming & Tech</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+      <img src="images/coding.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
+      <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Programming & Tech</h3>
     </div>
 
     <!-- Card for Business -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5  p-4 sm:p-2">
-      <img src="images/BUsiness.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-      <h3 class="text-sm font-semibold text-[#444444] text-start">Business</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+      <img src="images/Business.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
+      <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Business</h3>
     </div>
 
     <!-- Card for Lifestyle -->
-    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex  gap-3 sm:gap-5 p-4 sm:p-2">
-      <img src="images/lifestyle.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
-      <h3 class="text-sm font-semibold text-[#444444] text-start">Lifestyle</h3>
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5 p-4 sm:p-2 hover:border-[#0068ff] hover:text-[#0068ff]">
+      <img src="images/lifestyle.png" alt="Logo" class="w-5 h-5 mb-2 hover:brightness-0 hover:contrast-200">
+      <h3 class="text-sm font-semibold text-[#444444] text-start hover:text-[#0068ff]">Lifestyle</h3>
     </div>
   </div>
-
 </section>
+
 <section class="container w-[90vw] h-auto lg:h-[547px] rounded-lg mx-auto p-8 bg-gray-900 text-white bg-cover bg-center mb-10 mt-10"
   style="background-image: url('images/bg-top-compressed-_2_.png');">
   <!-- Header Section -->
@@ -151,10 +150,14 @@
       </h2>
       <p class="text-lg font-semibold mt-3 md:mt-0">Discover the most exciting and cutting-edge projects making waves in the industry.</p>
     </div>
+    
   </div>
 
+
+
   <div id="projects-slider" class="slider-container relative mx-auto py-5 px-1 w-full mt-20">
-    <button id="sliderPrevButton" class="absolute left-1 top-1/2 transform -translate-y-1/2  h-[100px] w-10 flex items-center justify-center text-white  z-10">
+    
+    <button id="sliderPrevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2  bg-white rounded-[8px]  h-[150px] w-10 flex items-center justify-center text-white  z-10">
       <span class=" p-1 rounded-[46.73px]">
         <img src="images/leftArrow.png" alt="" width="100%" class="hidden sm:block">
       </span>
@@ -248,7 +251,7 @@
     </div>
     <!-- Next Button -->
     <div class="bg-white">
-      <button id="sliderNextButton" class="absolute right-1 top-1/2 transform -translate-y-1/2   w-10 h-[100px]  flex items-center justify-center text-white z-10">
+      <button id="sliderNextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2  bg-white rounded-[8px]  w-10 h-[150px]  flex items-center justify-center text-white z-10">
         <span class=" p-1 rounded-[46.73px]">
           <img src="images/Frame 87.png" alt="" width="100%" class="hidden sm:block">
         </span>
@@ -430,10 +433,10 @@
   </div>
   <!-- Custom Next Button -->
   <div class="bg-white">
-    <button id="nextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white  border   w-10 h-[100px] rounded flex items-center justify-center">
-      <span class=" p-1 rounded-[46.73px]">
-        <img src="images/Frame 87.png" alt="" width="100%">
-      </span>
+    <button id="nextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white  border  w-10 h-[100px] rounded flex items-center justify-center">
+    <span class=" p-1 rounded-[46.73px]">
+      <img src="images/leftArrow.png" alt="" width="100%">
+    </span>
 
     </button>
   </div>
@@ -449,19 +452,34 @@
         <img src="images/left.png" alt="" class="absolute h-[530px] left-[445px] top-[85px] hidden md:block">
         <div class="  border-gray-300 p-0 px-3  md:p-6  max-w-md relative">
           <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-14 md:-top-5 left-4 md:left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Clients</span>
+          <div class="flex items-center gap-3">
+            <img src="images/la_pen-nib.png" alt="">
           Connect with skilled freelancers worldwide to find the perfect expertise.
+          </div>
         </div>
         <div class=" border-gray-300  p-0 px-3  md:p-6  max-w-md">
+        <div class="flex items-center gap-3">
+            <img src="images/la_pen-nib.png" alt="">
           Connect with skilled freelancers worldwide to find the perfect expertise.
+          </div>
         </div>
         <div class=" border-gray-300 p-0 px-3  md:p-6  max-w-md">
+        <div class="flex items-center gap-3">
+            <img src="images/la_pen-nib.png" alt="">
           Connect with skilled freelancers worldwide to find the perfect expertise.
+          </div>
         </div>
         <div class="border-gray-300 p-0 px-3  md:p-6  max-w-md">
+        <div class="flex items-center gap-3">
+            <img src="images/la_pen-nib.png" alt="">
           Connect with skilled freelancers worldwide to find the perfect expertise.
+          </div>
         </div>
         <div class="border-gray-300 p-0 px-3  md:p-6  max-w-md">
+        <div class="flex items-center gap-3">
+            <img src="images/la_pen-nib.png" alt="">
           Connect with skilled freelancers worldwide to find the perfect expertise.
+          </div>
         </div>
       </div>
       <img src="images/top.png" alt="" class=" left-[445px] top-[95px] mt-6 md:hidden">
@@ -481,19 +499,35 @@
         <span class="bg-blue-500 text-white  text-md font-semibold px-2 mx-2 py-2 rounded-lg absolute md:hidden block  md:-top-14 md:-top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
         <div class=" px-2 pt-12 md:p-0  md:p-6  max-w-md relative">
           <span class="bg-blue-500  text-white text-md font-semibold px-3 py-2 rounded-lg absolute hidden md:block  md:-top-14 md:-top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
-          Track progress and communicate easily with our user-friendly project tools.
+          <div class="flex items-center gap-3">
+            <img src="images/la_pen-nib.png" alt="">
+            Track progress and communicate easily with our user-friendly project tools.
+          </div>
+         
         </div>
         <div class="border-gray-300 px-2  p-0  md:p-6  max-w-md">
-          Track progress and communicate easily with our user-friendly project tools.
+        <div class="flex items-center gap-3">
+            <img src="images/la_pen-nib.png" alt="">
+            Track progress and communicate easily with our user-friendly project tools.
+          </div>
         </div>
         <div class="border-gray-300 px-2  p-0  md:p-6   max-w-md">
-          Track progress and communicate easily with our user-friendly project tools.
+        <div class="flex items-center gap-3">
+            <img src="images/la_pen-nib.png" alt="">
+            Track progress and communicate easily with our user-friendly project tools.
+          </div>
         </div>
         <div class="border-gray-300 px-2 p-0  md:p-6   max-w-md">
-          Track progress and communicate easily with our user-friendly project tools.
+        <div class="flex items-center gap-3">
+            <img src="images/la_pen-nib.png" alt="">
+            Track progress and communicate easily with our user-friendly project tools.
+          </div>
         </div>
         <div class="border-gray-300 px-2  p-0  md:p-6   max-w-md">
-          Track progress and communicate easily with our user-friendly project tools.
+        <div class="flex items-center gap-3">
+            <img src="images/la_pen-nib.png" alt="">
+            Track progress and communicate easily with our user-friendly project tools.
+          </div>
         </div>
       </div>
     </div>
@@ -508,7 +542,7 @@
   </h2>
 
   <!-- Previous Button -->
-  <button id="projectPrevButton" class="absolute left-2 sm:left-6 top-1/2 transform -translate-y-1/2 bg-white border w-8 h-[80px] sm:w-10 sm:h-[100px] rounded flex items-center justify-center z-10">
+  <button id="projectPrevButton" class="absolute left-2 sm:left-6 top-1/2 transform -translate-y-1/2 bg-white border w-10 h-[100px] sm:w-10 sm:h-[100px] rounded flex items-center justify-center z-10">
     <span class=" p-1 rounded-[46.73px]">
       <img src="images/leftArrow.png" alt="" width="100%">
     </span>
@@ -523,8 +557,11 @@
       <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
         <h3 class="text-lg sm:text-xl font-semibold mb-2">Create Responsive Web Design in Adobe XD</h3>
         <span class="text-gray-500">Web Design</span>
-        <div class="text-md sm:text-lg font-bold text-gray-800 mt-2 mb-4">$70 - 120</div>
-        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Bid now</button>
+        <div class="flex items-center gap-1 ">
+        <img src="images/dollar icon.png" alt="">
+        <div class="text-md sm:text-lg font-bold text-gray-800 ">$70 - 120</div>
+        </div>
+        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Explore</button>
       </div>
     </div>
 
@@ -534,8 +571,11 @@
       <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
         <h3 class="text-lg sm:text-xl font-semibold mb-2">Develop Mobile App Interface in Sketch</h3>
         <span class="text-gray-500">Mobile Design</span>
-        <div class="text-md sm:text-lg font-bold text-gray-800 mt-2 mb-4">$100 - 150</div>
-        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Bid now</button>
+        <div class="flex items-center gap-1 ">
+        <img src="images/dollar icon.png" alt="">
+        <div class="text-md sm:text-lg font-bold text-gray-800 ">$100 - 120</div>
+        </div>
+        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Explore</button>
       </div>
     </div>
 
@@ -545,8 +585,11 @@
       <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
         <h3 class="text-lg sm:text-xl font-semibold mb-2">Redesign E-commerce UI in Figma</h3>
         <span class="text-gray-500">E-commerce Design</span>
-        <div class="text-md sm:text-lg font-bold text-gray-800 mt-2 mb-4">$80 - 130</div>
-        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Bid now</button>
+        <div class="flex items-center gap-1 ">
+        <img src="images/dollar icon.png" alt="">
+        <div class="text-md sm:text-lg font-bold text-gray-800 ">$80 - 130</div>
+        </div>
+        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Explore</button>
       </div>
     </div>
   </div>
@@ -680,17 +723,17 @@
 </section>
 
 
-<div class="relative w-[90vw] mx-auto h-full bg-cover bg-no-repeat rounded-lg overflow-hidden flex flex-col items-center justify-start p-10 mb-5" style="background-image: url('images/cta\ banner.svg');">
+<div class="relative w-[90vw] mx-auto h-full bg-cover bg-no-repeat rounded-[16px] overflow-hidden flex flex-col items-center justify-start p-5 mb-5" style="background-image: url('images/cta\ banner.svg');">
   <!-- Title with Background Image -->
-  <div class="relative text-white text-[48px] font-poppins font-medium  bg-center w-full text-center p-3 rounded-lg">
-    Manage with Ease
-  </div>
+  <h2 class=" text-white text-[24px] md:text-[48px] font-poppins font-medium w-full text-center">
+  Ready to Elevate Your Freelance Journey?
+  </h2>
 
   <!-- Subtitle -->
-  <div class="text-center text-white text-[16px]  font-poppins font-normal mb-8">Utilize our Project Management tool for seamless timelines </br> and hassle-free payment processing.</div>
+  <div class="text-center text-white text-[12px] md:text-[16px]  font-poppins font-normal mt-2 mb-8">Join a Thriving Community of Freelancers, Access Tailored Opportunities,  </br> and Take Your Career to New Heights with Sooprs!</div>
 
   <!-- Button with Background Image -->
-  <div class="flex items-center justify-center bg-white bg-center rounded-lg px-[48px] py-[16px] w-[320px] h-[64px]" style="background-image: url('path/to/your/button-background-image.jpg'); background-size: cover;">
+  <div class="flex items-center justify-center bg-white bg-center rounded-lg px-[48px] py-[16px] max-w-[100%] w-[320px] h-[64px]" style="background-image: url('path/to/your/button-background-image.jpg'); background-size: cover;">
     <div class="text-[#0068FF] text-[24px] font-poppins font-normal leading-[26.40px]">Hire Freelancer</div>
   </div>
 </div>
@@ -756,7 +799,7 @@
       slidesToShow: 2,
       slidesToScroll: 1,
       arrows: false,
-      centerMode: true,
+      // centerMode: true,
       responsive: [{
           breakpoint: 1024,
           settings: {

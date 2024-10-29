@@ -32,17 +32,17 @@
 
 <body class="bg-gray-50">
   <nav class="bg-white p-2 px-[60px] fixed   w-full z-20">
-    <div class="container mx-auto flex items-center justify-between lg:justify-between">
+    <div class="container mx-auto flex items-center justify-center">
       <!-- Hamburger Menu for Mobile -->
-      <button id="menu-toggle" class="lg:hidden text-gray-800 focus:outline-none mr-4">
+      <button id="menu-toggle" class="lg:hidden text-gray-800 focus:outline-none mr-4 absolute left-10">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
         </svg>
       </button>
 
       <!-- Logo - Centered in Mobile -->
-      <div class="flex items-center  gap-8">
-        <img src="images/sooprs_logo.png" alt="Sooprs Logo" class="h-8 lg:h-12 mx-auto lg:mx-0">
+      <div class="grid place-content-center gap-8">
+          <img src="images/sooprs_logo.png" alt="Sooprs Logo" class="h-8 lg:h-12 mx-auto lg:mx-0">
 
         <!-- Desktop Links -->
         <div class="hidden lg:flex items-center space-x-6">

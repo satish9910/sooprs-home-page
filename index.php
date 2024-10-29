@@ -311,9 +311,9 @@
   <h2 class="text-4xl font-bold text-[#444444] mb-8 mt-8">Top Freelancers</h2>
   <!-- Custom Previous Button -->
   <button id="prevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white border  w-10 h-[100px] rounded flex items-center justify-center z-10">
-    <span class="bg-blue-500 p-2 rounded-[46.73px]">
-      <
-        </span>
+  <span class=" p-1 rounded-[46.73px]">
+      <img src="images/leftArrow.png" alt="" width="100%">
+    </span>
   </button>
   <div class="my-slider flex mb-5 mt-5 ">
     <!-- Card 1 -->
@@ -595,6 +595,9 @@
         <div class="flex items-start space-x-4 ">
           <div class="flex flex-col items-center">
             <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle3"></div>
+            <div class="line-container hidden">
+              <div class="progress-bar " id="progress3"></div>
+            </div>
           </div>
           <div class="-mt-2">
             <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title3">Bid Sorting by AI</h3>
@@ -605,6 +608,9 @@
     </div>
   </div>
 </section>
+
+
+
 
 <section class="faq-section py-10 w-full max-w-[1350px] mx-auto">
   <div class="container mx-auto px-4">
@@ -743,7 +749,7 @@
     // Initialize the third slider with custom arrows
     $('.slider').slick({
       infinite: false,
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
       arrows: false,
       centerMode: true,
@@ -816,92 +822,86 @@
     $('.my-slider, .project-slider, .slider').slick('slickGoTo', 0);
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const progressBars = [
+    document.getElementById('progress1'),
+    document.getElementById('progress2'),
+    document.getElementById('progress3')
+  ];
+
+  const circles = [
+    document.getElementById('circle1'),
+    document.getElementById('circle2'),
+    document.getElementById('circle3')
+  ];
+
+  const titles = [
+    document.getElementById('title1'),
+    document.getElementById('title2'),
+    document.getElementById('title3')
+  ];
+
+  const descriptions = [
+    document.getElementById('desc1'),
+    document.getElementById('desc2'),
+    document.getElementById('desc3')
+  ];
+
+  const images = [
+    "images/aibanner.png", // Image for progress 1
+    "images/laptop img.png", // Image for progress 2
+    "images/aibanner.png" // Image for progress 3
+  ];
+
+  let currentIndex = 0;
+
+  const fillProgressBar = () => {
+    // Reset all progress bars and circles
+    progressBars.forEach((progressBar, index) => {
+      progressBar.style.height = '0'; // Reset height to 0
+      circles[index].classList.remove('bg-blue-500');
+      circles[index].classList.add('bg-gray-300');
+      titles[index].style.fontSize = '1rem'; // Reset font size
+      titles[index].classList.replace('text-blue-600', 'text-gray-800');
+      descriptions[index].style.fontSize = '0.875rem'; // Reset font size
+      descriptions[index].classList.replace('text-blue-600', 'text-gray-600');
+    });
+
+    // Fill progress bars sequentially to create a loading effect
+    for (let i = 0; i <= currentIndex; i++) {
+      progressBars[i].style.height = '100%'; // Fill each progress bar to 100%
+      circles[i].classList.remove('bg-gray-300');
+      circles[i].classList.add('bg-blue-500');
+    }
+
+    // Change the image after filling the progress bar
+    aiImage.src = images[currentIndex];
+
+    // Animate the font size increase for the current index
+    const title = titles[currentIndex];
+    const description = descriptions[currentIndex];
+
+    title.classList.add('text-increase');
+    title.style.fontSize = '1.25rem';
+    title.classList.replace('text-gray-800', 'text-blue-600');
+
+    description.classList.add('text-increase');
+    description.style.fontSize = '0.9375rem';
+    description.classList.replace('text-gray-600', 'text-blue-600');
+
+    // Increment index for the next cycle
+    currentIndex++;
+    if (currentIndex >= circles.length) {
+      currentIndex = 0; // Reset to 0 when reaching the last circle
+    }
+  };
+
+  // Start filling progress bars every 3 seconds
+  setInterval(fillProgressBar, 1000); // 1 second for each cycle
+});
 
 
-  document.addEventListener("DOMContentLoaded", () => {
-    const progressBars = [
-      document.getElementById('progress1'),
-      document.getElementById('progress2'),
-      // document.getElementById('progress3')
-    ];
-
-    const aiImage = document.getElementById('aiImage');
-
-    const titles = [
-      document.getElementById('title1'),
-      document.getElementById('title2'),
-      document.getElementById('title3')
-    ];
-
-    const descriptions = [
-      document.getElementById('desc1'),
-      document.getElementById('desc2'),
-      document.getElementById('desc3')
-    ];
-
-    const circles = [
-      document.getElementById('circle1'),
-      document.getElementById('circle2'),
-      document.getElementById('circle3')
-    ];
-
-    // Image paths for different states
-    const images = [
-      "images/aibanner.png", // Image for progress 1
-      "images/laptop img.png", // Image for progress 2
-      "images/aibanner.png" // Image for progress 3
-    ];
-
-    let currentIndex = 0;
-
-    // Function to fill a single progress bar and update the image
-    const fillProgressBar = () => {
-      // Reset previous progress bars
-      for (let i = 0; i < progressBars.length; i++) {
-        progressBars[i].style.height = '0'; // Reset height to 0
-        circles[i].classList.remove('bg-blue-500');
-        circles[i].classList.add('bg-gray-300');
-        titles[i].style.fontSize = '1rem'; // Reset font size
-        titles[i].classList.remove('text-blue-600');
-        titles[i].classList.add('text-gray-800');
-        // descriptions[i].style.fontSize = '0.875rem'; // Reset font size
-        descriptions[i].classList.remove('text-blue-600');
-        descriptions[i].classList.add('text-gray-600');
-      }
-
-      // Fill the current progress bar
-      const progressBar = progressBars[currentIndex];
-      const title = titles[currentIndex];
-      const description = descriptions[currentIndex];
-      const circle = circles[currentIndex];
-
-      // Fill the progress bar with blue color
-      progressBar.style.height = '100%'; // Fill height to 100%
-
-      // Change the image after filling the progress bar
-      aiImage.src = images[currentIndex];
-
-      // Change circle color to indicate fill
-      circle.classList.remove('bg-gray-300');
-      circle.classList.add('bg-blue-500');
-
-      // Animate the font size increase
-      title.classList.add('text-increase');
-      title.style.fontSize = '1.25rem'; // Increase font size
-      title.classList.replace('text-gray-800', 'text-blue-600');
-
-      description.classList.add('text-increase');
-      description.style.fontSize = '0.9375rem'; // Increase font size for description
-      description.classList.replace('text-gray-600', 'text-blue-600');
-
-      // Move to the next index
-      currentIndex = (currentIndex + 1) % progressBars.length; // Loop back to first
-    };
-
-    // Start filling progress bars every 4 seconds
-    setInterval(fillProgressBar, 1500); // 4 seconds for each cycle
-  });
-
+  
   function toggleAccordion(event) {
     const button = event.currentTarget;
     const accordionBody = button.nextElementSibling;

@@ -1,29 +1,43 @@
 <?php include "header.php"; ?>
 
-<!-- Hero Section Container -->
-<section class="grid grid-cols-3 bg-[#FDFDFD] p-10 w-100 h-[90vh]">
-  <!-- Left Side - Text and Buttons -->
-  <div class="flex-1 space-y-6 flex flex-col justify-center px-4 col-span-2 relative overflow-hidden pl-[120px]">
+<section class="grid lg:grid-cols-3 bg-[#FDFDFD] p-0 sm:p-10 w-full h-[70vh] lg:h-[90vh]">
+  <div class="flex-1 space-y-6 flex flex-col justify-center px-2 lg:col-span-2 relative overflow-hidden lg:pl-[120px] text-center sm:text-left">
     <div class="mb-2 z-10">
-      <h1 class="text-5xl font-bold">Connect, Collaborate</h1>
-      <h1 class="text-6xl font-bold gradient-text">Deliver with Sooprs</h1>
+      <h1 class="text-2xl lg:text-5xl font-semibold sm:font-semibold">Connect, Collaborate</h1>
+      <h1 class="text-3xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600">Deliver with Sooprs</h1>
     </div>
-    <p class="text-gray-600 font-semibold mb-2 z-10">“Hire Expert Professionals from the leading Freelance marketplace”</p>
-    <div class="space-x-4 z-10">
-      <button class="bg-[#0068FF] border-[1.5px] border-[#0068FF] text-white px-6 py-2 rounded">Hire Freelancer</button>
-      <button class="bg-white border-[1.5px] border-[#0068FF] text-[#0068FF] px-6 py-2 rounded">Earn as Freelancing</button>
+    <div>
+      <div class="animate-marquee-left flex items-center gap-4 sm:hidden">
+        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 1">
+        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 2">
+        <img src="images/Rectangle-3697-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 3">
+        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 4">
+        <img src="images/Rectangle-3697-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 5">
+        <img src="images/Rectangle-3584-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 6">
+        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 7">
+        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 8">
+        <img src="images/Rectangle-3697-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 9">
+        <img src="images/Rectangle-3573-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 10">
+        <img src="images/Rectangle-3697-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 11">
+        <img src="images/Rectangle-3584-min.svg" class="w-16 h-16 rounded-full mb-4" alt="Profile 12">
+      </div>
     </div>
-    <!-- Background graphic divs with styled-div class -->
-    <div class="-z-3 absolute left-[-240px] w-full h-full top-[100px] flex items-center justify-center">
-      <img src="images/Graphic.png" alt="">
+
+    <p class="text-gray-600 font-semibold mb-2 z-10 text-sm sm:text-lg">“Hire Expert Professionals from the leading Freelance marketplace”</p>
+    <div class="flex flex-col items-center lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0 lg:items-start lg:justify-start z-10">
+      <button class="bg-[#0068FF] border-[1.5px] border-[#0068FF] text-white px-6 py-2 rounded w-fit">Hire Freelancer</button>
+      <button class="bg-white border-[1.5px] border-[#0068FF] text-[#0068FF] px-6 py-2 rounded w-fit">Earn as Freelancing</button>
+    </div>
+
+    <div class="hidden lg:flex -z-3 absolute left-[-240px] w-full h-full top-[100px] items-center justify-center">
+      <img src="images/Graphic.png" alt="Background Graphic">
     </div>
     <div class="z-10 relative top-[90px]">
-      <p class="text-gray-400 font-bold text-xl">Trusted By</p>
-      <div class="flex gap-8 mt-5">
-        <img src="images/e.png" alt="">
-        <img src="images/tech.png" alt="">
+      <p class="text-gray-400 font-bold text-lg sm:text-xl">Trusted By</p>
+      <div class="flex gap-8 mt-5 justify-center sm:justify-start">
+        <img src="images/e.png" alt="Ezi">
+        <img src="images/tech.png" alt="Techninza">
         <img src="images/certigo.png" alt="Certigo Gas">
-        <img src="images/lorrigo.png" alt="" >
       </div>
     </div>
   </div>
@@ -31,7 +45,7 @@
 
 
   <!-- Right Side - Profile Marquee Animation -->
-  <div class="relative flex space-x-4 overflow-hidden px-4 col-span-1">
+  <div class="relative flex space-x-4 overflow-hidden px-4 col-span-1 hidden sm:flex">
     <!-- Left Marquee -->
     <div class="flex-1 ">
       <div class="animate-marquee-up flex flex-col items-center">
@@ -56,7 +70,7 @@
         <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 2">
         <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 3">
         <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 4">
-        <img src="images/3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 5">
+        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 5">
         <img src="images/Rectangle-3584-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 6">
         <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 7">
         <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 8">
@@ -70,64 +84,64 @@
 </section>
 
 <section>
-  <div class="flex flex-wrap justify-center gap-5">
+  <div class="sm:flex sm:flex-wrap justify-center gap-1 sm:gap-5 grid grid-cols-3">
     <!-- Card for Artificial Intelligence -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
       <img src="images/ai.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
       <h3 class=" text-[14px] font-[500] text-[#444444] text-start">Artificial Intelligence</h3>
     </div>
 
     <!-- Card for Graphics & Design -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2 ">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2 ">
       <img src="images/Graphic Design.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
       <h3 class="text-sm font-semibold text-[#444444] text-start">Graphics & Design</h3>
     </div>
 
     <!-- Card for Digital Marketing -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
       <img src="images/Graphic Design.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
       <h3 class="text-sm font-semibold text-[#444444] text-start">Digital Marketing</h3>
     </div>
 
     <!-- Card for Writing & Translation -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
       <img src="images/Writing.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
       <h3 class="text-sm font-semibold text-[#444444] text-start">Writing & Translation</h3>
     </div>
 
     <!-- Card for Video & Animation -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
       <img src="images/animation.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
       <h3 class="text-sm font-semibold text-[#444444] text-start">Video & Animation</h3>
     </div>
 
     <!-- Card for Music & Audio -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-3 sm:gap-5 p-4 sm:p-2">
       <img src="images/Music and Audio.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
       <h3 class="text-sm font-semibold text-[#444444] text-start">Music & Audio</h3>
     </div>
 
     <!-- Card for Programming & Tech -->
-    <div class="flex flex-col iitems-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5 p-2">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5 p-4 sm:p-2">
       <img src="images/coding.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
       <h3 class="text-sm font-semibold text-[#444444] text-start">Programming & Tech</h3>
     </div>
 
     <!-- Card for Business -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md gap-5  p-2">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex gap-3 sm:gap-5  p-4 sm:p-2">
       <img src="images/BUsiness.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
       <h3 class="text-sm font-semibold text-[#444444] text-start">Business</h3>
     </div>
 
     <!-- Card for Lifestyle -->
-    <div class="flex flex-col items-start justify-center w-[120px] h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md  gap-5 p-2">
+    <div class="flex flex-col items-start justify-center w-[110px] h-[110px] sm:w-[120px] sm:h-[120px] m-2 border border-gray-300 rounded-lg bg-white shadow-md hidden sm:flex  gap-3 sm:gap-5 p-4 sm:p-2">
       <img src="images/lifestyle.png" alt="Logo" class="w-5 h-5 mb-2"> <!-- Changed to 20px -->
       <h3 class="text-sm font-semibold text-[#444444] text-start">Lifestyle</h3>
     </div>
   </div>
 
 </section>
-<section class="container w-[90vw] h-[547px] rounded-lg mx-auto p-8 bg-gray-900 text-white bg-cover bg-center mb-10 mt-10"
+<section class="container w-[90vw] h-auto lg:h-[547px] rounded-lg mx-auto p-8 bg-gray-900 text-white bg-cover bg-center mb-10 mt-10"
   style="background-image: url('images/bg-top-compressed-_2_.png');">
   <!-- Header Section -->
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4 bg-opacity-75 p-6 rounded-md">
@@ -138,18 +152,6 @@
       <p class="text-lg font-semibold mt-3 md:mt-0">Discover the most exciting and cutting-edge projects making waves in the industry.</p>
     </div>
   </div>
-
-  <!-- Subtitle -->
-  <!-- <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 bg-opacity-75 x p-6 rounded-md">
-    <div>
-      <p class="text-lg">
-        Work with the largest network of independent professionals and get things done—from quick turnarounds to big transformations.
-      </p>
-    </div>
-  </div> -->
-
-  <!-- Cards Section -->
-
 
   <div id="projects-slider" class="slider-container mx-auto py-5 px-1 lg:w-100 mt-20">
     <div class="slider">
@@ -226,7 +228,7 @@
 
 <section class="bg-blue-50 flex justify-center items-center min-h-screen mb-10">
   <div class="max-w-[1350px] mx-auto grid gap-8 p-4 md:p-6 md:grid-cols-2">
-    
+
     <div class="order-2 md:order-1">
       <h2 class="text-3xl md:text-4xl font-bold text-[#444444] mb-6 md:mb-8">How it Works</h2>
       <div class="space-y-8 md:space-y-14">
@@ -349,17 +351,17 @@
     </div>
   </div>
   <!-- Custom Next Button -->
-   <div class="bg-white">
-<button id="nextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white  border   w-10 h-[100px] rounded flex items-center justify-center">
-  <span class=" p-1 rounded-[46.73px]">
-    <img src="images/Frame 87.png" alt="" width="100%">
-  </span>
-    
-</button>
-</div>
+  <div class="bg-white">
+    <button id="nextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white  border   w-10 h-[100px] rounded flex items-center justify-center">
+      <span class=" p-1 rounded-[46.73px]">
+        <img src="images/Frame 87.png" alt="" width="100%">
+      </span>
+
+    </button>
+  </div>
 </div>
 
-<section class="bg-blue-50 flex justify-center py-10  ">
+<section class="bg-blue-50 flex justify-center py-10 hidden ">
   <div class="w-full max-w-[1350px]">
     <h2 class="text-4xl font-bold text-[#444444] mb-8">Why Choose Us?</h2>
     <!-- Main Container -->
@@ -469,9 +471,9 @@
 
   <!-- Next Button -->
   <button id="projectNextButton" class="absolute right-0 top-1/2 right-6 transform -translate-y-1/2 bg-white border w-10 h-[100px] rounded flex items-center justify-center z-10">
-  <span class=" p-1 rounded-[46.73px]">
-    <img src="images/Frame 87.png" alt="" width="100%">
-  </span>
+    <span class=" p-1 rounded-[46.73px]">
+      <img src="images/Frame 87.png" alt="" width="100%">
+    </span>
   </button>
 </div>
 
@@ -482,54 +484,55 @@
 
 
 
-<section class="py-10 flex justify-center">
-    <div class="w-full max-w-[1350px]">
-        <h2 class="text-4xl font-bold text-[#444444] mb-6">AI at Work</h2>
-        <div class="flex items-center">
-            <div class="w-1/2 flex justify-center">
-                <img id="aiImage" src="images/aibanner.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%]" />
+<section class="py-10 flex justify-center px-4">
+  <div class="w-full max-w-[1350px]">
+    <h2 class="text-4xl font-bold text-[#444444] mb-6">AI at Work</h2>
+    <div class="flex flex-col md:flex-row items-center">
+      <div class="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
+        <img id="aiImage" src="images/aibanner.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%]" />
+      </div>
+      <div class="w-full md:w-1/2 pl-0 md:pl-10">
+        <div class="flex items-start space-x-4 ">
+          <div class="flex flex-col items-center">
+            <div class="w-4 h-4 rounded-full bg-blue-500 circle" id="circle1"></div>
+            <div class="line-container">
+              <div class="progress-bar" id="progress1"></div>
             </div>
-            <div class="w-1/2 pl-10">
-                <div class="flex items-start space-x-4">
-                    <div class="flex flex-col items-center">
-                        <div class="w-4 h-4 rounded-full bg-blue-500 circle" id="circle1"></div>
-                        <div class="line-container">
-                            <div class="progress-bar" id="progress1"></div>
-                        </div>
-                    </div>
-                    <div class="-mt-2">
-                        <h3 class="text-xl font-semibold text-blue-600 feature-item text-increase" id="title1">AI Project Writer</h3>
-                        <p class="text-gray-600 text-increase" id="desc1">Generate tailored project proposals effortlessly with our AI Project Writer. Simply input your project details, and let AI create professional and impactful content in seconds.</p>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4">
-                    <div class="flex flex-col items-center">
-                        <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle2"></div>
-                        <div class="line-container">
-                            <div class="progress-bar" id="progress2"></div>
-                        </div>
-                    </div>
-                    <div class="-mt-2">
-                        <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title2">Personalized Project Suggestions</h3>
-                        <p class="text-gray-600 text-increase" id="desc2">Receive job recommendations customized to your skills and interests, making it easier to find projects that align with your expertise and preferences.</p>
-                    </div>
-                </div>
-                <div class="flex items-start space-x-4">
-                    <div class="flex flex-col items-center">
-                        <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle3"></div>
-                        <div class="line-container">
-                            <div class="progress-bar" id="progress3"></div>
-                        </div>
-                    </div>
-                    <div class="-mt-2">
-                        <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title3">Bid Sorting by AI</h3>
-                        <p class="text-gray-600 text-increase" id="desc3">Our intelligent bid sorting feature ranks bids to highlight the most relevant opportunities, helping you save time and find the best fits faster.</p>
-                    </div>
-                </div>
-            </div>
+          </div>
+          <div class="-mt-2">
+            <h3 class="text-xl font-semibold text-blue-600 feature-item text-increase" id="title1">AI Project Writer</h3>
+            <p class="text-gray-600 text-increase" id="desc1">Generate tailored project proposals effortlessly with our AI Project Writer. Simply input your project details, and let AI create professional and impactful content in seconds.</p>
+          </div>
         </div>
+        <div class="flex items-start space-x-4 ">
+          <div class="flex flex-col items-center">
+            <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle2"></div>
+            <div class="line-container">
+              <div class="progress-bar" id="progress2"></div>
+            </div>
+          </div>
+          <div class="-mt-2">
+            <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title2">Personalized Project Suggestions</h3>
+            <p class="text-gray-600 text-increase" id="desc2">Receive job recommendations customized to your skills and interests, making it easier to find projects that align with your expertise and preferences.</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-4 ">
+          <div class="flex flex-col items-center">
+            <div class="w-4 h-4 rounded-full bg-gray-300 circle" id="circle3"></div>
+            <div class="line-container">
+              <div class="progress-bar" id="progress3"></div>
+            </div>
+          </div>
+          <div class="-mt-2">
+            <h3 class="text-xl font-semibold text-gray-800 feature-item text-increase" id="title3">Bid Sorting by AI</h3>
+            <p class="text-gray-600 text-increase" id="desc3">Our intelligent bid sorting feature ranks bids to highlight the most relevant opportunities, helping you save time and find the best fits faster.</p>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
+
 
 
 
@@ -541,17 +544,17 @@
 
       <!-- Left Column: FAQ Title and Description -->
       <div class="w-full lg:w-1/3 mb-8 lg:mb-0 px-4 text-">
-        <h2 class="text-[#111111] text-3xl md:text-4xl font-semibold font-['Poppins'] leading-snug">
+        <h2 class="text-[#111111] text-3xl md:text-4xl font-bold leading-snug">
           Frequently Asked Questions
         </h2>
         <p class="text-[#111111] text-base md:text-lg mt-4 leading-loose">
-          If you’re new or looking for answers to your questions, find solutions to common inquiries.
+          If you're new or looking for answers to your questions, find solutions to common inquiries.
         </p>
       </div>
 
       <!-- Right Column: FAQ Accordion -->
       <div class="w-full lg:w-2/3 space-y-4 lg:space-y-6 bg-[#f8f8f8] p-4 lg:p-6 rounded-2xl">
-        
+
         <!-- FAQ Item 1 -->
         <div class="p-4 bg-white rounded-lg shadow-md flex flex-col">
           <button onclick="toggleAccordion(event)" class="accordion-header flex justify-between items-center w-full text-left">
@@ -598,53 +601,22 @@
 
 
 <div class="relative w-[90vw] mx-auto h-full bg-cover bg-no-repeat rounded-lg overflow-hidden flex flex-col items-center justify-start p-10 mb-5" style="background-image: url('images/cta\ banner.svg');">
-    <!-- Title with Background Image -->
-    <div class="relative text-white text-[48px] font-poppins font-medium  bg-center w-full text-center p-3 rounded-lg">
-        Manage with Ease
-    </div>
-    
-    <!-- Subtitle -->
-    <div class="text-center text-white text-[16px]  font-poppins font-normal mb-8">Utilize our Project Management tool for seamless timelines </br> and hassle-free payment processing.</div>
+  <!-- Title with Background Image -->
+  <div class="relative text-white text-[48px] font-poppins font-medium  bg-center w-full text-center p-3 rounded-lg">
+    Manage with Ease
+  </div>
 
-    <!-- Button with Background Image -->
-    <div class="flex items-center justify-center bg-white bg-center rounded-lg px-[48px] py-[16px] w-[320px] h-[64px]" style="background-image: url('path/to/your/button-background-image.jpg'); background-size: cover;">
-        <div class="text-[#0068FF] text-[24px] font-poppins font-normal leading-[26.40px]">Hire Freelancer</div>
-    </div>
+  <!-- Subtitle -->
+  <div class="text-center text-white text-[16px]  font-poppins font-normal mb-8">Utilize our Project Management tool for seamless timelines </br> and hassle-free payment processing.</div>
+
+  <!-- Button with Background Image -->
+  <div class="flex items-center justify-center bg-white bg-center rounded-lg px-[48px] py-[16px] w-[320px] h-[64px]" style="background-image: url('path/to/your/button-background-image.jpg'); background-size: cover;">
+    <div class="text-[#0068FF] text-[24px] font-poppins font-normal leading-[26.40px]">Hire Freelancer</div>
+  </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
-
-
-
-
-
 
 <script>
   $(document).ready(function() {
@@ -738,89 +710,89 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     const progressBars = [
-        document.getElementById('progress1'),
-        document.getElementById('progress2'),
-        document.getElementById('progress3')
+      document.getElementById('progress1'),
+      document.getElementById('progress2'),
+      document.getElementById('progress3')
     ];
 
     const aiImage = document.getElementById('aiImage');
 
     const titles = [
-        document.getElementById('title1'),
-        document.getElementById('title2'),
-        document.getElementById('title3')
+      document.getElementById('title1'),
+      document.getElementById('title2'),
+      document.getElementById('title3')
     ];
 
     const descriptions = [
-        document.getElementById('desc1'),
-        document.getElementById('desc2'),
-        document.getElementById('desc3')
+      document.getElementById('desc1'),
+      document.getElementById('desc2'),
+      document.getElementById('desc3')
     ];
 
     const circles = [
-        document.getElementById('circle1'),
-        document.getElementById('circle2'),
-        document.getElementById('circle3')
+      document.getElementById('circle1'),
+      document.getElementById('circle2'),
+      document.getElementById('circle3')
     ];
 
     // Image paths for different states
     const images = [
-        "images/aibanner.png",  // Image for progress 1
-        "images/laptop img.png",  // Image for progress 2
-        "images/aibanner.png"   // Image for progress 3
+      "images/aibanner.png", // Image for progress 1
+      "images/laptop img.png", // Image for progress 2
+      "images/aibanner.png" // Image for progress 3
     ];
 
     let currentIndex = 0;
 
     // Function to fill a single progress bar and update the image
     const fillProgressBar = () => {
-        // Reset previous progress bars
-        for (let i = 0; i < progressBars.length; i++) {
-            progressBars[i].style.height = '0'; // Reset height to 0
-            circles[i].classList.remove('bg-blue-500');
-            circles[i].classList.add('bg-gray-300');
-            titles[i].style.fontSize = '1rem'; // Reset font size
-            titles[i].classList.remove('text-blue-600');
-            titles[i].classList.add('text-gray-800');
-            descriptions[i].style.fontSize = '0.875rem'; // Reset font size
-            descriptions[i].classList.remove('text-blue-600');
-            descriptions[i].classList.add('text-gray-600');
-        }
+      // Reset previous progress bars
+      for (let i = 0; i < progressBars.length; i++) {
+        progressBars[i].style.height = '0'; // Reset height to 0
+        circles[i].classList.remove('bg-blue-500');
+        circles[i].classList.add('bg-gray-300');
+        titles[i].style.fontSize = '1rem'; // Reset font size
+        titles[i].classList.remove('text-blue-600');
+        titles[i].classList.add('text-gray-800');
+        // descriptions[i].style.fontSize = '0.875rem'; // Reset font size
+        descriptions[i].classList.remove('text-blue-600');
+        descriptions[i].classList.add('text-gray-600');
+      }
 
-        // Fill the current progress bar
-        const progressBar = progressBars[currentIndex];
-        const title = titles[currentIndex];
-        const description = descriptions[currentIndex];
-        const circle = circles[currentIndex];
+      // Fill the current progress bar
+      const progressBar = progressBars[currentIndex];
+      const title = titles[currentIndex];
+      const description = descriptions[currentIndex];
+      const circle = circles[currentIndex];
 
-        // Fill the progress bar with blue color
-        progressBar.style.height = '100%'; // Fill height to 100%
+      // Fill the progress bar with blue color
+      progressBar.style.height = '100%'; // Fill height to 100%
 
-        // Change the image after filling the progress bar
-        aiImage.src = images[currentIndex];
+      // Change the image after filling the progress bar
+      aiImage.src = images[currentIndex];
 
-        // Change circle color to indicate fill
-        circle.classList.remove('bg-gray-300');
-        circle.classList.add('bg-blue-500');
+      // Change circle color to indicate fill
+      circle.classList.remove('bg-gray-300');
+      circle.classList.add('bg-blue-500');
 
-        // Animate the font size increase
-        title.classList.add('text-increase');
-        title.style.fontSize = '1.25rem'; // Increase font size
-        title.classList.replace('text-gray-800', 'text-blue-600');
-        
-        description.classList.add('text-increase');
-        description.style.fontSize = '0.9375rem'; // Increase font size for description
-        description.classList.replace('text-gray-600', 'text-blue-600');
+      // Animate the font size increase
+      title.classList.add('text-increase');
+      title.style.fontSize = '1.25rem'; // Increase font size
+      title.classList.replace('text-gray-800', 'text-blue-600');
 
-        // Move to the next index
-        currentIndex = (currentIndex + 1) % progressBars.length; // Loop back to first
+      description.classList.add('text-increase');
+      description.style.fontSize = '0.9375rem'; // Increase font size for description
+      description.classList.replace('text-gray-600', 'text-blue-600');
+
+      // Move to the next index
+      currentIndex = (currentIndex + 1) % progressBars.length; // Loop back to first
     };
 
     // Start filling progress bars every 4 seconds
-    setInterval(fillProgressBar, 1000); // 4 seconds for each cycle
-});
+    setInterval(fillProgressBar, 1500); // 4 seconds for each cycle
+  });
 
-function toggleAccordion(event) {
+  function toggleAccordion(event) {
     const button = event.currentTarget;
     const accordionBody = button.nextElementSibling;
     const icon = button.querySelector(".icon");
@@ -836,7 +808,6 @@ function toggleAccordion(event) {
       icon.classList.replace("fa-plus", "fa-minus");
     }
   }
-
 </script>
 
 

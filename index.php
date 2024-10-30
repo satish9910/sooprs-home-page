@@ -3,14 +3,26 @@
 <div class="hidden lg:flex -z-3 absolute left-0 w-full h-full top-[150px] items-center">
       <img src="images/Graphic.png" alt="Background Graphic">
     </div>
-<div class="grid lg:grid-cols-3 bg-[#FDFDFD] p-0 sm:p-10 w-full h-[70vh] lg:h-[90vh]">
-  <div class="flex-1 space-y-6 flex flex-col justify-center px-2 lg:col-span-2 relative overflow-hidden lg:pl-[60px] text-center sm:text-left">
-    <div class="mb-2 z-10 mt-[150px] sm:mt-0">
+<div class="grid lg:grid-cols-3 bg-[#FDFDFD] p-0 lg:p-10 w-full h-[70vh] lg:h-[90vh]">
+  <div class="flex-1 space-y-6 flex flex-col justify-center px-2 lg:col-span-2 relative overflow-hidden lg:pl-[60px] text-center lg:text-left">
+    <div class="mb-2 z-10 mt-[150px] lg:mt-0">
       <h1 class="text-2xl lg:text-6xl font-semibold">Connect, Collaborate</h1>
       <h1 class="text-4xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r to-[#0068FF] from-[#9747FF]">Deliver with Sooprs</h1>
     </div>
     <div>
-      <div class="animate-marquee-left flex items-center gap-4 sm:hidden">
+      <div class="animate-marquee-left flex items-center gap-4 lg:hidden">
+        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 1">
+        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 2">
+        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 3">
+        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 4">
+        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 5">
+        <img src="images/Rectangle-3584-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 6">
+        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 7">
+        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 8">
+        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 9">
+        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 10">
+        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 11">
+        <img src="images/Rectangle-3584-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 12">
         <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 1">
         <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 2">
         <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 3">
@@ -26,7 +38,7 @@
       </div>
     </div>
 
-    <p class="text-gray-600 font-semibold mb-2 z-10 text-sm sm:text-lg pt-[70px] sm:pt-0">“Hire Expert Professionals from the leading Freelance marketplace”</p>
+    <p class="text-gray-600 font-semibold mb-2 z-10 text-sm lg:text-lg pt-[70px] lg:pt-0">“Hire Expert Professionals from the leading Freelance marketplace”</p>
     <div class="flex flex-col items-center lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0 lg:items-start lg:justify-start z-10">
       <button class="bg-[#0068FF] border-[1.5px] border-[#0068FF] text-white px-6 py-2 rounded w-fit">Hire Freelancer</button>
       <button class="bg-white border-[1.5px] border-[#0068FF] text-[#0068FF] px-6 py-2 rounded w-fit hover:bg-[#0068FF] hover:text-white">Earn as Freelancing</button>
@@ -34,8 +46,8 @@
 
   
     <div class="z-10 relative top-[90px]">
-      <p class="text-gray-400 font-bold text-lg sm:text-xl">Trusted By</p>
-      <div class="flex gap-8 mt-5 justify-center sm:justify-start">
+      <p class="text-gray-400 font-bold text-lg lg:text-xl">Trusted By</p>
+      <div class="flex gap-8 mt-5 justify-center lg:justify-start">
         <img src="images/e.png" alt="Ezi">
         <img src="images/tech.png" alt="Techninza">
         <img src="images/certigo.png" alt="Certigo Gas">
@@ -46,7 +58,7 @@
 
 
   <!-- Right Side - Profile Marquee Animation -->
-  <div class="relative flex space-x-4 overflow-hidden px-4 col-span-1 hidden sm:flex lg:h-[100vh]">
+  <div class="relative flex space-x-4 overflow-hidden px-4 col-span-1 hidden lg:flex lg:h-[100vh]">
     <!-- Left Marquee -->
     <div class="flex-1 ">
       <div class="animate-marquee-up flex flex-col items-center">
@@ -295,32 +307,40 @@
 <section class="bg-blue-50 flex justify-center items-center min-h-screen mb-10">
   <div class="max-w-[90vw] mx-auto grid gap-8 p-4 md:p-6 md:grid-cols-2">
 
-    <div class="order-2 md:order-1 mt-20 md:mt-0">
+    <!-- Text Content Section -->
+    <div class="order-2 md:order-1 mt-10 md:mt-0">
       <h2 class="text-3xl md:text-4xl font-bold text-[#444444] mb-6 md:mb-8">How it Works</h2>
       <div class="space-y-8 md:space-y-14">
+        <!-- Step 1 -->
         <div class="flex items-start space-x-4 py-5 px-6 md:px-10 bg-white rounded-lg shadow-md relative w-full md:w-[95%]">
-          <span class="bg-blue-500 text-white text-xs md:text-sm font-semibold px-2 md:px-3 py-1 md:py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 1</span>
+          <span class="bg-gradient-to-r from-[#9747FF] to-[#0068FF] text-white text-xs md:text-sm font-semibold px-2 md:px-3 py-1 md:py-2 rounded-lg absolute -top-5 left-0">Step 1</span>
           <div>
             <h3 class="text-lg md:text-xl font-semibold">Post Your Project</h3>
             <p class="mt-1 text-sm md:text-base">Easily create your project description with AI in seconds by simply entering your requirements!</p>
           </div>
         </div>
+
+        <!-- Step 2 -->
         <div class="flex items-start space-x-4 py-5 px-6 md:px-10 bg-white rounded-lg shadow-md relative w-full md:w-[95%] md:ml-12">
-          <span class="bg-blue-500 text-white text-xs md:text-sm font-semibold px-2 md:px-3 py-1 md:py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 2</span>
+          <span class="bg-gradient-to-r from-[#9747FF] to-[#0068FF] text-white text-xs md:text-sm font-semibold px-2 md:px-3 py-1 md:py-2 rounded-lg absolute -top-5 left-0">Step 2</span>
           <div>
             <h3 class="text-lg md:text-xl font-semibold">Set Your Budget & Go Live</h3>
             <p class="mt-1 text-sm md:text-base">Choose a budget, post, and watch freelancers bid on your project instantly!</p>
           </div>
         </div>
+
+        <!-- Step 3 -->
         <div class="flex items-start space-x-4 py-5 px-6 md:px-10 bg-white rounded-lg shadow-md relative w-full md:w-[95%] md:ml-6">
-          <span class="bg-blue-500 text-white text-xs md:text-sm font-semibold px-2 md:px-3 py-1 md:py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 3</span>
+          <span class="bg-gradient-to-r from-[#9747FF] to-[#0068FF] text-white text-xs md:text-sm font-semibold px-2 md:px-3 py-1 md:py-2 rounded-lg absolute -top-5 left-0">Step 3</span>
           <div>
             <h3 class="text-lg md:text-xl font-semibold">Choose Your Freelancer</h3>
             <p class="mt-1 text-sm md:text-base">Select the perfect freelancer from a pool of talented professionals for your project!</p>
           </div>
         </div>
+
+        <!-- Step 4 -->
         <div class="flex items-start space-x-4 py-5 px-6 md:px-10 bg-white rounded-lg shadow-md relative w-full md:w-[95%] md:ml-20">
-          <span class="bg-blue-500 text-white text-xs md:text-sm font-semibold px-2 md:px-3 py-1 md:py-2 rounded-lg absolute -top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Step 4</span>
+          <span class="bg-gradient-to-r from-[#9747FF] to-[#0068FF] text-white text-xs md:text-sm font-semibold px-2 md:px-3 py-1 md:py-2 rounded-lg absolute -top-5 left-0">Step 4</span>
           <div>
             <h3 class="text-lg md:text-xl font-semibold">Manage with Ease</h3>
             <p class="mt-1 text-sm md:text-base">Utilize our Project Management tool for seamless timelines and hassle-free payment processing.</p>
@@ -329,30 +349,27 @@
       </div>
     </div>
 
+    <!-- Video Section -->
     <div class="flex justify-center items-center order-1 md:order-2 ml-0 sm:ml-14">
-      <!-- <div class="relative w-full h-[40vh] md:h-[90vh] bg-cover bg-center rounded-lg shadow-md" style="background-image: url('images/blog-banner-04-1.png')">
-      </div> -->
-       <!-- Thumbnail container -->
-  <div id="thumbnail-container" class="relative w-full h-[40vh] md:h-[90vh] bg-cover bg-center rounded-lg   cursor-pointer" onclick="openModal('iKMuX7mwiqc')">
-    <img src="images/blog-banner-04-1.png" alt="Video Thumbnail" class="w-full rounded-lg object-cover">
-    <i class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-6xl opacity-80">
-     <img src="images/Play.png" alt="">
-    </i>
-  </div>
+      <div id="thumbnail-container" class="relative w-full h-[50vh] md:h-[80vh] lg:h-[90vh] bg-cover bg-center rounded-lg cursor-pointer" onclick="openModal('iKMuX7mwiqc')">
+        <img src="images/blog-banner-04-1.png" alt="Video Thumbnail" class="w-full rounded-lg object-cover h-full">
+        <i class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-6xl opacity-80">
+          <img src="images/Play.png" alt="">
+        </i>
+      </div>
 
-  <!-- Modal -->
-  <div id="videoModal" class="fixed inset-0 hidden bg-black bg-opacity-75 flex items-center justify-center">
-    <div class="relative w-full max-w-2xl max-h-[85vh] bg-black rounded-lg overflow-hidden">
-      <button class="absolute top-4 right-4 text-white text-2xl" onclick="closeModal()">&times;</button>
-      <iframe id="videoFrame" class="w-full h-[50vh]" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-  </div>
-
-      
+      <!-- Modal -->
+      <div id="videoModal" class="fixed inset-0 hidden bg-black bg-opacity-75 flex items-center justify-center">
+        <div class="relative w-full max-w-2xl max-h-[85vh] bg-black rounded-lg overflow-hidden">
+          <button class="absolute top-4 right-4 text-white text-2xl" onclick="closeModal()">&times;</button>
+          <iframe id="videoFrame" class="w-full h-[50vh]" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
 
   </div>
 </section>
+
 
 
 
@@ -493,7 +510,7 @@
     <div class="relative flex flex-col md:flex-row justify-between items-center">
       <!-- Left Column -->
       <div class="space-y-6 mt-8 ml-4 sm:ml-0">
-        <img src="images/left.png" alt="" class="absolute h-[530px] left-[445px] top-[85px] hidden md:block">
+        <img src="images/left.png" alt="" class="absolute h-[530px] left-[445px] top-[85px] hidden xl:block">
         <div class="  border-gray-300 p-0 px-3  md:p-6  max-w-md relative">
           <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-14 md:-top-5 left-4 md:left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Clients</span>
           <div class="flex items-center gap-3">
@@ -522,7 +539,7 @@
         <div class="border-gray-300 p-0 px-3  md:p-6  max-w-md">
         <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
-          By outsourcing tasks to freelancers, clients can focus on core business activities and improve productivity.
+          By outsourcing tasks to freelancers, clients can focus on core business activities and improve productivity.
           </div>
         </div>
       </div>
@@ -531,7 +548,7 @@
         <div class="circle-background"></div>
         <div class="circle pulse blue center">
           <div class="pluse-container place-content-center items-center">
-            <img src="images/logo.png" alt="logo" width="80px">
+            <img src="images/logo.png" alt="logo" class="w-[60px] xl:w-[80px]">
           </div>
         </div>
 
@@ -539,7 +556,7 @@
       <!-- Right Column -->
       <div class="space-y-6 mt-8 ml-4 sm:ml-0">
       <img src="images/bottom.png" alt="" class="  left-[445px] top-[95px] mt-6 md:hidden">
-        <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[60px] hidden md:block">
+        <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[60px] hidden xl:block">
         <span class="bg-blue-500 text-white  text-md font-semibold px-2 mx-2 py-2 rounded-lg absolute md:hidden block  md:-top-14 md:-top-5 left-6" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
         <div class=" px-2 pt-12   md:p-6  max-w-md relative">
           <span class="bg-blue-500  text-white text-md font-semibold px-3 py-2 rounded-lg absolute hidden md:block  md:-top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>

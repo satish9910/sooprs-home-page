@@ -6,8 +6,8 @@
 <div class="grid lg:grid-cols-3 bg-[#FDFDFD] p-0 sm:p-10 w-full h-[70vh] lg:h-[90vh]">
   <div class="flex-1 space-y-6 flex flex-col justify-center px-2 lg:col-span-2 relative overflow-hidden lg:pl-[60px] text-center sm:text-left">
     <div class="mb-2 z-10 mt-[150px] sm:mt-0">
-      <h1 class="text-2xl lg:text-5xl font-semibold">Connect, Collaborate</h1>
-      <h1 class="text-4xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r to-[#0068FF] from-[#9747FF]">Deliver with Sooprs</h1>
+      <h1 class="text-2xl lg:text-6xl font-semibold">Connect, Collaborate</h1>
+      <h1 class="text-4xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r to-[#0068FF] from-[#9747FF]">Deliver with Sooprs</h1>
     </div>
     <div>
       <div class="animate-marquee-left flex items-center gap-4 sm:hidden">
@@ -29,7 +29,7 @@
     <p class="text-gray-600 font-semibold mb-2 z-10 text-sm sm:text-lg pt-[70px] sm:pt-0">“Hire Expert Professionals from the leading Freelance marketplace”</p>
     <div class="flex flex-col items-center lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0 lg:items-start lg:justify-start z-10">
       <button class="bg-[#0068FF] border-[1.5px] border-[#0068FF] text-white px-6 py-2 rounded w-fit">Hire Freelancer</button>
-      <button class="bg-white border-[1.5px] border-[#0068FF] text-[#0068FF] px-6 py-2 rounded w-fit">Earn as Freelancing</button>
+      <button class="bg-white border-[1.5px] border-[#0068FF] text-[#0068FF] px-6 py-2 rounded w-fit hover:bg-[#0068FF] hover:text-white">Earn as Freelancing</button>
     </div>
 
   
@@ -293,9 +293,9 @@
 </section>
 
 <section class="bg-blue-50 flex justify-center items-center min-h-screen mb-10">
-  <div class="max-w-[1350px] mx-auto grid gap-8 p-4 md:p-6 md:grid-cols-2">
+  <div class="max-w-[90vw] mx-auto grid gap-8 p-4 md:p-6 md:grid-cols-2">
 
-    <div class="order-2 md:order-1">
+    <div class="order-2 md:order-1 mt-20 md:mt-0">
       <h2 class="text-3xl md:text-4xl font-bold text-[#444444] mb-6 md:mb-8">How it Works</h2>
       <div class="space-y-8 md:space-y-14">
         <div class="flex items-start space-x-4 py-5 px-6 md:px-10 bg-white rounded-lg shadow-md relative w-full md:w-[95%]">
@@ -487,7 +487,7 @@
 </div>
 
 <section class="bg-blue-50 flex justify-center items-center py-10 ">
-  <div class="w-full max-w-[1350px]">
+  <div class="w-full max-w-[90vw]">
     <h2 class="text-4xl font-bold text-[#444444] mb-8 ml-[25px] md:ml-0">Why Choose Us?</h2>
     <!-- Main Container -->
     <div class="relative flex flex-col md:flex-row justify-between items-center">
@@ -605,7 +605,7 @@
         <img src="images/dollar icon.png" alt="">
         <div class="text-md sm:text-lg font-bold text-gray-800 ">$70 - 120</div>
         </div>
-        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Explore</button>
+        <button class="bid-now mt-5 md:mt-0 border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition ">Explore</button>
       </div>
     </div>
 
@@ -619,7 +619,7 @@
         <img src="images/dollar icon.png" alt="">
         <div class="text-md sm:text-lg font-bold text-gray-800 ">$100 - 120</div>
         </div>
-        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Explore</button>
+        <button class="bid-now mt-5 md:mt-0 border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Explore</button>
       </div>
     </div>
 
@@ -633,7 +633,7 @@
         <img src="images/dollar icon.png" alt="">
         <div class="text-md sm:text-lg font-bold text-gray-800 ">$80 - 130</div>
         </div>
-        <button class="bid-now border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Explore</button>
+        <button class="bid-now mt-5 md:mt-0 border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Explore</button>
       </div>
     </div>
   </div>

@@ -45,64 +45,64 @@
       </div>
     </div>
 
-    <p class="text-gray-600 font-semibold mb-2 z-10 text-sm lg:text-lg pt-[70px] lg:pt-0">“Hire Expert Professionals from the leading Freelance marketplace”</p>
-    <div class="flex flex-col items-center lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0 lg:items-start lg:justify-start z-10">
-      <button class="bg-[#0068FF] border-[1.5px] border-[#0068FF] text-white px-6 py-2 rounded w-fit">Hire Freelancer</button>
-      <button class="bg-white border-[1.5px] border-[#0068FF] text-[#0068FF] px-6 py-2 rounded w-fit hover:bg-[#0068FF] hover:text-white">Earn as Freelancing</button>
+      <p class="text-gray-600 font-semibold mb-2 z-10 text-sm lg:text-lg pt-[70px] lg:pt-0">“Hire Expert Professionals from the leading Freelance marketplace”</p>
+      <div class="flex flex-col items-center lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0 lg:items-start lg:justify-start z-10">
+        <button class="bg-[#0068FF] border-[1.5px] border-[#0068FF] text-white px-6 py-2 rounded w-fit">Hire Freelancer</button>
+        <button class="bg-white border-[1.5px] border-[#0068FF] text-[#0068FF] px-6 py-2 rounded w-fit hover:bg-[#0068FF] hover:text-white">Earn as Freelancing</button>
+      </div>
+
+
+      <div class="z-10 relative top-[90px]">
+        <p class="text-gray-400 font-bold text-lg lg:text-xl">Trusted By</p>
+        <div class="flex gap-8 mt-5 justify-center lg:justify-start">
+          <img src="images/e.png" alt="Ezi">
+          <img src="images/tech.png" alt="Techninza">
+          <img src="images/certigo.png" alt="Certigo Gas">
+        </div>
+      </div>
     </div>
 
-  
-    <div class="z-10 relative top-[90px]">
-      <p class="text-gray-400 font-bold text-lg lg:text-xl">Trusted By</p>
-      <div class="flex gap-8 mt-5 justify-center lg:justify-start">
-        <img src="images/e.png" alt="Ezi">
-        <img src="images/tech.png" alt="Techninza">
-        <img src="images/certigo.png" alt="Certigo Gas">
+
+
+    <!-- Right Side - Profile Marquee Animation -->
+    <div class="relative flex space-x-4 overflow-hidden px-4 col-span-1 hidden lg:flex lg:h-[100vh]">
+      <!-- Left Marquee -->
+      <div class="flex-1 ">
+        <div class="animate-marquee-up flex flex-col items-center">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 1">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 2">
+          <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 3">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 4">
+          <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 5">
+          <img src="images/Rectangle-3584-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 6">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 7">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 8">
+          <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 9">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 10">
+          <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 11">
+          <img src="images/Rectangle-3584-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 12">
+        </div>
+      </div>
+
+      <div class="flex-1 ">
+        <div class="animate-marquee-down flex flex-col items-center">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 1">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 2">
+          <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 3">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 4">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 5">
+          <img src="images/Rectangle-3584-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 6">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 7">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 8">
+          <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 9">
+          <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 10">
+          <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 11">
+          <img src="images/Rectangle-3584-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 12">
+        </div>
       </div>
     </div>
   </div>
-
-
-
-  <!-- Right Side - Profile Marquee Animation -->
-  <div class="relative flex space-x-4 overflow-hidden px-4 col-span-1 hidden lg:flex lg:h-[100vh]">
-    <!-- Left Marquee -->
-    <div class="flex-1 ">
-      <div class="animate-marquee-up flex flex-col items-center">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 1">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 2">
-        <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 3">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 4">
-        <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 5">
-        <img src="images/Rectangle-3584-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 6">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 7">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 8">
-        <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 9">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 10">
-        <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 11">
-        <img src="images/Rectangle-3584-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 12">
-      </div>
-    </div>
-
-    <div class="flex-1 ">
-      <div class="animate-marquee-down flex flex-col items-center">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 1">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 2">
-        <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 3">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 4">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 5">
-        <img src="images/Rectangle-3584-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 6">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 7">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 8">
-        <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 9">
-        <img src="images/Rectangle-3573-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 10">
-        <img src="images/Rectangle-3697-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 11">
-        <img src="images/Rectangle-3584-min.svg" class="w-50 h-50 rounded-full mb-4" alt="Profile 12">
-      </div>
-    </div>
-  </div>
-</div>
-<div class="absolute bottom-0 w-full h-5 bg-gradient-to-t from-white/100 via-white/40 to-transparent backdrop-blur-[1px]"></div>
+  <div class="absolute bottom-0 w-full h-5 bg-gradient-to-t from-white/100 via-white/40 to-transparent backdrop-blur-[1px]"></div>
 
 
 
@@ -174,15 +174,15 @@
       </h2>
       <p class="text-lg font-semibold mt-3 md:mt-0">Discover the most exciting and cutting-edge projects making waves in the industry.</p>
     </div>
-    
+
   </div>
-  
+
   <button class="ml-0 sm:ml-6 mt-2 sm:mt-0 bg-blue-500 text-white text-md px-4 py-2 font-semibold rounded-lg " style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Top Projects</button>
   <div id="projects-slider" class="slider-container relative mx-auto py-5 px-1 w-full mt-20">
-    
+
     <button id="sliderPrevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2  sm:bg-white rounded-[8px]  h-[140px] w-10 flex items-center justify-center text-white  z-10">
       <span class=" p-1 rounded-[46.73px]">
-        <img src="images/leftArrow.png" alt="" width="100%" >
+        <img src="images/leftArrow.png" alt="" width="100%">
       </span>
     </button>
     <!-- <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4 sm:py-10 min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0 sm:hidden">
@@ -200,11 +200,11 @@
       <!-- Card 1 -->
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4   min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
         <div class="sm:flex justify-between sm:px-0 px-2">
-          
-           <span class="flex items-center gap-2">
+
+          <span class="flex items-center gap-2">
             <img src="images/la_pen-nib.png" alt="">
-           
-          <h3 class="text-md sm:text-lg font-semibold text-gray-900 sm:mb-0 mb-2">Machine Learning Development</h3>
+
+            <h3 class="text-md sm:text-lg font-semibold text-gray-900 sm:mb-0 mb-2">Machine Learning Development</h3>
           </span>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
         </div>
@@ -216,11 +216,11 @@
       </div>
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4   min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
         <div class="sm:flex justify-between sm:px-0 px-2">
-          
-           <span class="flex items-center gap-2">
+
+          <span class="flex items-center gap-2">
             <img src="images/la_pen-nib.png" alt="">
-           
-          <h3 class="text-md sm:text-lg font-semibold text-gray-900 sm:mb-0 mb-2">Machine Learning Development</h3>
+
+            <h3 class="text-md sm:text-lg font-semibold text-gray-900 sm:mb-0 mb-2">Machine Learning Development</h3>
           </span>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
         </div>
@@ -232,11 +232,11 @@
       </div>
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4   min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
         <div class="sm:flex justify-between sm:px-0 px-2">
-          
-           <span class="flex items-center gap-2">
+
+          <span class="flex items-center gap-2">
             <img src="images/la_pen-nib.png" alt="">
-           
-          <h3 class="text-md sm:text-lg font-semibold text-gray-900 sm:mb-0 mb-2">Machine Learning Development</h3>
+
+            <h3 class="text-md sm:text-lg font-semibold text-gray-900 sm:mb-0 mb-2">Machine Learning Development</h3>
           </span>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
         </div>
@@ -248,11 +248,11 @@
       </div>
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4   min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
         <div class="sm:flex justify-between sm:px-0 px-2">
-          
-           <span class="flex items-center gap-2">
+
+          <span class="flex items-center gap-2">
             <img src="images/la_pen-nib.png" alt="">
-           
-          <h3 class="text-md sm:text-lg font-semibold text-gray-900 sm:mb-0 mb-2">Machine Learning Development</h3>
+
+            <h3 class="text-md sm:text-lg font-semibold text-gray-900 sm:mb-0 mb-2">Machine Learning Development</h3>
           </span>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
         </div>
@@ -264,11 +264,11 @@
       </div>
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4   min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
         <div class="sm:flex justify-between sm:px-0 px-2">
-          
-           <span class="flex items-center gap-2">
+
+          <span class="flex items-center gap-2">
             <img src="images/la_pen-nib.png" alt="">
-           
-          <h3 class="text-md sm:text-lg font-semibold text-gray-900 sm:mb-0 mb-2">Machine Learning Development</h3>
+
+            <h3 class="text-md sm:text-lg font-semibold text-gray-900 sm:mb-0 mb-2">Machine Learning Development</h3>
           </span>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
         </div>
@@ -280,11 +280,11 @@
       </div>
       <div class="card bg-white rounded-lg shadow-lg p-4 text-left mx-2 py-4   min-w-[200px] sm:min-w-[250px] lg:min-w-[300px] flex-shrink-0">
         <div class="sm:flex justify-between sm:px-0 px-2">
-          
-           <span class="flex items-center gap-2">
+
+          <span class="flex items-center gap-2">
             <img src="images/la_pen-nib.png" alt="">
-           
-          <h3 class="text-md sm:text-lg font-semibold text-gray-900 sm:mb-0 mb-2">Machine Learning Development</h3>
+
+            <h3 class="text-md sm:text-lg font-semibold text-gray-900 sm:mb-0 mb-2">Machine Learning Development</h3>
           </span>
           <p class="text-gray-700 mb-4">Starting From <strong class="text-black">$50</strong></p>
         </div>
@@ -295,13 +295,13 @@
         </div>
       </div>
 
-      
+
     </div>
     <!-- Next Button -->
     <div class="bg-white">
       <button id="sliderNextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2  sm:bg-white rounded-[8px]  w-10 h-[140px]  flex items-center justify-center text-white z-10">
         <span class=" p-1 rounded-[46.73px]">
-          <img src="images/Frame 87.png" alt="" width="100%" >
+          <img src="images/Frame 87.png" alt="" width="100%">
         </span>
       </button>
     </div>
@@ -385,12 +385,12 @@
 
 <div class="wrapper w-[90vw] mx-auto relative">
   <div class="flex justify-between items-center">
-  <h2 class="text-4xl font-bold text-[#444444] mb-8 mt-8">Top Freelancers</h2>
-  <p>View all</p>
+    <h2 class="text-4xl font-bold text-[#444444] mb-8 mt-8">Top Freelancers</h2>
+    <p>View all</p>
   </div>
   <!-- Custom Previous Button -->
   <button id="prevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white border  w-10 h-[100px] rounded flex items-center justify-center z-10">
-  <span class=" p-1 rounded-[46.73px]">
+    <span class=" p-1 rounded-[46.73px]">
       <img src="images/leftArrow.png" alt="" width="100%">
     </span>
   </button>
@@ -501,9 +501,9 @@
   <!-- Custom Next Button -->
   <div class="bg-white">
     <button id="nextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white  border  w-10 h-[100px] rounded flex items-center justify-center">
-    <span class=" p-1 rounded-[46.73px]">
-      <img src="images/Frame 87.png" alt="" width="100%">
-    </span>
+      <span class=" p-1 rounded-[46.73px]">
+        <img src="images/Frame 87.png" alt="" width="100%">
+      </span>
 
     </button>
   </div>
@@ -525,73 +525,73 @@
           </div>
         </div>
         <div class=" border-gray-300  p-0 px-3  md:p-6  max-w-md">
-        <div class="flex items-center gap-3">
+          <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
             Competitive pricing options allow clients to stay within their budget while ensuring quality.
           </div>
         </div>
         <div class=" border-gray-300 p-0 px-3  md:p-6  max-w-md">
-        <div class="flex items-center gap-3">
+          <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
             The platform offers simplified project management tools, making it easy to track progress and communicate.
           </div>
         </div>
         <div class="border-gray-300 p-0 px-3  md:p-6  max-w-md">
-        <div class="flex items-center gap-3">
+          <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
             Sooprs ensures secure payments, protecting both clients and freelancers throughout the process.
           </div>
         </div>
         <div class="border-gray-300 p-0 px-3  md:p-6  max-w-md">
-        <div class="flex items-center gap-3">
+          <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
-          By outsourcing tasks to freelancers, clients can focus on core business activities and improve productivity.
+            By outsourcing tasks to freelancers, clients can focus on core business activities and improve productivity.
           </div>
         </div>
       </div>
       <img src="images/top.png" alt="" class=" left-[445px] top-[95px] mt-6 md:hidden">
       <div>
-        <div class="circle-background"></div>
+        <!-- <div class="circle-background"></div> -->
         <div class="circle pulse blue center">
           <div class="pluse-container place-content-center items-center">
             <img src="images/logo.png" alt="logo" class="w-[60px] xl:w-[80px]">
           </div>
         </div>
-
       </div>
       <!-- Right Column -->
       <div class="space-y-6 mt-8 ml-4 sm:ml-0">
-      <img src="images/bottom.png" alt="" class="  left-[445px] top-[95px] mt-6 md:hidden">
+        <img src="images/bottom.png" alt="" class="  left-[445px] top-[95px] mt-6 md:hidden">
         <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[60px] hidden xl:block">
-        <span class="bg-blue-500 text-white  text-md font-semibold px-2 mx-2 py-2 rounded-lg absolute md:hidden block  md:-top-14 md:-top-5 left-6" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
+        <!-- <span class="bg-blue-500 text-white  text-md font-semibold px-2 mx-2 py-2 rounded-lg absolute md:hidden block  md:-top-14 md:-top-5 left-6" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span> -->
+        
         <div class=" px-2 pt-12   md:p-6  max-w-md relative">
-          <span class="bg-blue-500  text-white text-md font-semibold px-3 py-2 rounded-lg absolute hidden md:block  md:-top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
+        <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-5 left-4 md:left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
           <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
             Freelancers can showcase their skills to a global audience, expanding their client base.
           </div>
-         
+
         </div>
-        <div class="border-gray-300 px-2  p-0  md:p-6  max-w-md">
-        <div class="flex items-center gap-3">
+        <div class="border-gray-300 p-0 px-3  md:p-6  max-w-md">
+          <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
             Professionals can set their own rates and work on flexible schedules.
           </div>
         </div>
         <div class="border-gray-300 px-2  p-0  md:p-6   max-w-md">
-        <div class="flex items-center gap-3">
+          <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
             Secure payment processes ensure freelancers are paid reliably for completed work.
           </div>
         </div>
         <div class="border-gray-300 px-2 p-0  md:p-6   max-w-md">
-        <div class="flex items-center gap-3">
+          <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
             Freelancers can build a strong portfolio and receive feedback, boosting their credibility.
           </div>
         </div>
         <div class="border-gray-300 px-2  p-0  md:p-6   max-w-md">
-        <div class="flex items-center gap-3">
+          <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
             The platform provides tools to manage multiple projects efficiently and streamline communication with clients.
           </div>
@@ -625,8 +625,8 @@
         <h3 class="text-lg sm:text-xl font-semibold mb-2">Lorrigo-I Need a Website For B2B and B2C Courier Services</h3>
         <span class="text-gray-500">Web Design and App</span>
         <div class="flex items-center gap-1 ">
-        <img src="images/dollar icon.png" alt="">
-        <div class="text-md sm:text-lg font-bold text-gray-800 ">$70 - 120</div>
+          <img src="images/dollar icon.png" alt="">
+          <div class="text-md sm:text-lg font-bold text-gray-800 ">$70 - 120</div>
         </div>
         <button class="bid-now mt-5 md:mt-0 border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition ">Explore</button>
       </div>
@@ -639,8 +639,8 @@
         <h3 class="text-lg sm:text-xl font-semibold mb-2">Develope a Responsive Website For My Car Modification Bussiness</h3>
         <span class="text-gray-500">Website Design</span>
         <div class="flex items-center gap-1 ">
-        <img src="images/dollar icon.png" alt="">
-        <div class="text-md sm:text-lg font-bold text-gray-800 ">$100 - 120</div>
+          <img src="images/dollar icon.png" alt="">
+          <div class="text-md sm:text-lg font-bold text-gray-800 ">$100 - 120</div>
         </div>
         <button class="bid-now mt-5 md:mt-0 border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Explore</button>
       </div>
@@ -653,8 +653,8 @@
         <h3 class="text-lg sm:text-xl font-semibold mb-2">A Website For My NPO Organisation-Global Dialogue Forum</h3>
         <span class="text-gray-500">NGO</span>
         <div class="flex items-center gap-1 ">
-        <img src="images/dollar icon.png" alt="">
-        <div class="text-md sm:text-lg font-bold text-gray-800 ">$80 - 130</div>
+          <img src="images/dollar icon.png" alt="">
+          <div class="text-md sm:text-lg font-bold text-gray-800 ">$80 - 130</div>
         </div>
         <button class="bid-now mt-5 md:mt-0 border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition">Explore</button>
       </div>
@@ -753,7 +753,7 @@
           </button>
           <div class="accordion-body overflow-hidden max-h-0 transition-all duration-300 ease-in-out">
             <p class="text-[#111111] text-base leading-relaxed">
-            Sooprs is a freelance marketplace that connects businesses with highly skilled and vetted professionals across various fields. It focuses on providing top-quality freelance services, ensuring that clients receive reliable, result-oriented solutions. With features like post-project support, payment protection, and verified experts, Sooprs aims to deliver an efficient, secure, and professional experience for businesses seeking freelance talent.
+              Sooprs is a freelance marketplace that connects businesses with highly skilled and vetted professionals across various fields. It focuses on providing top-quality freelance services, ensuring that clients receive reliable, result-oriented solutions. With features like post-project support, payment protection, and verified experts, Sooprs aims to deliver an efficient, secure, and professional experience for businesses seeking freelance talent.
             </p>
           </div>
         </div>
@@ -766,7 +766,7 @@
           </button>
           <div class="accordion-body overflow-hidden max-h-0 transition-all duration-300 ease-in-out">
             <p class="text-[#111111] text-base leading-relaxed">
-            Getting Started on Sooprs Register/Login: Create an account on Sooprs.com. Purchase Membership: Choose and buy your membership. Browse Projects: Explore available freelance projects. Bid on Projects: Submit your bid with the proposed amount. Client Review: Clients review your profile and proposal. Client Accepts Bid: Client accepts your bid. Start Work: Begin your project upon acceptance
+              Getting Started on Sooprs Register/Login: Create an account on Sooprs.com. Purchase Membership: Choose and buy your membership. Browse Projects: Explore available freelance projects. Bid on Projects: Submit your bid with the proposed amount. Client Review: Clients review your profile and proposal. Client Accepts Bid: Client accepts your bid. Start Work: Begin your project upon acceptance
             </p>
           </div>
         </div>
@@ -779,18 +779,18 @@
           </button>
           <div class="accordion-body overflow-hidden max-h-0 transition-all duration-300 ease-in-out">
             <p class="text-[#111111] text-base leading-relaxed">
-            Sooprs offers freelancers valuable opportunities to earn money through a diverse range of projects. Freelancers can set their own rates, build strong portfolios, and connect with clients, enhancing their chances for higher-paying jobs. This platform empowers them to achieve financial freedom and enjoy a fulfilling career on their own terms.
+              Sooprs offers freelancers valuable opportunities to earn money through a diverse range of projects. Freelancers can set their own rates, build strong portfolios, and connect with clients, enhancing their chances for higher-paying jobs. This platform empowers them to achieve financial freedom and enjoy a fulfilling career on their own terms.
             </p>
           </div>
         </div>
         <div class="p-4 bg-white rounded-lg shadow-md flex flex-col">
           <button onclick="toggleAccordion(event)" class="accordion-header flex justify-between items-center w-full text-left">
-            <h3 class="text-[#111111] text-lg font-medium">How do I post a project on Sooprs for freelance services?            </h3>
+            <h3 class="text-[#111111] text-lg font-medium">How do I post a project on Sooprs for freelance services? </h3>
             <i class="fas fa-plus icon transition duration-300 ease-in-out"></i>
           </button>
           <div class="accordion-body overflow-hidden max-h-0 transition-all duration-300 ease-in-out">
             <p class="text-[#111111] text-base leading-relaxed">
-            To post a freelance project on Sooprs, simply sign up as a client and navigate to the "Post a Project" option in the header of Sooprs.com. Alternatively, you can use this direct link: Post a Project
+              To post a freelance project on Sooprs, simply sign up as a client and navigate to the "Post a Project" option in the header of Sooprs.com. Alternatively, you can use this direct link: Post a Project
             </p>
           </div>
         </div>
@@ -804,11 +804,11 @@
 <div class="relative w-[90vw] mx-auto h-full bg-cover bg-no-repeat rounded-[16px] overflow-hidden flex flex-col items-center justify-start p-5 mb-5" style="background-image: url('images/cta\ banner.svg');">
   <!-- Title with Background Image -->
   <h2 class=" text-white text-[24px] md:text-[48px] font-poppins font-medium w-full text-center">
-  Ready to Elevate Your Freelance Journey?
+    Ready to Elevate Your Freelance Journey?
   </h2>
 
   <!-- Subtitle -->
-  <div class="text-center text-white text-[12px] md:text-[16px]  font-poppins font-normal mt-2 mb-8">Join a Thriving Community of Freelancers, Access Tailored Opportunities,  </br> and Take Your Career to New Heights with Sooprs!</div>
+  <div class="text-center text-white text-[12px] md:text-[16px]  font-poppins font-normal mt-2 mb-8">Join a Thriving Community of Freelancers, Access Tailored Opportunities, </br> and Take Your Career to New Heights with Sooprs!</div>
 
   <!-- Button with Background Image -->
   <div class="flex items-center justify-center bg-white bg-center rounded-lg px-[48px] py-[16px] max-w-[100%] w-[320px] h-[64px]" style="background-image: url('path/to/your/button-background-image.jpg'); background-size: cover;">
@@ -818,37 +818,35 @@
 
 
 
-<?php include "footer.php";?>
+<?php include "footer.php"; ?>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 <script>
+  // youtube video section
 
+  function openModal(videoId) {
+    const modal = document.getElementById("videoModal");
+    const iframe = document.getElementById("videoFrame");
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    modal.classList.remove("hidden");
+  }
 
-// youtube video section
+  function closeModal() {
+    const modal = document.getElementById("videoModal");
+    const iframe = document.getElementById("videoFrame");
+    iframe.src = ""; // Stop video playback
+    modal.classList.add("hidden");
+  }
 
-function openModal(videoId) {
-      const modal = document.getElementById("videoModal");
-      const iframe = document.getElementById("videoFrame");
-      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
-      modal.classList.remove("hidden");
+  // Close modal when clicking outside the content
+  window.onclick = function(event) {
+    const modal = document.getElementById("videoModal");
+    if (event.target === modal) {
+      closeModal();
     }
-
-    function closeModal() {
-      const modal = document.getElementById("videoModal");
-      const iframe = document.getElementById("videoFrame");
-      iframe.src = ""; // Stop video playback
-      modal.classList.add("hidden");
-    }
-
-    // Close modal when clicking outside the content
-    window.onclick = function(event) {
-      const modal = document.getElementById("videoModal");
-      if (event.target === modal) {
-        closeModal();
-      }
-    };
+  };
 
 
 
@@ -983,85 +981,85 @@ function openModal(videoId) {
   });
 
   document.addEventListener("DOMContentLoaded", () => {
-  const progressBars = [
-    document.getElementById('progress1'),
-    document.getElementById('progress2'),
-    document.getElementById('progress3')
-  ];
+    const progressBars = [
+      document.getElementById('progress1'),
+      document.getElementById('progress2'),
+      document.getElementById('progress3')
+    ];
 
-  const circles = [
-    document.getElementById('circle1'),
-    document.getElementById('circle2'),
-    document.getElementById('circle3')
-  ];
+    const circles = [
+      document.getElementById('circle1'),
+      document.getElementById('circle2'),
+      document.getElementById('circle3')
+    ];
 
-  const titles = [
-    document.getElementById('title1'),
-    document.getElementById('title2'),
-    document.getElementById('title3')
-  ];
+    const titles = [
+      document.getElementById('title1'),
+      document.getElementById('title2'),
+      document.getElementById('title3')
+    ];
 
-  const descriptions = [
-    document.getElementById('desc1'),
-    document.getElementById('desc2'),
-    document.getElementById('desc3')
-  ];
+    const descriptions = [
+      document.getElementById('desc1'),
+      document.getElementById('desc2'),
+      document.getElementById('desc3')
+    ];
 
-  const images = [
-    "images/aibanner.png", // Image for progress 1
-    "images/aibanner2.png", // Image for progress 2
-    "images/ai.banner3.png" // Image for progress 3
-  ];
+    const images = [
+      "images/aibanner.png", // Image for progress 1
+      "images/aibanner2.png", // Image for progress 2
+      "images/ai.banner3.png" // Image for progress 3
+    ];
 
-  const aiImage = document.getElementById('aiImage'); // Assuming this is the image element
+    const aiImage = document.getElementById('aiImage'); // Assuming this is the image element
 
-  const runProgressCycle = () => {
-    let currentIndex = 0;
+    const runProgressCycle = () => {
+      let currentIndex = 0;
 
-    // Fill progress bars sequentially
-    const fillProgressBar = () => {
-      if (currentIndex >= progressBars.length) {
-        clearInterval(progressInterval); // Stop interval after last bar is filled
-        return;
-      }
+      // Fill progress bars sequentially
+      const fillProgressBar = () => {
+        if (currentIndex >= progressBars.length) {
+          clearInterval(progressInterval); // Stop interval after last bar is filled
+          return;
+        }
 
-      // Reset all elements before starting a new cycle
-      progressBars.forEach((progressBar, index) => {
-        progressBar.style.height = '0';
-        circles[index].classList.remove('bg-blue-500');
-        circles[index].classList.add('bg-gray-300');
-        titles[index].style.fontSize = '1rem';
-        titles[index].classList.replace('text-blue-600', 'text-gray-800');
-        descriptions[index].style.fontSize = '0.875rem';
-        descriptions[index].classList.replace('text-blue-600', 'text-gray-600');
-      });
+        // Reset all elements before starting a new cycle
+        progressBars.forEach((progressBar, index) => {
+          progressBar.style.height = '0';
+          circles[index].classList.remove('bg-blue-500');
+          circles[index].classList.add('bg-gray-300');
+          titles[index].style.fontSize = '1rem';
+          titles[index].classList.replace('text-blue-600', 'text-gray-800');
+          descriptions[index].style.fontSize = '0.875rem';
+          descriptions[index].classList.replace('text-blue-600', 'text-gray-600');
+        });
 
-      // Fill the current progress bar
-      progressBars[currentIndex].style.height = '100%';
-      circles[currentIndex].classList.remove('bg-gray-300');
-      circles[currentIndex].classList.add('bg-blue-500');
-      
-      // Change image and animate font size increase
-      aiImage.src = images[currentIndex];
-      titles[currentIndex].style.fontSize = '1.25rem';
-      titles[currentIndex].classList.replace('text-gray-800', 'text-blue-600');
-      descriptions[currentIndex].style.fontSize = '0.9375rem';
-      descriptions[currentIndex].classList.replace('text-gray-600', 'text-blue-600');
+        // Fill the current progress bar
+        progressBars[currentIndex].style.height = '100%';
+        circles[currentIndex].classList.remove('bg-gray-300');
+        circles[currentIndex].classList.add('bg-blue-500');
 
-      // Move to the next index
-      currentIndex++;
+        // Change image and animate font size increase
+        aiImage.src = images[currentIndex];
+        titles[currentIndex].style.fontSize = '1.25rem';
+        titles[currentIndex].classList.replace('text-gray-800', 'text-blue-600');
+        descriptions[currentIndex].style.fontSize = '0.9375rem';
+        descriptions[currentIndex].classList.replace('text-gray-600', 'text-blue-600');
+
+        // Move to the next index
+        currentIndex++;
+      };
+
+      // Run `fillProgressBar` every 1 second for the current cycle
+      const progressInterval = setInterval(fillProgressBar, 1000);
     };
 
-    // Run `fillProgressBar` every 1 second for the current cycle
-    const progressInterval = setInterval(fillProgressBar, 1000);
-  };
-
-  // Start a new cycle every 3 seconds
-  setInterval(runProgressCycle, 3000);
-});
+    // Start a new cycle every 3 seconds
+    setInterval(runProgressCycle, 3000);
+  });
 
 
-  
+
   function toggleAccordion(event) {
     const button = event.currentTarget;
     const accordionBody = button.nextElementSibling;

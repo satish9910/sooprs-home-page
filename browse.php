@@ -43,50 +43,51 @@
             </div>
         </div>
 
-        <!-- <div class="flex justify-center items-center gap-52">
+
+        <div class="w-full flex justify-between items-center cursor-pointer">
             <div class="text-lg font-semibold text-[#111111] font-poppins capitalize leading-9">Skills</div>
-            <div class="w-3 h-1.5 border-2 border-[#111111]"></div>
         </div>
 
         <div class="flex flex-col justify-start items-start gap-4">
             <div class="flex flex-wrap gap-4">
-                <div class="px-8 py-1 bg-[#0068FF] rounded-full flex justify-center items-center">
+                <div class="px-7 bg-[#0068FF] rounded-full flex justify-center items-center">
                     <div class="text-white text-sm font-medium font-poppins capitalize leading-9">Python</div>
                 </div>
-                <div class="px-8 py-1 bg-[#F5F5F5] rounded-full flex justify-center items-center">
+                <div class="px-7 bg-[#F5F5F5] rounded-full flex justify-center items-center">
                     <div class="text-[#444444] text-sm font-medium font-poppins capitalize leading-9">CSS</div>
                 </div>
-                <div class="px-8 py-1 bg-[#F5F5F5] rounded-full flex justify-center items-center">
+                <div class="px-7 bg-[#F5F5F5] rounded-full flex justify-center items-center">
                     <div class="text-[#444444] text-sm font-medium font-poppins capitalize leading-9">HTML</div>
                 </div>
-                <div class="px-8 py-1 bg-[#F5F5F5] rounded-full flex justify-center items-center">
+                <div class="px-7 bg-[#F5F5F5] rounded-full flex justify-center items-center">
                     <div class="text-[#444444] text-sm font-medium font-poppins capitalize leading-9">Django</div>
                 </div>
-                <div class="px-8 py-1 bg-[#F5F5F5] rounded-full flex justify-center items-center">
+                <div class="px-7 bg-[#F5F5F5] rounded-full flex justify-center items-center">
                     <div class="text-[#444444] text-sm font-medium font-poppins capitalize leading-9">Figma</div>
                 </div>
             </div>
         </div>
 
-        <div class="flex justify-center items-center gap-52">
+
+
+        <div class="w-full flex justify-between items-center cursor-pointer">
             <div class="text-lg font-semibold text-[#111111] font-poppins capitalize leading-9">Language</div>
-            <div class="w-3 h-1.5 border-2 border-[#111111]"></div>
         </div>
 
         <div class="flex flex-col justify-start items-start gap-4">
             <div class="flex flex-wrap gap-4">
-                <div class="px-8 py-1 bg-[#0068FF] rounded-full flex justify-center items-center">
+                <div class="px-7 bg-[#0068FF] rounded-full flex justify-center items-center">
                     <div class="text-white text-sm font-medium font-poppins capitalize leading-9">English</div>
                 </div>
-                <div class="px-8 py-1 bg-[#F5F5F5] rounded-full flex justify-center items-center">
+                <div class="px-7 bg-[#F5F5F5] rounded-full flex justify-center items-center">
                     <div class="text-[#444444] text-sm font-medium font-poppins capitalize leading-9">Hindi</div>
                 </div>
-                <div class="px-8 py-1 bg-[#F5F5F5] rounded-full flex justify-center items-center">
+                <div class="px-7 bg-[#F5F5F5] rounded-full flex justify-center items-center">
                     <div class="text-[#444444] text-sm font-medium font-poppins capitalize leading-9">Bengali</div>
                 </div>
             </div>
         </div>
-         -->
+
 
         <div class="w-full flex justify-between items-center cursor-pointer">
             <div class="text-lg font-semibold text-[#111111] font-poppins capitalize leading-9">Bid Budget</div>
@@ -289,7 +290,13 @@
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
-                }
+                },
+                body: JSON.stringify({
+                    payload: {
+                        offset: 0,
+                        limit: 10
+                    }
+                })
             })
             .then(response => response.json())
             .then(data => {

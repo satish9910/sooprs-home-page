@@ -107,119 +107,9 @@
     </div>
 
     <div class="col-span-2 grid h-full gap-10">
-        <p class="text-gray-600 -mb-6">Showing: <span class="font-semibold text-gray-900">1100</span> Search results</p>
-        <!-- 1 -->
-        <div class="relative w-full h-[max-content] bg-white shadow-sm border border-gray-200 rounded-lg overflow-hidden p-8">
-            <div class="flex justify-between">
-                <div class="text-gray-700 text-lg font-medium font-poppins">
-                    *URGENT* C++ Assignment
-                </div>
-                <div class="text-gray-700 text-sm font-medium font-poppins">
-                    12 Oct 2024
-                </div>
-            </div>
-            <div class="mt-4 text-gray-900 text-sm font-inter font-normal">
-                I need someone who can do a barber management system that needs to be done in an hour or two. It needs
-                to be connected to a MyPHPadmin database and all data will be read from there. Will send functions
-                needed, but it's pretty straightforward, just the...
-            </div>
-            <div class="mt-6 flex gap-2">
-                <span class="bg-gray-100 text-gray-900 text-xs font-poppins font-normal py-2 px-4 rounded">
-                    Web development
-                </span>
-                <span class="bg-gray-100 text-gray-900 text-xs font-poppins font-normal py-2 px-4 rounded">
-                    Web
-                </span>
-                <span class="bg-gray-100 text-gray-900 text-xs font-poppins font-normal py-2 px-4 rounded">
-                    Coding
-                </span>
-            </div>
-            <div class="mt-4 flex justify-end">
-                <div class="text-right">
-                    <div class="text-gray-400 text-sm font-medium font-poppins">
-                        15 bids placed
-                    </div>
-                    <div class="text-gray-700 text-lg font-medium font-poppins">
-                        $10 - 30 USD
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- 2 -->
-        <div class="relative w-full h-[max-content] bg-white shadow-sm border border-gray-200 rounded-lg overflow-hidden p-8">
-            <div class="flex justify-between">
-                <div class="text-gray-700 text-lg font-medium font-poppins">
-                    *URGENT* C++ Assignment
-                </div>
-                <div class="text-gray-700 text-sm font-medium font-poppins">
-                    12 Oct 2024
-                </div>
-            </div>
-            <div class="mt-4 text-gray-900 text-sm font-inter font-normal">
-                I need someone who can do a barber management system that needs to be done in an hour or two. It needs
-                to be connected to a MyPHPadmin database and all data will be read from there. Will send functions
-                needed, but it's pretty straightforward, just the...
-            </div>
-            <div class="mt-6 flex gap-2">
-                <span class="bg-gray-100 text-gray-900 text-xs font-poppins font-normal py-2 px-4 rounded">
-                    Web development
-                </span>
-                <span class="bg-gray-100 text-gray-900 text-xs font-poppins font-normal py-2 px-4 rounded">
-                    Web
-                </span>
-                <span class="bg-gray-100 text-gray-900 text-xs font-poppins font-normal py-2 px-4 rounded">
-                    Coding
-                </span>
-            </div>
-            <div class="mt-4 flex justify-end">
-                <div class="text-right">
-                    <div class="text-gray-400 text-sm font-medium font-poppins">
-                        15 bids placed
-                    </div>
-                    <div class="text-gray-700 text-lg font-medium font-poppins">
-                        $10 - 30 USD
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- 3 -->
-        <div class="relative w-full h-[max-content] bg-white shadow-sm border border-gray-200 rounded-lg overflow-hidden p-8">
-            <div class="flex justify-between">
-                <div class="text-gray-700 text-lg font-medium font-poppins">
-                    *URGENT* C++ Assignment
-                </div>
-                <div class="text-gray-700 text-sm font-medium font-poppins">
-                    12 Oct 2024
-                </div>
-            </div>
-            <div class="mt-4 text-gray-900 text-sm font-inter font-normal">
-                I need someone who can do a barber management system that needs to be done in an hour or two. It needs
-                to be connected to a MyPHPadmin database and all data will be read from there. Will send functions
-                needed, but it's pretty straightforward, just the...
-            </div>
-            <div class="mt-6 flex gap-2">
-                <span class="bg-gray-100 text-gray-900 text-xs font-poppins font-normal py-2 px-4 rounded">
-                    Web development
-                </span>
-                <span class="bg-gray-100 text-gray-900 text-xs font-poppins font-normal py-2 px-4 rounded">
-                    Web
-                </span>
-                <span class="bg-gray-100 text-gray-900 text-xs font-poppins font-normal py-2 px-4 rounded">
-                    Coding
-                </span>
-            </div>
-            <div class="mt-4 flex justify-end">
-                <div class="text-right">
-                    <div class="text-gray-400 text-sm font-medium font-poppins">
-                        15 bids placed
-                    </div>
-                    <div class="text-gray-700 text-lg font-medium font-poppins">
-                        $10 - 30 USD
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        <p class="text-gray-600 -mb-6">Showing: <span class="font-semibold text-gray-900" id="search-results-count">0</span> Search results</p>
+        <div id="leads-container"></div>
+        <button id="show-more" class="text-blue block mt-4">Show more</button>
     </div>
 </section>
 
@@ -283,30 +173,85 @@
     }
 </style>
 
-
 <script>
-    window.addEventListener('DOMContentLoaded', (event) => {
+    let offset = 0;
+    const limit = 10; // Set the limit for each fetch
+
+    function fetchLeads() {
+        const formData = new URLSearchParams();
+        formData.append('offset', offset);
+        formData.append('limit', limit);
+
         fetch('https://sooprs.com/api2/public/index.php/get_all_leads', {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/x-www-form-urlencoded'
                 },
-                body: JSON.stringify({
-                    payload: {
-                        offset: 0,
-                        limit: 10
-                    }
-                })
+                body: formData.toString()
             })
             .then(response => response.json())
             .then(data => {
-                console.log(data);
+                const leadsContainer = document.getElementById('leads-container');
+                const searchResultsCount = document.getElementById('search-results-count');
+
+                // Update the search results count
+                searchResultsCount.textContent = parseInt(searchResultsCount.textContent) + data.msg.length;
+
+                // Map through the leads and display them
+                data.msg.forEach(lead => {
+                    const leadElement = document.createElement('div');
+                    leadElement.className = "relative w-full h-[max-content] bg-white shadow-sm border border-gray-200 rounded-lg overflow-hidden p-8 my-4";
+                    
+                    leadElement.innerHTML = `
+                        <div class="flex justify-between">
+                            <div class="text-gray-700 text-lg font-medium font-poppins">
+                                ${lead.project_title || "No title available"}
+                            </div>
+                            <div class="text-gray-700 text-sm font-medium font-poppins">
+                                ${lead.createdDate}
+                            </div>
+                        </div>
+                        <div class="mt-4 text-gray-900 text-sm font-inter font-normal">
+                            ${lead.description || "No description available"}
+                        </div>
+                        <div class="mt-6 flex gap-2">
+                            <span class="bg-gray-100 text-gray-900 text-xs font-poppins font-normal py-2 px-4 rounded">
+                                ${lead.service_name}
+                            </span>
+                        </div>
+                        <div class="mt-4 flex justify-end">
+                            <div class="text-right">
+                                <div class="text-gray-400 text-sm font-medium font-poppins">
+                                    ${lead.num_leads} bids placed
+                                </div>
+                                <div class="text-gray-700 text-lg font-medium font-poppins">
+                                    $${lead.min_budget} - ${lead.max_budget_amount} USD
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    
+                    // Append each lead to the container
+                    leadsContainer.appendChild(leadElement);
+                });
+
+                // Increment the offset for the next fetch
+                offset += 1;
             })
             .catch(error => {
                 console.error(error);
             });
-    });
+    }
 
+    // Fetch initial leads on page load
+    window.addEventListener('DOMContentLoaded', fetchLeads);
+
+    // Fetch more leads on button click
+    document.getElementById('show-more').addEventListener('click', fetchLeads);
+</script>
+
+
+<script>
     const slider = document.getElementById("slider");
     const minBtn = document.getElementById("minBtn");
     const maxBtn = document.getElementById("maxBtn");

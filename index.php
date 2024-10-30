@@ -11,30 +11,37 @@
     </div>
     <div>
       <div class="animate-marquee-left flex items-center gap-4 lg:hidden">
-        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 1">
-        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 2">
-        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 3">
-        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 4">
-        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 5">
-        <img src="images/Rectangle-3584-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 6">
-        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 7">
-        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 8">
-        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 9">
-        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 10">
-        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 11">
-        <img src="images/Rectangle-3584-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 12">
-        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 1">
-        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 2">
-        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 3">
-        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 4">
-        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 5">
-        <img src="images/Rectangle-3584-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 6">
-        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 7">
-        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 8">
-        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 9">
-        <img src="images/Rectangle-3573-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 10">
-        <img src="images/Rectangle-3697-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 11">
-        <img src="images/Rectangle-3584-min.svg" class="w-14 h-14 rounded-full mb-4" alt="Profile 12">
+        <img src="images/saksham.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 1">
+        <img src="images/tusar.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 2">
+        <img src="images/aniket1.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 3">
+        <img src="images/kashish.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 4">
+        <img src="images/varuna.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 5">
+        <img src="images/satish.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 6">
+        <img src="images/saksham.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 1">
+        <img src="images/tusar.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 2">
+        <img src="images/aniket1.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 3">
+        <img src="images/kashish.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 4">
+        <img src="images/varuna.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 5">
+        <img src="images/satish.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 6">
+        <img src="images/saksham.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 1">
+        <img src="images/tusar.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 2">
+        <img src="images/aniket1.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 3">
+        <img src="images/kashish.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 4">
+        <img src="images/varuna.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 5">
+        <img src="images/satish.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 6">
+        <img src="images/saksham.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 1">
+        <img src="images/tusar.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 2">
+        <img src="images/aniket1.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 3">
+        <img src="images/kashish.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 4">
+        <img src="images/varuna.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 5">
+        <img src="images/satish.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 6">
+        <img src="images/saksham.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 1">
+        <img src="images/tusar.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 2">
+        <img src="images/aniket1.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 3">
+        <img src="images/kashish.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 4">
+        <img src="images/varuna.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 5">
+        <img src="images/satish.jpg" class="w-14 h-14 rounded-full mb-4" alt="Profile 6">
+       
       </div>
     </div>
 
@@ -390,105 +397,104 @@
   <div class="my-slider flex mb-5 mt-5 ">
     <!-- Card 1 -->
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
-      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
-      <div class="p-4">
-        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5">
+      <img src="images/kashish.jpg" alt="Freelancer 1" class="w-full h-[250px] object-cover rounded-lg m-0">
+      <div>
+        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5 mt-2">
           <div>
-            <h3 class="font-semibold text-md sm:text-lg">Marcus Lilly</h3>
-            <p>UX Designer</p>
+            <h3 class="font-semibold text-md sm:text-md">Kashish Biserwal</h3>
+            <p>Full Stack Developer</p>
           </div>
-          <div>
-            <p class="text-gray-600 hidden sm:block">From $50/hr</p>
-            <p class="text-yellow-500">⭐ 5.0</p>
+          <div class="flex items-end text-end flex-col">
+            <p class="text-gray-600 hidden sm:block">From $35/hr</p>
+            <p class="text-yellow-500">⭐ 4.3</p>
           </div>
         </div>
-
-        <p class="text-gray-500 text-sm hidden sm:block">AI Algorithms</p>
+        <p class="text-gray-500 text-sm hidden sm:block">NextJs - NodeJs - MongoDB</p>
       </div>
     </div>
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
-      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
-      <div class="p-4">
-        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5">
+      <img src="images/aniket1.jpg" alt="Freelancer 1" class="w-full h-[250px] object-cover rounded-lg m-0">
+      <div>
+        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5 mt-2">
           <div>
-            <h3 class="font-semibold text-md sm:text-lg">Marcus Lilly</h3>
-            <p>UX Designer</p>
+            <h3 class="font-semibold text-md sm:text-md"> Aniket Rathaur</h3>
+            <p>Full Stack Developer</p>
           </div>
-          <div>
-            <p class="text-gray-600 hidden sm:block">From $50/hr</p>
-            <p class="text-yellow-500">⭐ 5.0</p>
+          <div class="flex items-end text-end flex-col">
+            <p class="text-gray-600 hidden sm:block">From $30/hr</p>
+            <p class="text-yellow-500">⭐ 4.8</p>
           </div>
         </div>
 
-        <p class="text-gray-500 text-sm hidden sm:block">AI Algorithms</p>
+        <p class="text-gray-500 text-sm hidden sm:block">PHP - Node.js - Python</p>
       </div>
     </div>
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
-      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
-      <div class="p-4">
-        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5">
+      <img src="images/tusar.jpg" alt="Freelancer 1" class="w-full h-[250px] object-cover rounded-lg m-0">
+      <div>
+        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5 mt-2">
           <div>
-            <h3 class="font-semibold text-md sm:text-lg">Marcus Lilly</h3>
-            <p>UX Designer</p>
+            <h3 class="font-semibold text-md sm:text-md">Tushar Singh</h3>
+            <p>Photographer, videographer</p>
           </div>
-          <div>
-            <p class="text-gray-600 hidden sm:block">From $50/hr</p>
-            <p class="text-yellow-500">⭐ 5.0</p>
+          <div class="flex items-end text-end flex-col">
+            <p class="text-gray-600 hidden sm:block">From $20/hr</p>
+            <p class="text-yellow-500">⭐ 4.6</p>
           </div>
         </div>
 
-        <p class="text-gray-500 text-sm hidden sm:block">AI Algorithms</p>
+        <p class="text-gray-500 text-sm hidden sm:block">Creative - Short Films</p>
       </div>
     </div>
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
-      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
-      <div class="p-4">
-        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5">
+      <img src="images/varuna.jpg" alt="Freelancer 1" class="w-full h-[250px] object-cover rounded-lg m-0">
+      <div>
+        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5 mt-2">
           <div>
-            <h3 class="font-semibold text-md sm:text-lg">Marcus Lilly</h3>
-            <p>UX Designer</p>
+            <h3 class="font-semibold text-md sm:text-md">Varuna Singh</h3>
+            <p>Content Writer and SEO</p>
           </div>
-          <div>
-            <p class="text-gray-600 hidden sm:block">From $50/hr</p>
-            <p class="text-yellow-500">⭐ 5.0</p>
+          <div class="flex items-end text-end flex-col">
+            <p class="text-gray-600 hidden sm:block">From $15/hr</p>
+            <p class="text-yellow-500">⭐ 4.3</p>
           </div>
         </div>
 
-        <p class="text-gray-500 text-sm hidden sm:block">AI Algorithms</p>
+        <p class="text-gray-500 text-sm hidden sm:block">Blog - SEO</p>
       </div>
     </div>
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
-      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
-      <div class="p-4">
-        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5">
+      <img src="images/saksham.jpg" alt="Freelancer 1" class="w-full h-[250px] object-cover rounded-lg m-0">
+      <div>
+        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5 mt-2">
           <div>
-            <h3 class="font-semibold text-md sm:text-lg">Marcus Lilly</h3>
-            <p>UX Designer</p>
+            <h3 class="font-semibold text-md sm:text-md">Saksham Yadav</h3>
+            <p>UI/UX Graphic Designer </p>
           </div>
-          <div>
-            <p class="text-gray-600 hidden sm:block">From $50/hr</p>
-            <p class="text-yellow-500">⭐ 5.0</p>
+          <div class="flex items-end text-end flex-col">
+            <p class="text-gray-600 hidden sm:block">From $25/hr</p>
+            <p class="text-yellow-500">⭐ 4.6</p>
           </div>
         </div>
 
-        <p class="text-gray-500 text-sm hidden sm:block">AI Algorithms</p>
+        <p class="text-gray-500 text-sm hidden sm:block">Figma - Adobe XD</p>
       </div>
     </div>
     <div class="p-4 bg-white rounded-lg shadow-md mx-2 my-2 ">
-      <img src="images/Frame 101 (1).png" alt="Freelancer 1" class="w-full h-100 object-cover rounded-t-lg m-0">
-      <div class="p-4">
-        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5">
+      <img src="images/satish.jpg" alt="Freelancer 1" class="w-full h-[250px] object-cover rounded-lg m-0">
+      <div>
+        <div class=" grid sm:flex justify-between items-center mb-0 sm:mb-5 mt-2">
           <div>
-            <h3 class="font-semibold text-md sm:text-lg">Marcus Lilly</h3>
-            <p>UX Designer</p>
+            <h3 class="font-semibold text-md sm:text-md">Satish</h3>
+            <p>Front-end Developer</p>
           </div>
-          <div>
-            <p class="text-gray-600 hidden sm:block">From $50/hr</p>
-            <p class="text-yellow-500">⭐ 5.0</p>
+          <div class="flex items-end text-end flex-col">
+            <p class="text-gray-600 hidden sm:block">From $30/hr</p>
+            <p class="text-yellow-500">⭐ 4.5</p>
           </div>
         </div>
 
-        <p class="text-gray-500 text-sm hidden sm:block">AI Algorithms</p>
+        <p class="text-gray-500 text-sm hidden sm:block">ReactJs-NextJs</p>
       </div>
     </div>
   </div>
@@ -614,10 +620,10 @@
 
     <!-- Project Card 2 -->
     <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[400px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]" style="display: flex;">
-      <img src="images/laptop img.png" alt="Project Image 2" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
+      <img src="images/Lorrigobanner.png" alt="Project Image 2" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-lg" />
       <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
-        <h3 class="text-lg sm:text-xl font-semibold mb-2">Create Responsive Web Design in Adobe XD</h3>
-        <span class="text-gray-500">Web Design</span>
+        <h3 class="text-lg sm:text-xl font-semibold mb-2">Lorrigo-I Need a Website For B2B and B2C Courier Services</h3>
+        <span class="text-gray-500">Web Design and App</span>
         <div class="flex items-center gap-1 ">
         <img src="images/dollar icon.png" alt="">
         <div class="text-md sm:text-lg font-bold text-gray-800 ">$70 - 120</div>
@@ -628,10 +634,10 @@
 
     <!-- Project Card 3 -->
     <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[400px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]" style="display: flex;">
-      <img src="images/laptop img.png" alt="Project Image 3" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
+      <img src="images/Caross.png" alt="Project Image 3" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-lg" />
       <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
-        <h3 class="text-lg sm:text-xl font-semibold mb-2">Develop Mobile App Interface in Sketch</h3>
-        <span class="text-gray-500">Mobile Design</span>
+        <h3 class="text-lg sm:text-xl font-semibold mb-2">Develope a Responsive Website For My Car Modification Bussiness</h3>
+        <span class="text-gray-500">Website Design</span>
         <div class="flex items-center gap-1 ">
         <img src="images/dollar icon.png" alt="">
         <div class="text-md sm:text-lg font-bold text-gray-800 ">$100 - 120</div>
@@ -642,10 +648,10 @@
 
     <!-- Project Card 4 -->
     <div class="project-card flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg mx-2 h-[400px] sm:h-[300px] w-[250px] sm:w-[400px] min-w-[250px] sm:min-w-[400px]" style="display: flex;">
-      <img src="images/laptop img.png" alt="Project Image 4" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-l-lg sm:rounded-t-none" />
+      <img src="images/Global.png" alt="Project Image 4" class="w-full sm:w-1/2 h-40 sm:h-full object-cover rounded-t-lg sm:rounded-lg " />
       <div class="p-4 w-full sm:w-1/2 text-left flex flex-col justify-between">
-        <h3 class="text-lg sm:text-xl font-semibold mb-2">Redesign E-commerce UI in Figma</h3>
-        <span class="text-gray-500">E-commerce Design</span>
+        <h3 class="text-lg sm:text-xl font-semibold mb-2">A Website For My NPO Organisation-Global Dialogue Forum</h3>
+        <span class="text-gray-500">NGO</span>
         <div class="flex items-center gap-1 ">
         <img src="images/dollar icon.png" alt="">
         <div class="text-md sm:text-lg font-bold text-gray-800 ">$80 - 130</div>

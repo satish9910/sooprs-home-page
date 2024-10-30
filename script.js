@@ -14,9 +14,14 @@ function setActive(element) {
   }
   // Function to toggle dropdown for desktop
 function toggleDropdownDesktop(event) {
-    event.preventDefault(); // Prevent default link behavior
-    const dropdown = document.getElementById('explore-dropdown');
-    dropdown.classList.toggle('hidden'); // Toggle visibility
+  event.preventDefault(); // Prevent default link behavior
+  const dropdown = document.getElementById('explore-dropdown');
+  dropdown.classList.toggle('hidden'); // Toggle visibility
+
+  // Close dropdown on mouse leave
+  dropdown.onmouseleave = function() {
+    dropdown.classList.add('hidden');
+  };
 }
 
   // Function to close mobile menu

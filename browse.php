@@ -9,18 +9,27 @@
         </div>
     </div>
 </section>
-<section class="grid grid-cols-3 gap-4 ">
-    <div class="w-full  p-4 ml-8 bg-[rgba(242,247,255,0.40)] rounded-lg flex flex-col justify-start items-center gap-5">
-    <div class="font-sans text-black  bg-white flex items-center justify-center">
-  <div class="border rounded overflow-hidden flex">
-    <input type="text" class="px-4 py-2" placeholder="Search...">
-    <button class="flex items-center justify-center px-4 border-l">
-      <svg class="h-4 w-4 text-grey-dark" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
+<section class="relative grid grid-cols-3 gap-4 ">
+    <!-- Drawer Trigger Button for small screens -->
+    <button id="open-drawer-btn" class="lg:hidden absolute top-4 left-4 z-50 bg-blue-500 text-white rounded-full p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
     </button>
-  </div>
-</div>
+    <div id="drawer" class="w-full hidden h-full px-4 py-10 bg-[rgba(242,247,255)] rounded-lg flex flex-col justify-start items-center gap-5 lg:relative lg:flex transition-transform duration-300 transform lg:translate-x-0 z-40">        <!-- Close Button for Drawer on Small Screens -->
+        <button id="close-drawer-btn" class="lg:hidden absolute top-4 right-4 bg-red-500 text-white rounded-full p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+
+        <div class="flex mt-10 items-center bg-blue-50 rounded-lg px-4 py-2 shadow-sm w-full max-w-md">
+            <img src="images/searchicon.svg" alt="">
+            <input type="text" placeholder="Search Project" class="bg-transparent text-gray-400 w-full focus:outline-none">
+        </div>
+
         <!-- By Category Section -->
-        <div class="w-full flex justify-between items-center cursor-pointer">
+        <div class="w-full flex justify-between items-center">
             <div class="text-lg font-semibold text-[#111111] font-poppins capitalize leading-9">Category</div>
         </div>
 
@@ -82,7 +91,7 @@
             <div class="text-lg font-semibold text-[#111111] font-poppins capitalize leading-9">Language</div>
         </div> -->
 
-        <div class="flex flex-col justify-start items-start gap-4">
+        <!-- <div class="flex flex-col justify-start items-start gap-4">
             <div class="flex flex-wrap gap-4">
                 <div class="px-7 bg-[#0068FF] rounded-full flex justify-center items-center">
                     <div class="text-white text-sm font-medium font-poppins capitalize leading-9">English</div>
@@ -94,14 +103,14 @@
                     <div class="text-[#444444] text-sm font-medium font-poppins capitalize leading-9">Bengali</div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
         <div class="w-full flex justify-between items-center cursor-pointer">
             <div class="text-lg font-semibold text-[#111111] font-poppins capitalize leading-9">Bid Budget</div>
         </div>
 
-        <div id="bidSection" class="slider-container">
+        <div id="bidSection" class="slider-container px-6">
             <input type="range" id="slider" min="0" max="100" value="50" class="slider">
             <div class="slider-buttons">
                 <div id="minBtn" class="px-8 py-1 border border-[#0068FF] text-gray-400 rounded-md flex items-center cursor-pointer">
@@ -114,7 +123,7 @@
         </div>
     </div>
 
-    <div class="col-span-2 grid h-full gap-10">
+    <div id="result" class="col-span-2 grid h-full gap-10 p-10">
         <p class="text-gray-600 -mb-6">Showing: <span class="font-semibold text-gray-900" id="search-results-count">0</span> Search results</p>
         <div id="leads-container"></div>
         <button id="show-more" class="text-blue block mt-4">Show more</button>
@@ -151,6 +160,19 @@
         outline: none;
     }
 
+    @media (max-width: 900px) {
+        .slider {
+            width: 200px;
+        }
+        #drawer{
+            display: block;
+            width: 100vw;
+        }
+        #result{
+            grid-column: span 3;
+        }
+    }
+
     .slider::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
@@ -179,6 +201,8 @@
     button:hover {
         background-color: #f0f0f0;
     }
+
+    
 </style>
 
 <script>
@@ -209,7 +233,7 @@
                 data.msg.forEach(lead => {
                     const leadElement = document.createElement('div');
                     leadElement.className = "relative w-full h-[max-content] bg-white shadow-sm border border-gray-200 rounded-lg overflow-hidden p-5 my-4";
-                    
+
                     leadElement.innerHTML = `
                         <div class="flex justify-between">
                             <div class="text-gray-700 text-lg font-medium font-poppins">
@@ -238,7 +262,7 @@
                             </div>
                         </div>
                     `;
-                    
+
                     // Append each lead to the container
                     leadsContainer.appendChild(leadElement);
                 });
@@ -260,6 +284,19 @@
 
 
 <script>
+    const drawer = document.getElementById('drawer');
+    const openDrawerBtn = document.getElementById('open-drawer-btn');
+    const closeDrawerBtn = document.getElementById('close-drawer-btn');
+
+    openDrawerBtn.addEventListener('click', () => {
+        drawer.classList.remove('-translate-x-full');
+    });
+
+    closeDrawerBtn.addEventListener('click', () => {
+        drawer.classList.add('-translate-x-full');
+    });
+
+
     const slider = document.getElementById("slider");
     const minBtn = document.getElementById("minBtn");
     const maxBtn = document.getElementById("maxBtn");

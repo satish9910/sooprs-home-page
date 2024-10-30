@@ -55,7 +55,7 @@
               <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Option 4</a>
             </div>
           </div>
-          <a href="#" class="text-lg font-[400] text-gray-800 hover:text-blue-500 link" onclick="setActive(this)">Projects</a>
+          <a href="browse.php" class="text-lg font-[400] text-gray-800 hover:text-blue-500 link" onclick="setActive(this)">Projects</a>
           <a href="#" class="text-lg font-[400] text-gray-800 hover:text-blue-500 link" onclick="setActive(this)">Why Sooprs?</a>
         </div>
       </div>

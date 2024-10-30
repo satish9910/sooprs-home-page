@@ -48,24 +48,27 @@
 
         <!-- Desktop Links -->
         <div class="hidden lg:flex items-center space-x-6">
-          <div class="relative group">
-            <a href="#" class="text-lg font-[400] text-gray-800 hover:text-blue-500 link" onclick="setActive(this); toggleDropdownDesktop(event)">Explore</a>
-            <div class="absolute left-0 hidden group-hover:block bg-white shadow-lg mt-2 py-2 rounded-md w-40" id="explore-dropdown">
-              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Option 1</a>
-              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Option 2</a>
-              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Option 3</a>
-              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Option 4</a>
-            </div>
-          </div>
-          <a href="browse.php" class="text-lg font-[400] text-gray-800 hover:text-blue-500 link" onclick="setActive(this)">Projects</a>
-          <a href="#" class="text-lg font-[400] text-gray-800 hover:text-blue-500 link" onclick="setActive(this)">Why Sooprs?</a>
+    <div class="relative group">
+        <a href="#" class="text-lg font-[400] text-gray-800 hover:text-blue-500 link flex items-center gap-1" onclick="setActive(this); toggleDropdownDesktop(event)">
+            Explore <i class="fas fa-chevron-down ml-1 text-sm"></i>
+        </a>
+        <div class="absolute left-0 hidden group-hover:block bg-white shadow-lg mt-2 py-2 rounded-md w-40" id="explore-dropdown">
+            <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Option 1</a>
+            <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Option 2</a>
+            <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Option 3</a>
+            <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Option 4</a>
         </div>
+    </div>
+    <a href="browse.php" class="text-lg font-[400] text-gray-800 hover:text-blue-500 link" onclick="setActive(this)">Projects</a>
+    <a href="#" class="text-lg font-[400] text-gray-800 hover:text-blue-500 link" onclick="setActive(this)">Why Sooprs?</a>
+       </div>
+
       </div>
 
       <!-- Right Side - Desktop Buttons -->
       <div class="hidden lg:flex items-center space-x-4">
         <a href="#" class="text-lg font-[400] text-gray-800 hover:text-[#0068FF] link" onclick="setActive(this)">Post a Project</a>
-        <button class="border-2 border-[#0068FF] px-4 py-1 rounded-md text-[#0068FF] hover:bg-[#0068FF] hover:text-white transition">Join Now</button>
+        <button class="border-2 border-[#0068FF] px-4 py-1 rounded-md text-[#0068FF] hover:bg-[#0068FF] hover:text-white transition ">Join Now</button>
       </div>
     </div>
   </nav>
@@ -95,6 +98,6 @@
       <a href="#" class="text-gray-800 hover:text-blue-500 link" onclick="setActive(this)">Projects</a>
       <a href="#" class="text-gray-800 hover:text-blue-500 link" onclick="setActive(this)">Why Sooprs?</a>
       <a href="#" class="text-gray-800 hover:text-blue-500 link" onclick="setActive(this)">Post a Project</a>
-      <button class="w-full text-center border-2 border-blue-500 px-4 py-2 text-blue-500 hover:bg-blue-500 hover:text-white transition">Join Now</button>
+      <button class=" text-center border-2 border-blue-500 px-4 py-2 text-blue-500 hover:bg-blue-500 hover:text-white transition">Join Now</button>
     </div>
   </div>

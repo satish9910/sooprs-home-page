@@ -1,5 +1,5 @@
 <?php include "header.php"; ?>
-<section class="relative overflow-hidden h-[50vh] lg:h-[100vh] mb-10">
+<section class="relative overflow-hidden lg:h-[100vh] mb-10">
 <div class="hidden lg:flex -z-3 absolute left-0 w-full h-full top-[150px] items-center">
       <img src="images/Graphic.png" alt="Background Graphic">
     </div>
@@ -32,9 +32,7 @@
       <button class="bg-white border-[1.5px] border-[#0068FF] text-[#0068FF] px-6 py-2 rounded w-fit">Earn as Freelancing</button>
     </div>
 
-    <!-- <div class="hidden lg:flex -z-3 absolute left-[-240px] w-full h-full top-[100px] items-center justify-center">
-      <img src="images/Graphic.png" alt="Background Graphic">
-    </div> -->
+  
     <div class="z-10 relative top-[90px]">
       <p class="text-gray-400 font-bold text-lg sm:text-xl">Trusted By</p>
       <div class="flex gap-8 mt-5 justify-center sm:justify-start">

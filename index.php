@@ -1,7 +1,10 @@
 <?php include "header.php"; ?>
-
-<section class="grid lg:grid-cols-3 bg-[#FDFDFD] p-0 sm:p-10 w-full h-[70vh] lg:h-[90vh]">
-  <div class="flex-1 space-y-6 flex flex-col justify-center px-2 lg:col-span-2 relative overflow-hidden lg:pl-[120px] text-center sm:text-left">
+<section class="relative overflow-hidden h-[50vh] lg:h-[100vh] mb-10">
+<div class="hidden lg:flex -z-3 absolute left-0 w-full h-full top-[150px] items-center">
+      <img src="images/Graphic.png" alt="Background Graphic">
+    </div>
+<div class="grid lg:grid-cols-3 bg-[#FDFDFD] p-0 sm:p-10 w-full h-[70vh] lg:h-[90vh]">
+  <div class="flex-1 space-y-6 flex flex-col justify-center px-2 lg:col-span-2 relative overflow-hidden lg:pl-[60px] text-center sm:text-left">
     <div class="mb-2 z-10 mt-[150px] sm:mt-0">
       <h1 class="text-2xl lg:text-5xl font-semibold">Connect, Collaborate</h1>
       <h1 class="text-4xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r to-[#0068FF] from-[#9747FF]">Deliver with Sooprs</h1>
@@ -29,9 +32,9 @@
       <button class="bg-white border-[1.5px] border-[#0068FF] text-[#0068FF] px-6 py-2 rounded w-fit">Earn as Freelancing</button>
     </div>
 
-    <div class="hidden lg:flex -z-3 absolute left-[-240px] w-full h-full top-[100px] items-center justify-center">
+    <!-- <div class="hidden lg:flex -z-3 absolute left-[-240px] w-full h-full top-[100px] items-center justify-center">
       <img src="images/Graphic.png" alt="Background Graphic">
-    </div>
+    </div> -->
     <div class="z-10 relative top-[90px]">
       <p class="text-gray-400 font-bold text-lg sm:text-xl">Trusted By</p>
       <div class="flex gap-8 mt-5 justify-center sm:justify-start">
@@ -45,7 +48,7 @@
 
 
   <!-- Right Side - Profile Marquee Animation -->
-  <div class="relative flex space-x-4 overflow-hidden px-4 col-span-1 hidden sm:flex">
+  <div class="relative flex space-x-4 overflow-hidden px-4 col-span-1 hidden sm:flex lg:h-[100vh]">
     <!-- Left Marquee -->
     <div class="flex-1 ">
       <div class="animate-marquee-up flex flex-col items-center">
@@ -81,6 +84,11 @@
       </div>
     </div>
   </div>
+</div>
+<div class="absolute bottom-0 w-full h-5 bg-gradient-to-t from-white/100 via-white/40 to-transparent backdrop-blur-[1px]"></div>
+
+
+
 </section>
 <section>
   <div class="sm:flex sm:flex-wrap justify-center gap-1 sm:gap-5 grid grid-cols-3">
@@ -324,8 +332,25 @@
     </div>
 
     <div class="flex justify-center items-center order-1 md:order-2 ml-0 sm:ml-14">
-      <div class="relative w-full h-[40vh] md:h-[90vh] bg-cover bg-center rounded-lg shadow-md" style="background-image: url('images/blog-banner-04-1.png')">
-      </div>
+      <!-- <div class="relative w-full h-[40vh] md:h-[90vh] bg-cover bg-center rounded-lg shadow-md" style="background-image: url('images/blog-banner-04-1.png')">
+      </div> -->
+       <!-- Thumbnail container -->
+  <div id="thumbnail-container" class="relative w-full h-[40vh] md:h-[90vh] bg-cover bg-center rounded-lg   cursor-pointer" onclick="openModal('iKMuX7mwiqc')">
+    <img src="images/blog-banner-04-1.png" alt="Video Thumbnail" class="w-full rounded-lg object-cover">
+    <i class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-6xl opacity-80">
+     <img src="images/Play.png" alt="">
+    </i>
+  </div>
+
+  <!-- Modal -->
+  <div id="videoModal" class="fixed inset-0 hidden bg-black bg-opacity-75 flex items-center justify-center">
+    <div class="relative w-full max-w-2xl max-h-[85vh] bg-black rounded-lg overflow-hidden">
+      <button class="absolute top-4 right-4 text-white text-2xl" onclick="closeModal()">&times;</button>
+      <iframe id="videoFrame" class="w-full h-[50vh]" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+
+      
     </div>
 
   </div>
@@ -475,31 +500,31 @@
           <span class="bg-blue-500 text-white text-md font-semibold px-3 py-2 rounded-lg absolute -top-14 md:-top-5 left-4 md:left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Clients</span>
           <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
-          Connect with skilled freelancers worldwide to find the perfect expertise.
+            Clients can connect with skilled freelancers from around the world to find the right expertise.
           </div>
         </div>
         <div class=" border-gray-300  p-0 px-3  md:p-6  max-w-md">
         <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
-          Connect with skilled freelancers worldwide to find the perfect expertise.
+            Competitive pricing options allow clients to stay within their budget while ensuring quality.
           </div>
         </div>
         <div class=" border-gray-300 p-0 px-3  md:p-6  max-w-md">
         <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
-          Connect with skilled freelancers worldwide to find the perfect expertise.
+            The platform offers simplified project management tools, making it easy to track progress and communicate.
           </div>
         </div>
         <div class="border-gray-300 p-0 px-3  md:p-6  max-w-md">
         <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
-          Connect with skilled freelancers worldwide to find the perfect expertise.
+            Sooprs ensures secure payments, protecting both clients and freelancers throughout the process.
           </div>
         </div>
         <div class="border-gray-300 p-0 px-3  md:p-6  max-w-md">
         <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
-          Connect with skilled freelancers worldwide to find the perfect expertise.
+          By outsourcing tasks to freelancers, clients can focus on core business activities and improve productivity.
           </div>
         </div>
       </div>
@@ -518,36 +543,36 @@
       <img src="images/bottom.png" alt="" class="  left-[445px] top-[95px] mt-6 md:hidden">
         <img src="images/right.png" alt="" class="absolute h-[530px] right-[445px] top-[60px] hidden md:block">
         <span class="bg-blue-500 text-white  text-md font-semibold px-2 mx-2 py-2 rounded-lg absolute md:hidden block  md:-top-14 md:-top-5 left-6" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
-        <div class=" px-2 pt-12 md:p-0  md:p-6  max-w-md relative">
-          <span class="bg-blue-500  text-white text-md font-semibold px-3 py-2 rounded-lg absolute hidden md:block  md:-top-14 md:-top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
+        <div class=" px-2 pt-12   md:p-6  max-w-md relative">
+          <span class="bg-blue-500  text-white text-md font-semibold px-3 py-2 rounded-lg absolute hidden md:block  md:-top-5 left-0" style="background: linear-gradient(90deg, #9747FF 0%, #0068FF 100%);">Professionals</span>
           <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
-            Track progress and communicate easily with our user-friendly project tools.
+            Freelancers can showcase their skills to a global audience, expanding their client base.
           </div>
          
         </div>
         <div class="border-gray-300 px-2  p-0  md:p-6  max-w-md">
         <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
-            Track progress and communicate easily with our user-friendly project tools.
+            Professionals can set their own rates and work on flexible schedules.
           </div>
         </div>
         <div class="border-gray-300 px-2  p-0  md:p-6   max-w-md">
         <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
-            Track progress and communicate easily with our user-friendly project tools.
+            Secure payment processes ensure freelancers are paid reliably for completed work.
           </div>
         </div>
         <div class="border-gray-300 px-2 p-0  md:p-6   max-w-md">
         <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
-            Track progress and communicate easily with our user-friendly project tools.
+            Freelancers can build a strong portfolio and receive feedback, boosting their credibility.
           </div>
         </div>
         <div class="border-gray-300 px-2  p-0  md:p-6   max-w-md">
         <div class="flex items-center gap-3">
             <img src="images/la_pen-nib.png" alt="">
-            Track progress and communicate easily with our user-friendly project tools.
+            The platform provides tools to manage multiple projects efficiently and streamline communication with clients.
           </div>
         </div>
       </div>
@@ -635,7 +660,7 @@
     <h2 class="text-4xl font-bold text-[#444444] mb-6">AI at Work</h2>
     <div class="flex flex-col md:flex-row items-center">
       <div class="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
-        <img id="aiImage" src="images/aibanner.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%]" />
+        <img id="aiImage" src="images/aibanner.png" alt="AI Project Writer" class="rounded-lg shadow-lg w-[85%] max-h-[733px]" />
       </div>
       <div class="w-full md:w-1/2 pl-0 md:pl-10">
         <div class="flex items-start space-x-4 ">
@@ -702,12 +727,12 @@
         <!-- FAQ Item 1 -->
         <div class="p-4 bg-white rounded-lg shadow-md flex flex-col">
           <button onclick="toggleAccordion(event)" class="accordion-header flex justify-between items-center w-full text-left">
-            <h3 class="text-[#111111] text-lg font-medium">How do I get started on freelance work on Sooprs?</h3>
+            <h3 class="text-[#111111] text-lg font-medium">What is Sooprs freelance marketplace?</h3>
             <i class="fas fa-plus icon transition duration-300 ease-in-out"></i>
           </button>
           <div class="accordion-body overflow-hidden max-h-0 transition-all duration-300 ease-in-out">
             <p class="text-[#111111] text-base leading-relaxed">
-              To start freelancing on Sooprs.com, recognized as the best online marketplace for freelance services, begin by setting up a profile.
+            Sooprs is a freelance marketplace that connects businesses with highly skilled and vetted professionals across various fields. It focuses on providing top-quality freelance services, ensuring that clients receive reliable, result-oriented solutions. With features like post-project support, payment protection, and verified experts, Sooprs aims to deliver an efficient, secure, and professional experience for businesses seeking freelance talent.
             </p>
           </div>
         </div>
@@ -715,12 +740,12 @@
         <!-- FAQ Item 2 -->
         <div class="p-4 bg-[#f2f7f7] rounded-lg shadow-md flex flex-col">
           <button onclick="toggleAccordion(event)" class="accordion-header flex justify-between items-center w-full text-left">
-            <h3 class="text-[#111111] text-lg font-medium">How do I get started on freelance work on Sooprs?</h3>
+            <h3 class="text-[#111111] text-lg font-medium">How do I get started on freelance work on Sooprs? </h3>
             <i class="fas fa-plus icon transition duration-300 ease-in-out"></i>
           </button>
           <div class="accordion-body overflow-hidden max-h-0 transition-all duration-300 ease-in-out">
             <p class="text-[#111111] text-base leading-relaxed">
-              To start freelancing on Sooprs.com, recognized as the best online marketplace for freelance services, begin by setting up a profile.
+            Getting Started on Sooprs Register/Login: Create an account on Sooprs.com. Purchase Membership: Choose and buy your membership. Browse Projects: Explore available freelance projects. Bid on Projects: Submit your bid with the proposed amount. Client Review: Clients review your profile and proposal. Client Accepts Bid: Client accepts your bid. Start Work: Begin your project upon acceptance
             </p>
           </div>
         </div>
@@ -728,12 +753,23 @@
         <!-- FAQ Item 3 -->
         <div class="p-4 bg-white rounded-lg shadow-md flex flex-col">
           <button onclick="toggleAccordion(event)" class="accordion-header flex justify-between items-center w-full text-left">
-            <h3 class="text-[#111111] text-lg font-medium">How do I get started on freelance work on Sooprs?</h3>
+            <h3 class="text-[#111111] text-lg font-medium">How to earn money with Sooprs freelance work?</h3>
             <i class="fas fa-plus icon transition duration-300 ease-in-out"></i>
           </button>
           <div class="accordion-body overflow-hidden max-h-0 transition-all duration-300 ease-in-out">
             <p class="text-[#111111] text-base leading-relaxed">
-              To start freelancing on Sooprs.com, recognized as the best online marketplace for freelance services, begin by setting up a profile.
+            Sooprs offers freelancers valuable opportunities to earn money through a diverse range of projects. Freelancers can set their own rates, build strong portfolios, and connect with clients, enhancing their chances for higher-paying jobs. This platform empowers them to achieve financial freedom and enjoy a fulfilling career on their own terms.
+            </p>
+          </div>
+        </div>
+        <div class="p-4 bg-white rounded-lg shadow-md flex flex-col">
+          <button onclick="toggleAccordion(event)" class="accordion-header flex justify-between items-center w-full text-left">
+            <h3 class="text-[#111111] text-lg font-medium">How do I post a project on Sooprs for freelance services?            </h3>
+            <i class="fas fa-plus icon transition duration-300 ease-in-out"></i>
+          </button>
+          <div class="accordion-body overflow-hidden max-h-0 transition-all duration-300 ease-in-out">
+            <p class="text-[#111111] text-base leading-relaxed">
+            To post a freelance project on Sooprs, simply sign up as a client and navigate to the "Post a Project" option in the header of Sooprs.com. Alternatively, you can use this direct link: Post a Project
             </p>
           </div>
         </div>
@@ -759,10 +795,45 @@
   </div>
 </div>
 
+
+
+<?php include "footer.php";?>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 <script>
+
+
+// youtube video section
+
+function openModal(videoId) {
+      const modal = document.getElementById("videoModal");
+      const iframe = document.getElementById("videoFrame");
+      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+      modal.classList.remove("hidden");
+    }
+
+    function closeModal() {
+      const modal = document.getElementById("videoModal");
+      const iframe = document.getElementById("videoFrame");
+      iframe.src = ""; // Stop video playback
+      modal.classList.add("hidden");
+    }
+
+    // Close modal when clicking outside the content
+    window.onclick = function(event) {
+      const modal = document.getElementById("videoModal");
+      if (event.target === modal) {
+        closeModal();
+      }
+    };
+
+
+
+
+
+
   $(document).ready(function() {
     // Initialize the first slider
     $('.my-slider').slick({
@@ -917,8 +988,8 @@
 
   const images = [
     "images/aibanner.png", // Image for progress 1
-    "images/laptop img.png", // Image for progress 2
-    "images/aibanner.png" // Image for progress 3
+    "images/aibanner2.png", // Image for progress 2
+    "images/ai.banner3.png" // Image for progress 3
   ];
 
   const aiImage = document.getElementById('aiImage'); // Assuming this is the image element

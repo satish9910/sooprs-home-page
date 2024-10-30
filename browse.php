@@ -9,8 +9,16 @@
         </div>
     </div>
 </section>
-<section class="grid grid-cols-3 gap-4 px-6 py-8">
-    <div class="w-full h-full p-4 ml-8 bg-[rgba(242,247,255,0.40)] rounded-lg flex flex-col justify-start items-center gap-5">
+<section class="grid grid-cols-3 gap-4 ">
+    <div class="w-full  p-4 ml-8 bg-[rgba(242,247,255,0.40)] rounded-lg flex flex-col justify-start items-center gap-5">
+    <div class="font-sans text-black  bg-white flex items-center justify-center">
+  <div class="border rounded overflow-hidden flex">
+    <input type="text" class="px-4 py-2" placeholder="Search...">
+    <button class="flex items-center justify-center px-4 border-l">
+      <svg class="h-4 w-4 text-grey-dark" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"/></svg>
+    </button>
+  </div>
+</div>
         <!-- By Category Section -->
         <div class="w-full flex justify-between items-center cursor-pointer">
             <div class="text-lg font-semibold text-[#111111] font-poppins capitalize leading-9">Category</div>
@@ -44,7 +52,7 @@
         </div>
 
 
-        <div class="w-full flex justify-between items-center cursor-pointer">
+        <!-- <div class="w-full flex justify-between items-center cursor-pointer">
             <div class="text-lg font-semibold text-[#111111] font-poppins capitalize leading-9">Skills</div>
         </div>
 
@@ -66,13 +74,13 @@
                     <div class="text-[#444444] text-sm font-medium font-poppins capitalize leading-9">Figma</div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
 
-        <div class="w-full flex justify-between items-center cursor-pointer">
+        <!-- <div class="w-full flex justify-between items-center cursor-pointer">
             <div class="text-lg font-semibold text-[#111111] font-poppins capitalize leading-9">Language</div>
-        </div>
+        </div> -->
 
         <div class="flex flex-col justify-start items-start gap-4">
             <div class="flex flex-wrap gap-4">
@@ -200,7 +208,7 @@
                 // Map through the leads and display them
                 data.msg.forEach(lead => {
                     const leadElement = document.createElement('div');
-                    leadElement.className = "relative w-full h-[max-content] bg-white shadow-sm border border-gray-200 rounded-lg overflow-hidden p-8 my-4";
+                    leadElement.className = "relative w-full h-[max-content] bg-white shadow-sm border border-gray-200 rounded-lg overflow-hidden p-5 my-4";
                     
                     leadElement.innerHTML = `
                         <div class="flex justify-between">
@@ -224,8 +232,8 @@
                                 <div class="text-gray-400 text-sm font-medium font-poppins">
                                     ${lead.num_leads} bids placed
                                 </div>
-                                <div class="text-gray-700 text-lg font-medium font-poppins">
-                                    $${lead.min_budget} - ${lead.max_budget_amount} USD
+                                <div class="text-gray-700 text-[20px] font-medium font-poppins flex items-center gap-1">
+                                  <img src="images/wallet.png">  <span>  $${lead.min_budget} - ${lead.max_budget_amount} USD </span>
                                 </div>
                             </div>
                         </div>
